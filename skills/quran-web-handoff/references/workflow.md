@@ -28,7 +28,11 @@ Structural checks should pass. The second command currently exits 2 because full
 
 Scripts use Playwright/Chromium and currently target `http://127.0.0.1:4173`. When checking this handoff copy on 4180, explicitly point the test at the intended server in a temporary test copy; do not accidentally validate the older working copy.
 
+The default view is now ayah-by-ayah. Row-layout scripts must open URLs with `view=rows` (e.g. `#view=rows&surah=1`).
+
 Relevant scripts:
+
+- `check_ayah_view.cjs`: ayah grouping against raw candidates, gaps, partial ayahs, view switch. Honors `BASE`.
 
 - `browser_check.cjs`: UI navigation, local requests, copy, mobile overflow.
 - `check_opening.cjs`: four-word font, first-ayah signs and ending reflow.

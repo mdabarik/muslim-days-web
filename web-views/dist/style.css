@@ -43,4 +43,21 @@
 .fatiha-opening-row>.verse-end{position:relative;top:calc(var(--arabic-size)*-.35)}
 
 /* Both opening ayahs share the black, unboxed instructional band in the source. */
-.fatiha-opening-row .mark{color:#151515;background:transparent}
+.fatiha-opening-row .mark,.fatiha-opening-band .mark{color:#151515;background:transparent}
+
+/* Ayah view: one section per source ayah_ref; page navigation does not apply. */
+.view-switch{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden;flex:none}
+.view-switch button{border:0;background:#fff;color:var(--ink);font-size:11px;padding:8px 12px;min-height:38px;white-space:nowrap}
+.view-switch button+button{border-left:1px solid var(--line)}
+.view-switch button[aria-pressed='true']{background:#153f37;color:#fff}
+[data-view='ayah'] .page-nav{display:none}
+.ayah-section .row-title strong{font-size:12px;font-weight:600;color:#3f5a4a}
+.ayah-section .row-title span{order:2}
+.ayah-section .row-title::after{order:1}
+.ayah-status{font-size:11px;color:#8a6a2e;background:#fbf4e4;border-left:3px solid #d8b56a;padding:6px 10px;margin:8px 0}
+.ayah-gap{border:1px dashed #d8cfb4;border-radius:8px;padding:14px 16px;margin:18px 0;font-size:12px;color:#7c7a66;background:#fcfbf6}
+.ayah-gap strong{color:#5b5a48}
+.furniture-pages{margin-top:22px}
+.furniture-pages>summary{cursor:pointer;font-size:12px;color:#52725e;padding:6px 0}
+.furniture-page{font-size:11px;font-weight:600;color:#52725e;margin:0 0 6px}
+@media(max-width:760px){.view-switch{width:100%}.view-switch button{flex:1}}

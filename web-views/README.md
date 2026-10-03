@@ -47,3 +47,16 @@ Amiri ও Noto Sans Bengali মূল প্রকাশনার হুবহ�
 The first printed Fatiha ayah now uses a scoped source-outline font for four audited word contexts, with native upper signs and the stop/verse ending. Rebuild with `PYTHONPATH=/tmp/quran-web-tools python3 scripts/build_opening_typography.py`; run `scripts/check_opening.cjs` with the bundled Node/Playwright runtime. The source heading is before the separate basmala. This is a limited typography correction, not full Fatiha or full Quran fidelity approval; remaining words use the existing fallback font.
 
 Ordinary Arabic verse words use `fonts/QuranWedgeArabic.woff2`, a renamed Amiri derivative with only the two sukun glyph outlines changed to a source-traced open wedge. Unicode, shaping, anchor tables and metrics remain intact. The separate basmala/header style and all instructional annotations retain their previous fonts. Rebuild with `PYTHONPATH=/tmp/quran-web-tools python3 scripts/build_sukun_font.py`; provenance and licensing are recorded in `dist/data/sukun-font.json`. The seven-page `scripts/check_sukun.cjs` comparison verifies unchanged Arabic text/word widths and unchanged annotation text, font, geometry and visibility against the saved baseline. It does not approve complete source fidelity.
+
+## আয়াতভিত্তিক বিন্যাস (৩ অক্টোবর ২০২৬)
+
+ডিফল্ট দৃশ্য এখন **আয়াত অনুযায়ী**: প্রতিটি আয়াত আলাদা অংশে, আরবি, চিহ্ন ও বাংলা অনুবাদসহ। টুলবারের সুইচে **মূল PDF সারি** দৃশ্যে ফেরা যায়; পছন্দ ব্রাউজারে মনে থাকে এবং URL-এ `view=ayah` বা `view=rows` থাকে।
+
+- আয়াতের ভাগ কেবল মূল candidate-এর `ayah_ref` ও মুদ্রিত আয়াত-চিহ্ন থেকে নেওয়া। একটি আয়াত একাধিক সারি বা পৃষ্ঠাজুড়ে থাকলে অংশগুলো মূলের ক্রমে একসঙ্গে দেখানো হয়; শিরোনামে উৎস-পৃষ্ঠা ও সারি থাকে।
+- একই নিয়ম ১১৪টি সূরার যেকোনোটির জন্য কাজ করে; নতুন পৃষ্ঠার ডেটা যোগ হলে আলাদা কোড লাগবে না। বর্তমানে খসড়া আছে কেবল ফাতিহা ও বাকারার ৩৩টি আয়াতের।
+- অনুপস্থিত আয়াত (যেমন বাকারা ২৮–৩০, ৩৭–২৮৬) খালি ঘর হিসেবে স্পষ্ট দেখানো হয়; শেষ সীমা মূলের সূরা-শিরোনামের আয়াত-সংখ্যা থেকে। আয়াত-চিহ্ন ছাড়া শেষ হওয়া বা আগের আয়াত অনুপস্থিত এমন আয়াত (২:২৭, ২:৩১) `অসম্পূর্ণ` চিহ্নিত।
+- কাঁচা JSON, ফন্ট ও চিহ্নের শব্দ-আপেক্ষিক অবস্থান অপরিবর্তিত। ফাতিহার প্রথম সারির .৩৫em baseline সংশোধন কেবল সারি-দৃশ্যের জন্য; আয়াত-দৃশ্যে প্রথম দুই আয়াত আলাদা লাইনে থাকে, তাই কালো চিহ্ন-রং ও ink-ভিত্তিক collision পরিমাপ বজায় রেখে baseline সরানো হয় না।
+- কাছাকাছি পড়া চিহ্ন লাইন-বিন্যাস অনুযায়ী আগের মতোই লুকিয়ে তালিকায় রাখা হয়; দুই দৃশ্যে সংখ্যা সামান্য আলাদা হতে পারে (বর্তমানে ১৫২ বনাম ১৫৪)।
+- পরীক্ষা: `BASE=http://127.0.0.1:4180 node scripts/check_ayah_view.cjs` (Playwright)। প্রমাণ `evidence/ayah-view-2026-10-03/`। পুরোনো সারি-দৃশ্যের পরীক্ষাগুলো এখন URL-এ `view=rows` দিয়ে চালাতে হবে।
+
+এটি প্রদর্শনের পুনর্বিন্যাস; উৎস-পাঠ বা অক্ষর-সংযোগের নতুন অনুমোদন নয়।

@@ -1,0 +1,186 @@
+{
+  "status": "pass",
+  "base": "http://127.0.0.1:4180",
+  "scope": "Ayah-view regrouping mechanics only; source text, glyph shapes and letter anchors are not newly verified",
+  "checks": [
+    {
+      "name": "Surah 1: default view is ayah",
+      "passed": true
+    },
+    {
+      "name": "Surah 1: one section per source ayah_ref",
+      "passed": true,
+      "detail": 7
+    },
+    {
+      "name": "Surah 1: Arabic codepoints and order unchanged",
+      "passed": true
+    },
+    {
+      "name": "Surah 1: Bengali segments joined without edits",
+      "passed": true
+    },
+    {
+      "name": "Surah 2: default view is ayah",
+      "passed": true
+    },
+    {
+      "name": "Surah 2: one section per source ayah_ref",
+      "passed": true,
+      "detail": 33
+    },
+    {
+      "name": "Surah 2: Arabic codepoints and order unchanged",
+      "passed": true
+    },
+    {
+      "name": "Surah 2: Bengali segments joined without edits",
+      "passed": true
+    },
+    {
+      "name": "All 700 annotation records rendered across both surahs",
+      "passed": true
+    },
+    {
+      "name": "Missing ayahs shown as gaps, not filled",
+      "passed": true
+    },
+    {
+      "name": "Partial ayahs flagged",
+      "passed": true
+    },
+    {
+      "name": "Cross-page ayah keeps both pages",
+      "passed": true
+    },
+    {
+      "name": "Three boundary arrows stay on their stop/verse targets",
+      "passed": true
+    },
+    {
+      "name": "Partial page identified",
+      "passed": true
+    },
+    {
+      "name": "Ayah select highlights its section",
+      "passed": true
+    },
+    {
+      "name": "Switch to source rows keeps the reader at that ayah",
+      "passed": true,
+      "detail": {
+        "hash": "#surah=2&page=3&ayah=2%3A8&view=rows",
+        "highlighted": [
+          "2:7",
+          "2:7",
+          "2:7",
+          "2:7",
+          "2:7",
+          "2:8",
+          "2:8",
+          "2:8"
+        ]
+      }
+    },
+    {
+      "name": "Switch back to ayah view",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 1360/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/26",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 1360/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/34",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 1360/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/56",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 390/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/26",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 390/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/34",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 390/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/56",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 320/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/26",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 320/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/34",
+      "passed": true
+    },
+    {
+      "name": "Fatiha first two ayahs: ten source signs visible 320/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/56",
+      "passed": true
+    },
+    {
+      "name": "Missing surah never substituted",
+      "passed": true
+    },
+    {
+      "name": "No displayed raster/SVG/canvas",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No remote requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "hashes": {
+    "index.html": "539e048e84be2c8773e822497f19de2a5797c7760cb4541cc9a7f4bb45034fe4",
+    "app.js": "65d7ff85e05493e5070b915c9b61c4028fbdeaddb308e675ba1679b207989a2f",
+    "style.css": "bc8530e5364fe9b5072964ac8f0580e6926d43ffcf943eb2d3b6399c5960544f"
+  }
+}

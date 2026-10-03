@@ -30,6 +30,8 @@ The 1.19 GB PDF is not duplicated. The served `dist/` is independently runnable 
 - First Fatiha row: ordinary body words and their ending raised by .35em to align the visible writing line with the scoped source font. Upper marks and the four source words keep their geometry.
 - First two Fatiha ayahs: all 10 upper signs visible and uniformly black/transparent. Two were previously falsely hidden because advance boxes included blank font side bearings. Their actual ink does not overlap; sizes and x positions remain unchanged. Genuine collisions are still withheld.
 
+- Ayah view (default, `view=ayah`): one section per source `ayah_ref`, cross-row/cross-page parts joined in source order, explicit gaps up to the header's ayah count, partial ayahs flagged. Source-row view kept as `view=rows`; the Fatiha .35em baseline raise applies only there. Generic for any surah once its pages exist.
+
 ## Main files
 
 - `web-views/dist/app.js`: rendering, navigation, collision handling.
@@ -50,7 +52,8 @@ Read the report appropriate to the change, not every screenshot:
 - `evidence/sukun-fix-2026-10-03/`: body sukun vs basmala, unchanged annotation/font evidence.
 - `evidence/verse-numbering-2026-10-03/`: true numeral preservation and ornament tests.
 - `evidence/alignment-2026-10-03/`: first-row baseline correction.
-- `evidence/first-two-annotations-2026-10-03/`: latest first-row color/visibility review.
+- `evidence/first-two-annotations-2026-10-03/`: first-row color/visibility review.
+- `evidence/ayah-view-2026-10-03/`: ayah view mechanics and row-view regression run.
 
 Each pass has a limited scope. Earlier reports identify the hashes they reviewed and are historical, not blanket approval of every later edit. The original README contains earlier-state descriptions as well as later additions; use these current-state notes and the latest relevant report to disambiguate.
 
