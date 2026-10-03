@@ -1,8 +1,9 @@
 """Transcription helpers for the scanned edition. The PDF is the only text source.
 
   python3 qtools.py overview N            page overview with y ticks (300 dpi coordinates)
-  python3 qtools.py strip N Y0 Y1 [K]     horizontal strip at full 300 dpi, split into K overlapping parts with x ticks
-  python3 qtools.py crop N X0 Y0 X1 Y1 [ZOOM]   zoomed detail crop
+  python3 qtools.py strip N Y0 Y1 [K]     horizontal strip at full 300 dpi (30px extra on top for the mark band), K parts (default 2) with x ticks
+  python3 qtools.py crop N X0 Y0 X1 Y1 [ZOOM]   zoomed detail crop (default zoom 3)
+  python3 qtools.py crops N "X0,Y0,X1,Y1;X0,Y0,X1,Y1;..." [ZOOM]   several zoomed boxes stacked in ONE labelled image
   python3 qtools.py ref 2:37-2:44         reference rasm (consonant skeleton) for a checker only; never copy its text
   python3 qtools.py check N               validate a candidate in source/pages and compare its rasm with the reference
 
@@ -55,10 +56,10 @@ def overview(n):
     print(out, f'(source size {im.width}x{im.height}; tick labels are 300 dpi y coordinates)')
 
 
-def strip(n, y0, y1, k=3):
+def strip(n, y0, y1, k=2):
     from PIL import Image, ImageDraw
     im = Image.open(page_png(n)).convert('RGB')
-    y0, y1, k = int(y0), int(y1), int(k)
+    y0, y1, k = max(0, int(y0) - 30), int(y1), int(k)
     width = im.width
     part = width / k
     overlap = 120
@@ -82,7 +83,7 @@ def strip(n, y0, y1, k=3):
     print(f'parts run right-to-left; red ticks are 300 dpi x coordinates; each part overlaps its neighbour by {overlap}px')
 
 
-def crop(n, x0, y0, x1, y1, zoom=2):
+def crop(n, x0, y0, x1, y1, zoom=3):
     from PIL import Image
     im = Image.open(page_png(n)).convert('RGB')
     c = im.crop((int(x0), int(y0), int(x1), int(y1)))
@@ -90,6 +91,29 @@ def crop(n, x0, y0, x1, y1, zoom=2):
     c = c.resize((int(c.width * z), int(c.height * z)), Image.LANCZOS)
     out = CACHE / f'p{n:03}-x{x0}-{x1}-y{y0}-{y1}-z{zoom}.png'
     c.save(out)
+    print(out)
+
+
+def crops(n, spec, zoom=3):
+    from PIL import Image, ImageDraw
+    im = Image.open(page_png(n)).convert('RGB')
+    z = float(zoom)
+    parts = []
+    for box in spec.split(';'):
+        x0, y0, x1, y1 = map(int, box.split(','))
+        c = im.crop((x0, y0, x1, y1))
+        parts.append((box, c.resize((int(c.width * z), int(c.height * z)), Image.LANCZOS)))
+    width = max(p.width for _, p in parts)
+    canvas = Image.new('RGB', (width, sum(p.height + 30 for _, p in parts)), 'white')
+    d = ImageDraw.Draw(canvas)
+    f = _font(20)
+    y = 0
+    for i, (box, p) in enumerate(parts, 1):
+        d.text((4, y + 4), f'#{i}  box {box}', fill='red', font=f)
+        canvas.paste(p, (0, y + 30))
+        y += p.height + 30
+    out = CACHE / f'p{n:03}-crops-{abs(hash(spec)) % 10**8}.png'
+    canvas.save(out)
     print(out)
 
 
@@ -198,6 +222,36 @@ def check(n):
         for b in row.get('bengali', []):
             if not b.get('text'):
                 errors.append(f'r{ri}: empty Bengali segment')
+    def bn2int(t):
+        return int(''.join(str('০১২৩৪৫৬৭৮৯'.index(c)) for c in t)) if t else None
+    prev_ref = None
+    for ri, row in enumerate(d.get('rows', [])):
+        for si, seg in enumerate(row.get('arabic', [])):
+            a = seg.get('ayah', '')
+            if not re.fullmatch(r'\d{1,3}:\d{1,3}', a):
+                continue
+            s_, v_ = map(int, a.split(':'))
+            if seg.get('end_marker') and bn2int(seg['end_marker']) != v_:
+                errors.append(f'r{ri} s{si}: rosette {seg["end_marker"]} does not match ayah {a}')
+            if prev_ref:
+                ps, pv = prev_ref
+                if not ((s_ == ps and v_ in (pv, pv + 1)) or (s_ == ps + 1 and v_ == 1)):
+                    errors.append(f'r{ri} s{si}: ayah {a} does not follow {ps}:{pv}')
+            prev_ref = (s_, v_)
+        for b in row.get('bengali', []):
+            if b.get('numeral') and re.fullmatch(r'\d{1,3}:\d{1,3}', b.get('ayah', '')) and bn2int(b['numeral']) != int(b['ayah'].split(':')[1]):
+                errors.append(f'r{ri}: Bengali numeral {b["numeral"]} does not match {b["ayah"]}')
+    prev_path = SOURCE / f'page-{n - 1:03}.json'
+    if prev_path.exists() and ayah_order:
+        p = json.loads(prev_path.read_text(encoding='utf-8'))
+        segs = [sg for r in p.get('rows', []) for sg in r.get('arabic', [])]
+        if segs:
+            last = segs[-1]
+            ls, lv = map(int, last['ayah'].split(':'))
+            fs, fv = map(int, ayah_order[0].split(':'))
+            ok = (fs, fv) == ((ls, lv + 1) if last.get('end_marker') else (ls, lv)) or (last.get('end_marker') and fs == ls + 1 and fv == 1)
+            if not ok:
+                warnings.append(f'first ayah {ayah_order[0]} does not continue page {n - 1} (ends {last["ayah"]}{" complete" if last.get("end_marker") else " unfinished"})')
     ref = reference()
     report = []
     for i, a in enumerate(ayah_order):
@@ -244,6 +298,7 @@ if __name__ == '__main__':
     if cmd == 'overview': overview(int(args[0]))
     elif cmd == 'strip': strip(int(args[0]), *args[1:])
     elif cmd == 'crop': crop(int(args[0]), *args[1:])
+    elif cmd == 'crops': crops(int(args[0]), *args[1:])
     elif cmd == 'ref': ref_cmd(args[0])
     elif cmd == 'check': sys.exit(0 if check(int(args[0])) else 1)
     else: print(__doc__)

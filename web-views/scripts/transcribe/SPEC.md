@@ -8,8 +8,8 @@ You are transcribing pages of a scanned Bengali *Qariana* Quran (Indo-Pak script
 2. Do not edit files other than your own `source/pages/page-NNN.json`, and do not touch `dist/`, git or other agents' pages.
 3. Tools (run from `web-views/scripts/transcribe/`):
    - `python3 qtools.py overview N`: page overview image with y-axis ticks (300 dpi coordinates). Look at it first.
-   - `python3 qtools.py strip N Y0 Y1 3`: a horizontal strip at full resolution, cut into 3 overlapping parts (part 1 = right end). Use one strip per printed row, starting a little above the small mark band and ending below the Bengali translation line.
-   - `python3 qtools.py crop N X0 Y0 X1 Y1 3`: zoomed detail. **Use it for every word whose harakat you are not certain of, and for every small sign.**
+   - `python3 qtools.py strip N Y0 Y1`: one printed row at full resolution in 2 overlapping halves (part 1 = right half), with x ticks. 30px are added above Y0 automatically. Choose Y0 at the top of the row's mark band (just under the previous row's Bengali line) and Y1 just below the row's Bengali line.
+   - `python3 qtools.py crops N "X0,Y0,X1,Y1;X0,Y0,X1,Y1;…"`: several zoomed boxes (zoom 3) stacked in **one** image. Use it for the words and signs you are unsure of, batched: normally one `crops` call per row is enough. (`crop N X0 Y0 X1 Y1` gives a single box.)
    - `python3 qtools.py ref 2:37-2:44`: the consonant skeleton of a *different* (Madani) printing. Use it only to know which ayahs to expect and to notice a skipped or misread word. **Never copy from it.** Its spelling differs from this book.
    - `python3 qtools.py check N`: validates your file and compares each ayah's consonant skeleton with the reference. `spelling variant only` (an extra/missing ا و ي) is normal for this script. Every `DIFFERENT` must be re-examined in a zoomed crop. Keep the scan's reading if it really is printed that way, and add an `uncertain` note saying so.
    - View images with the Read tool.
@@ -123,11 +123,22 @@ Anything else: write the closest printed character, and add an `uncertain` entry
 
 Write each printed vowel sign you see, and do not add any that are not printed. In this script a noon or tanwin before an assimilating letter may carry no sukun. Write it that way if the scan shows that. Long vowels are written as printed: `قَالُوْا`, `فِيْهِ`. No tatweel (ـ), no spaces inside a word, and a single space between words.
 
+## Conventions decided after the pilot
+
+- A sign printed over the last letter of a word, right next to a rosette or stop sign, targets the **word**. Only arrows (and any sign clearly centred over the rosette or stop itself) use `marker:`/`stop:`.
+- The ruku sign ع printed above an ayah ending is recorded as that segment's `stop: "ع"`, together with its `end_marker`.
+- The ruku box in the margin: copy its parts top to bottom joined with ` / `, e.g. `"৪ / রুকু / ع ১০"`. Do the same for any other marginal note.
+- Legend strip: copy it as printed on this page, or leave it out if it is illegible. Never use stock wording.
+- Write the sukun exactly as printed, e.g. on a plural verb ending before a connecting alif: if none is printed, write none.
+- A Bengali line that starts with an ayah numeral has no empty continuation segment.
+- Row indexes (`before_row`, `uncertain.where`) are 0-based.
+- Efficiency: the strip halves are usually readable directly. Zoom only what you cannot read with certainty, batched with `crops`. About 3–4 image reads per row is typical. Save after every row.
+
 ## Procedure
 
 1. `overview`: decide the kind, and find the header, rows and footer y-ranges. For a duplicate scan, compare with the neighbouring page.
 2. `ref` for the expected ayah range: the previous page ended at the ayah given in your batch instructions.
-3. For each row: `strip`, then read the mark band, the Arabic and the Bengali. `crop` (zoom 3) any word or sign you are not sure of. **Save the file after every row** so partial work survives.
-4. `check`, and fix every ERROR. Look at each `DIFFERENT` again in a zoomed crop.
+3. For each row: `strip`, then read the mark band, the Arabic and the Bengali. Use one batched `crops` for anything unclear. **Save the file after every row** so partial work survives.
+4. `check`, and fix every ERROR. It also verifies that rosette numbers, Bengali numerals and ayah order are consistent, and that the page continues the previous one. Look at each `DIFFERENT` again in a zoomed crop.
 5. Final self-review: count words and marks per row against the strip images.
 6. Report: rows, words, marks, ayah range, your uncertain items, and any check warnings you kept.
