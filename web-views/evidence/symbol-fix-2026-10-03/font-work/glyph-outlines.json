@@ -1,0 +1,124 @@
+{
+  "ringed-wedge": {
+    "path": "M 662 44 L 669 44 L 669 45 L 670 45 L 670 46 L 671 46 L 671 47 L 674 47 L 674 48 L 675 48 L 675 50 L 676 50 L 676 53 L 677 53 L 677 57 L 678 57 L 678 60 L 677 60 L 677 67 L 676 67 L 676 70 L 675 70 L 675 72 L 673 72 L 673 73 L 672 73 L 672 74 L 671 74 L 671 75 L 670 75 L 670 76 L 669 76 L 669 77 L 666 77 L 666 78 L 664 78 L 664 77 L 660 77 L 660 76 L 659 76 L 659 75 L 658 75 L 658 74 L 657 74 L 657 73 L 656 73 L 656 72 L 655 72 L 655 70 L 654 70 L 654 67 L 653 67 L 653 61 L 652 61 L 652 60 L 653 60 L 653 56 L 654 56 L 654 53 L 655 53 L 655 51 L 656 51 L 656 49 L 657 49 L 657 48 L 658 48 L 658 47 L 660 47 L 660 46 L 661 46 L 661 45 L 662 45 L 662 44 Z M 663 47 L 662 47 L 662 48 L 660 48 L 660 49 L 659 49 L 659 50 L 658 50 L 658 52 L 657 52 L 657 54 L 656 54 L 656 57 L 655 57 L 655 66 L 656 66 L 656 65 L 657 65 L 657 64 L 658 64 L 658 61 L 659 61 L 659 60 L 660 60 L 660 58 L 661 58 L 661 57 L 662 57 L 662 55 L 663 55 L 663 54 L 664 54 L 664 50 L 666 50 L 666 52 L 667 52 L 667 54 L 668 54 L 668 56 L 669 56 L 669 58 L 670 58 L 670 61 L 671 61 L 671 64 L 672 64 L 672 65 L 673 65 L 673 67 L 669 67 L 669 66 L 668 66 L 668 63 L 667 63 L 667 61 L 666 61 L 666 59 L 665 59 L 665 58 L 664 58 L 664 59 L 663 59 L 663 61 L 662 61 L 662 63 L 661 63 L 661 64 L 660 64 L 660 66 L 659 66 L 659 67 L 657 67 L 657 71 L 658 71 L 658 72 L 659 72 L 659 73 L 663 73 L 663 74 L 668 74 L 668 73 L 669 73 L 669 72 L 671 72 L 671 71 L 672 71 L 672 69 L 673 69 L 673 68 L 674 68 L 674 67 L 675 67 L 675 64 L 676 64 L 676 56 L 675 56 L 675 55 L 674 55 L 674 52 L 673 52 L 673 50 L 671 50 L 671 48 L 669 48 L 669 47 L 663 47 Z",
+    "source": {
+      "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+      "physicalPage": 1,
+      "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+      "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+      "traceId": "a5",
+      "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+      "sourceImageSize": [
+        1510,
+        1420
+      ],
+      "fullPageImageSize": [
+        2120,
+        3000
+      ],
+      "cropOffsetInFullPage": [
+        275,
+        1100
+      ],
+      "traceBoxXYWH": [
+        651,
+        43,
+        28,
+        36
+      ],
+      "method": "Grayscale threshold on full ayah region, discard connected components smaller than3pixels, associate complete components when >=50percent of their ink overlaps audited mark box, trace closed pixel-edge outlines. Contour approximation requires independent review.",
+      "threshold": 128
+    }
+  },
+  "bare-wedge": {
+    "path": "M 1308 98 L 1312 98 L 1312 101 L 1313 101 L 1313 106 L 1314 106 L 1314 108 L 1315 108 L 1315 111 L 1316 111 L 1316 113 L 1317 113 L 1317 116 L 1318 116 L 1318 118 L 1319 118 L 1319 121 L 1321 121 L 1321 124 L 1315 124 L 1315 121 L 1314 121 L 1314 119 L 1313 119 L 1313 113 L 1312 113 L 1312 111 L 1307 111 L 1307 117 L 1306 117 L 1306 118 L 1305 118 L 1305 122 L 1304 122 L 1304 124 L 1299 124 L 1299 121 L 1300 121 L 1300 120 L 1301 120 L 1301 117 L 1302 117 L 1302 114 L 1303 114 L 1303 111 L 1304 111 L 1304 110 L 1305 110 L 1305 108 L 1306 108 L 1306 105 L 1307 105 L 1307 101 L 1308 101 L 1308 98 Z",
+    "source": {
+      "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+      "physicalPage": 1,
+      "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+      "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+      "traceId": "w1-m2",
+      "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+      "sourceImageSize": [
+        1510,
+        1420
+      ],
+      "fullPageImageSize": [
+        2120,
+        3000
+      ],
+      "cropOffsetInFullPage": [
+        275,
+        1100
+      ],
+      "traceBoxXYWH": [
+        1298,
+        97,
+        24,
+        28
+      ],
+      "method": "Grayscale threshold on full ayah region, discard connected components smaller than3pixels, associate complete components when >=50percent of their ink overlaps audited mark box, trace closed pixel-edge outlines. Contour approximation requires independent review.",
+      "threshold": 128
+    }
+  },
+  "solid-down-arrow": {
+    "path": "M 69 74 L 73 74 L 73 75 L 75 75 L 75 74 L 76 74 L 76 75 L 77 75 L 77 77 L 78 77 L 78 88 L 77 88 L 77 90 L 78 90 L 78 91 L 77 91 L 77 92 L 88 92 L 88 94 L 87 94 L 87 95 L 86 95 L 86 96 L 85 96 L 85 97 L 84 97 L 84 99 L 83 99 L 83 101 L 82 101 L 82 102 L 81 102 L 81 103 L 80 103 L 80 105 L 79 105 L 79 107 L 78 107 L 78 108 L 77 108 L 77 110 L 76 110 L 76 114 L 71 114 L 71 110 L 70 110 L 70 109 L 69 109 L 69 107 L 68 107 L 68 105 L 67 105 L 67 103 L 66 103 L 66 102 L 65 102 L 65 99 L 64 99 L 64 98 L 63 98 L 63 97 L 62 97 L 62 96 L 61 96 L 61 93 L 60 93 L 60 92 L 59 92 L 59 91 L 69 91 L 69 87 L 68 87 L 68 75 L 69 75 L 69 74 Z",
+    "source": {
+      "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+      "physicalPage": 3,
+      "renderDpi": 300,
+      "renderSize": [
+        2480,
+        3509
+      ],
+      "cropBoxXYXY": [
+        430,
+        1160,
+        620,
+        1410
+      ],
+      "cropFile": "evidence/symbol-fix-2026-10-03/font-work/source-pdf3-arrow-native.png",
+      "cropSha256": "5354d4a920700dbceb760adc3646f685d0b66f7db994bec1f00bacbc0e4d1f26",
+      "selectionBoxXYXYInCrop": [
+        55,
+        68,
+        95,
+        118
+      ],
+      "method": "Grayscale <128, largest 8-connected component inside inspected selection, closed pixel-edge outlines; no smoothing or invented curves.",
+      "foregroundPixels": 505,
+      "touchesSelectionEdge": false
+    }
+  },
+  "conditional-three-or-one": {
+    "path": "M 719 44 L 724 44 L 724 45 L 725 45 L 725 48 L 724 48 L 724 50 L 719 50 L 719 49 L 718 49 L 718 50 L 717 50 L 717 51 L 716 51 L 716 52 L 717 52 L 717 56 L 718 56 L 718 58 L 719 58 L 719 60 L 720 60 L 720 61 L 721 61 L 721 68 L 718 68 L 718 67 L 717 67 L 717 61 L 716 61 L 716 60 L 715 60 L 715 56 L 714 56 L 714 54 L 713 54 L 713 64 L 714 64 L 714 67 L 715 67 L 715 68 L 716 68 L 716 71 L 718 71 L 718 72 L 725 72 L 725 71 L 727 71 L 727 68 L 728 68 L 728 64 L 729 64 L 729 61 L 722 61 L 722 59 L 721 59 L 721 57 L 722 57 L 722 53 L 723 53 L 723 52 L 724 52 L 724 51 L 727 51 L 727 52 L 728 52 L 728 53 L 729 53 L 729 54 L 730 54 L 730 57 L 731 57 L 731 60 L 732 60 L 732 68 L 731 68 L 731 69 L 730 69 L 730 72 L 729 72 L 729 73 L 728 73 L 728 75 L 727 75 L 727 76 L 725 76 L 725 77 L 719 77 L 719 76 L 717 76 L 717 75 L 715 75 L 715 73 L 714 73 L 714 71 L 713 71 L 713 70 L 712 70 L 712 68 L 711 68 L 711 65 L 710 65 L 710 53 L 711 53 L 711 52 L 714 52 L 714 49 L 715 49 L 715 47 L 716 47 L 716 46 L 717 46 L 717 45 L 719 45 L 719 44 Z",
+    "source": {
+      "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+      "physicalPage": 1,
+      "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+      "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+      "traceId": "a4",
+      "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+      "sourceImageSize": [
+        1510,
+        1420
+      ],
+      "fullPageImageSize": [
+        2120,
+        3000
+      ],
+      "cropOffsetInFullPage": [
+        275,
+        1100
+      ],
+      "traceBoxXYWH": [
+        709,
+        43,
+        24,
+        35
+      ],
+      "method": "Grayscale threshold on full ayah region, discard connected components smaller than3pixels, associate complete components when >=50percent of their ink overlaps audited mark box, trace closed pixel-edge outlines. Contour approximation requires independent review.",
+      "threshold": 128
+    }
+  }
+}

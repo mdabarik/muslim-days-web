@@ -1,0 +1,45 @@
+{
+  "role": "independent content and visual reviewer",
+  "date": "2026-10-03",
+  "scope": "Repair of known blank annotation glyphs in existing seven draft pages only; not whole-Quran approval.",
+  "source_first": true,
+  "source_pdf": "/Users/barik/Downloads/oct 1 bin/CamScanner 09-20-2026 01.00.pdf",
+  "direct_source_renders": [
+    "independent-review-pdf-footer-004.png",
+    "independent-review-pdf-footer-005.png"
+  ],
+  "other_source_crops_inspected": [
+    "source-pdf4-footer.png",
+    "source-pdf5-footer.png",
+    "source-pdf3-r0-damaged.png",
+    "source-pdf3-arrow.png",
+    "source-pdf6-arrow.png",
+    "source-pdf7-arrow.png",
+    "empty-mark-sheet-1.png",
+    "empty-mark-sheet-2.png",
+    "empty-mark-sheet-3.png"
+  ],
+  "observations": [
+    {
+      "id": "oval-wedge",
+      "observation": "PDF4 footer legend visibly shows a closed oval enclosing two upward-converging strokes (Λ-like); same morphology on representative PDF1/2/3 and later supplied mark-sheet crops. It is neither a question mark nor an empty circle. Oval must be drawn exactly once.",
+      "label_observed": "আরবী সাকিন",
+      "unicode_identity": "Not established; a documented PUA glyph is permissible, standard Unicode semantics must not be claimed."
+    },
+    {
+      "id": "down-arrow",
+      "observation": "PDF3/6/7 source crops visibly show a heavy filled downward arrow, separate from neighboring oval/circled symbols. Shaft and two diagonal head shoulders distinguish it. It is not a wedge-inside-oval mark.",
+      "target": "Must preserve original attachment or explicit unanchored status; do not silently drop when no word target."
+    },
+    {
+      "id": "p3:r0-a8",
+      "observation": "Source far-left symbol severely degraded: cannot independently identify its full shape/letter. Existing candidate Bengali শ is provisional and disputed. Current served annotation only states letter_anchor_not_verified, which conceals identity uncertainty.",
+      "blocking_for_full_fidelity": true
+    },
+    {
+      "id": "coverage",
+      "observation": "Only seven draft page datasets currently exist; this work cannot establish full-Quran correction or 100% exact character anchors."
+    }
+  ],
+  "final_review_pending": true
+}

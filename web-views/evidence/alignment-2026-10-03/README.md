@@ -1,0 +1,3 @@
+# Fatiha first-row alignment
+
+The reviewed four-word source outline font and ordinary Amiri-derived text have different optical writing lines. Their CSS baselines alone did not make the visible joining strokes align: the second ayah appeared lower. A scoped `-.35em` optical offset raises only the two ordinary Arabic word bodies in PDF1 row0. Its ordinary verse ending receives the same offset in the parent Arabic font units. Source glyph shapes, first-ayah geometry, horizontal word positions and the upper annotation band remain unchanged. The offset scales with the font-size control. This is a layout correction, not full-source fidelity certification.

@@ -1,0 +1,126 @@
+{
+  "status": "pass",
+  "assetHashes": {
+    "index.html": "a1666dad7cfc0b0b4aec8ed04302236d2304bf0dfca2ec827fb75de3c78df57c",
+    "app.js": "8463339731a4d72e1b4b69b658810bebab870ec5f7426a14501c8ab6dce75c09",
+    "anchors.js": "a5430048bc6ade21d9f2e600e2e6a629f7980513f2f9f838d08321b7d19b564e",
+    "style.css": "6071325975fdba886a6dc386f347d84a1bd4c829e97f0e0e98c26b3bcbfe3ba8",
+    "fonts/Amiri-Regular.woff2": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "fonts/NotoSansBengali-VF.woff2": "350c086f3e760a0ca48906534307b097d81ca510b0a892d3c5d17593e6e76ab3",
+    "data/manifest.json": "7e555b5c699bb15cc0752aa9d05c82e9bfed128b6b5cd7c9893110c99d877dd7"
+  },
+  "scope": "UI mechanics only, not source transcription, exact glyph appearance or verified letter position",
+  "checks": [
+    {
+      "name": "114 directory links",
+      "passed": true
+    },
+    {
+      "name": "No PDF/image/canvas content",
+      "passed": true
+    },
+    {
+      "name": "Only current page fetched",
+      "passed": true
+    },
+    {
+      "name": "All page 1 word codepoints preserved",
+      "passed": true
+    },
+    {
+      "name": "Visible text can be selected",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/56",
+      "passed": true
+    },
+    {
+      "name": "Ayah navigation highlights source row",
+      "passed": true
+    },
+    {
+      "name": "Cross-page ayah directory",
+      "passed": true
+    },
+    {
+      "name": "Partial page visibly identified",
+      "passed": true
+    },
+    {
+      "name": "Missing surah never substituted",
+      "passed": true
+    },
+    {
+      "name": "Mobile directory opens",
+      "passed": true
+    },
+    {
+      "name": "Directory search",
+      "passed": true
+    },
+    {
+      "name": "Mobile directory closes on selection",
+      "passed": true
+    },
+    {
+      "name": "All surahs have persistent progress",
+      "passed": true
+    },
+    {
+      "name": "Zero completed claims",
+      "passed": true
+    },
+    {
+      "name": "Unverified anchor refused",
+      "passed": true
+    },
+    {
+      "name": "Synthetic Range anchor mechanism only",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No remote content requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

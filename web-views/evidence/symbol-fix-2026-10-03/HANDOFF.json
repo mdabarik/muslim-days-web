@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-03",
+  "result": "known_source_symbol_display_repaired; full_Quran_incomplete",
+  "replaced_question_mark_occurrences": 55,
+  "custom_glyph_occurrences": 97,
+  "source_families": {
+    "ringed_wedge": 52,
+    "down_arrow": 3,
+    "conditional_three_or_one": 42
+  },
+  "ringed_digits_independently_checked": 8,
+  "unresolved_damaged_identity": {
+    "pdfPage": 3,
+    "sourceId": "r0-a8",
+    "display": "অস্পষ্ট"
+  },
+  "fully_verified_pages": 0,
+  "all_Quran_symbol_occurrences_verified": false,
+  "source_pages_with_structured_data": 7,
+  "remaining_physical_pages_without_structured_transcription": 753,
+  "native_font_bytes": 960,
+  "checks": {
+    "symbol_browser_assertions": 273,
+    "existing_interface_assertions": 27,
+    "integrity_regressions": 8,
+    "json_schema_pages": 7,
+    "reimport_reproduces_same_data": true
+  },
+  "remaining_limits": [
+    "Exact occurrence-specific glyph outlines and letter geometry remain unverified.",
+    "Collision withholding retains some symbols in open text details rather than showing overlapping floating body marks.",
+    "PUA glyphs require the bundled font and symbol catalogue when used outside this website."
+  ],
+  "flutter_files_modified": false,
+  "original_source_candidates_modified": false,
+  "deployment": "local preview only",
+  "preview": "http://127.0.0.1:4173/#surah=2",
+  "assetSha256": {
+    "index.html": "a1666dad7cfc0b0b4aec8ed04302236d2304bf0dfca2ec827fb75de3c78df57c",
+    "style.css": "aff0b060c3ff4c602e59ebb2605e5f72ebcd398161d1b68c25cc4717706f95a9",
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db",
+    "anchors.js": "a5430048bc6ade21d9f2e600e2e6a629f7980513f2f9f838d08321b7d19b564e",
+    "app.js": "64c6fdbc6d1b5e042b70ad9744889fe484609232e9c9670c53973e173ca8a7d8",
+    "favicon.svg": "1b8f982a2ce4714c608131df7b9bbc2a9ae10d8571a9a42f84d2bfaa5c7ffb0a",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "fonts/NotoSansBengali-VF.woff2": "350c086f3e760a0ca48906534307b097d81ca510b0a892d3c5d17593e6e76ab3",
+    "fonts/NOTICE.txt": "92a7434151f663de272b3dbe0c18877c3a8c3bc73a11b867fca48695e00d439f",
+    "fonts/OFL.txt": "72de68e5954f4fdd24702292ef5a32f003ca960ec9330dc86e5eefb5dffb9b22",
+    "fonts/Amiri-Regular.woff2": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "data/manifest.json": "7e555b5c699bb15cc0752aa9d05c82e9bfed128b6b5cd7c9893110c99d877dd7",
+    "data/pages/007.json": "5425026e9614513225750c4f58753371563fc02b6535926c4afb976af3a8e5b3",
+    "data/pages/006.json": "2aadb358e340d8c241b1afe99af16e445493a954286fa6dcfaeef13aa4cd826f",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809",
+    "data/pages/003.json": "8dd54bdb0f859b4db9c770c1bcef63c834518edb1061325da4241238f0a586ba",
+    "data/pages/002.json": "868c7b1a560010b99c0cbd9915a60dd691213e6d924dad13fe222ca0ff5dcd8b",
+    "data/pages/005.json": "b7c540603385f6c7e177384d95cdf96f5bab1dc13aed4aa1042ffb2cdfb8aaf8",
+    "data/pages/004.json": "dbe7041a3883e1d44a803206e95f8160d47202d7ebe0964143241068f81c2708"
+  }
+}

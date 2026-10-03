@@ -1,0 +1,200 @@
+{
+  "scope": "Only firstphysicalrow ofFatiha, first2printedayat annotations;10marks total.",
+  "sourceEvidence": "../sukun-fix-2026-10-03/independent-source-body1.png",
+  "sourceObservation": "Sourcefirstrow contains10upperbandmarks,5for الحمدthroughالعالمين and5for الرحمن الرحيم. Allprintedblack in samepinkband. No filledsquarebehindplainBanglanumerals/letters.",
+  "expectedRTLGroups": [
+    [
+      "r0-a1",
+      "r0-a2",
+      "r0-a3",
+      "r0-a4",
+      "r0-a5"
+    ],
+    [
+      "r0-a6",
+      "r0-a7",
+      "r0-a8",
+      "r0-a9",
+      "r0-a10"
+    ]
+  ],
+  "expectedShapes": {
+    "r0-a1": "one-like",
+    "r0-a2": "Bengalima",
+    "r0-a3": "one-like",
+    "r0-a4": "conditionalhookedbowl",
+    "r0-a5": "ovalwedge",
+    "r0-a6": "Bengalima",
+    "r0-a7": "one-like",
+    "r0-a8": "Bengalima",
+    "r0-a9": "conditionalhookedbowl",
+    "r0-a10": "ovalwedge"
+  },
+  "sourceCoordinates": [
+    {
+      "id": "r0-a1",
+      "box": [
+        3176,
+        2668,
+        64,
+        92
+      ],
+      "attachment": {
+        "target": "r0w2",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.407,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a2",
+      "box": [
+        3005,
+        2668,
+        66,
+        92
+      ],
+      "attachment": {
+        "target": "r0w3",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.111,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a3",
+      "box": [
+        2569,
+        2668,
+        62,
+        92
+      ],
+      "attachment": {
+        "target": "r0w4",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.285,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a4",
+      "box": [
+        2294,
+        2668,
+        68,
+        92
+      ],
+      "attachment": {
+        "target": "r0w4",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.715,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a5",
+      "box": [
+        2165,
+        2668,
+        70,
+        92
+      ],
+      "attachment": {
+        "target": "r0w4",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.918,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a6",
+      "box": [
+        1819,
+        2668,
+        70,
+        92
+      ],
+      "attachment": {
+        "target": "r0w5",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.212,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a7",
+      "box": [
+        1570,
+        2668,
+        60,
+        92
+      ],
+      "attachment": {
+        "target": "r0w5",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.669,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a8",
+      "box": [
+        1239,
+        2668,
+        70,
+        92
+      ],
+      "attachment": {
+        "target": "r0w6",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.207,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a9",
+      "box": [
+        1026,
+        2668,
+        68,
+        92
+      ],
+      "attachment": {
+        "target": "r0w6",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.617,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    },
+    {
+      "id": "r0-a10",
+      "box": [
+        945,
+        2668,
+        70,
+        92
+      ],
+      "attachment": {
+        "target": "r0w6",
+        "basis": "horizontal_alignment",
+        "offset_in_word": 0.77,
+        "offset_basis": "Measured against corrected source-ink word rectangles; see verify-codex/repair-plan.json. Approximate optical-floor measurement, semantic span remains inferred."
+      }
+    }
+  ],
+  "knownCurrentIssue": "r0-a9/r0-a10 collisionwithheld; first5nativeblack but followingonesbrown/palebackground.",
+  "reviewRequirements": [
+    "All10bodymarksvisible at3203901360/fonts263456.",
+    "No changedsourcexanchor or Arabictext/font.",
+    "First5nativeglyphs unchanged; other5sourcefamilies recognizable.",
+    "Unifiedblacktransparentmarkstyling; distinguish bodyharakat fromuppermarks.",
+    "No100percentletteranchorclaim."
+  ],
+  "preservedHashes": {
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "status": "pass",
+  "scope": "Four-word first-ayah native font and relative geometry mechanics, not whole-page fidelity or verified letter identities",
+  "checks": [
+    {
+      "name": "Source header precedes unnumbered basmala",
+      "passed": true
+    },
+    {
+      "name": "Source header transcription retained",
+      "passed": true
+    },
+    {
+      "name": "Four scoped source words",
+      "passed": true
+    },
+    {
+      "name": "Five scoped source annotations",
+      "passed": true
+    },
+    {
+      "name": "Original Arabic codepoints unchanged",
+      "passed": true
+    },
+    {
+      "name": "Actual text selectable",
+      "passed": true
+    },
+    {
+      "name": "No image, SVG, canvas, or hidden substitute",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/26",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 1360/26",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 1360/26",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 1360/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/34",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 1360/34",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 1360/34",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 1360/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 1360/56",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 1360/56",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 1360/56",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 1360/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/26",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 390/26",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 390/26",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 390/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/34",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 390/34",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 390/34",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 390/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390/56",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 390/56",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 390/56",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 390/56",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/26",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 320/26",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 320/26",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 320/26",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/34",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 320/34",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 320/34",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 320/34",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320/56",
+      "passed": true
+    },
+    {
+      "name": "Verse ending stays with final word 320/56",
+      "passed": true
+    },
+    {
+      "name": "Five visible upper signs 320/56",
+      "passed": true
+    },
+    {
+      "name": "Source glyph position scales with word 320/56",
+      "passed": true
+    },
+    {
+      "name": "Hide marks removes only instructional signs",
+      "passed": true
+    },
+    {
+      "name": "No scoped font applied to other source occurrences",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "hashes": {
+    "app.js": "b28c6bc29000a31a7f2e0b6900268a0b0c4d871a2f79ae6fc3f82b7909328869",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "style.css": "3cc105d48d25a17e1a72c07b6536de231b6cd9df6be739f8cbc81e94ed9a9866",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730"
+  }
+}

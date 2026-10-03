@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "fatihah-verse-frame",
+  "text": "",
+  "codepoint": "U+E200",
+  "font": {
+    "family": "Quran Verse Frame",
+    "url": "fonts/VerseFrame.woff2",
+    "sha256": "caec165ceca9bb9af2c9e25e8384c4f34a19453e185b56778e62680c02d1b91c",
+    "bytes": 864,
+    "unitsPerEm": 1000,
+    "ascenderEm": 1,
+    "descenderEm": 0,
+    "lineGapEm": 0,
+    "advanceEm": 0.806,
+    "inkHeightEm": 1,
+    "containsRasterOrSvg": false
+  },
+  "source": {
+    "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+    "physicalPage": 1,
+    "traceId": "verse-1",
+    "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+    "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+    "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+    "sourceBoundsXYXY": [
+      577.0,
+      152.0,
+      635.0,
+      224.0
+    ],
+    "removedNumeralContourIndex": 5,
+    "removedNumeralBoundsXYXY": [
+      598.0,
+      174.0,
+      613.0,
+      199.0
+    ],
+    "retainedContourIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "method": "Remove only isolated numeral-1 contour from reviewed nine-contour verse-1 trace; keep eight ornament contours unchanged before uniform font scaling and integer rounding."
+  },
+  "layout": {
+    "fontSizeEqualsFrameHeight": true,
+    "lineHeightEm": 1,
+    "widthEm": 0.806,
+    "heightEm": 1,
+    "baselineFromTopEm": 1,
+    "digitCenterXEm": 0.4027777777777778,
+    "digitCenterYEm": 0.5,
+    "safeDigitBoxEm": {
+      "left": 0.1527777777777778,
+      "top": 0.3194444444444444,
+      "width": 0.5,
+      "height": 0.3611111111111111
+    },
+    "css": "Render PUA frame in Quran Verse Frame, font-size equal to desired frame height, line-height:1, width:.806em, no padding or letter spacing. Overlay the actual verse-number string as separate selectable Bengali text centered in the aperture; reduce its size for 2/3 digits. Keep the existing exact first-verse source marker untouched."
+  },
+  "encoding": "Private-use glyph encodes only the ornament, never the numeral. Actual Bengali Unicode digits remain separate real text.",
+  "limits": [
+    "Reusing this specific first-Fatihah ornament is a visual design choice, not proof that every source-PDF verse marker has identical geometry.",
+    "The original first verse source marker remains separate and unchanged.",
+    "No Arabic body, harakat, annotation glyph, Unicode numeral data or general font is modified.",
+    "Source-pixel outlines and integer font coordinates approximate scan edges; original publisher font is not recovered."
+  ]
+}

@@ -1,0 +1,1 @@
+Round01 narrow review: source body/mark morphology and Unicode selection pass. Responsive ending relationship fails at320/font34: stop+verse1 wrap alone to next line while last word remains previous line. Root notified; final review pending nonbreaking word/ending repair. Blue text selection in these screenshots is an audit artifact, not source UI decoration.

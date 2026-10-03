@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "source-derived-templates-not-whole-Quran-verified",
+  "font": {
+    "family": "Qarian Symbols",
+    "url": "fonts/QarianSymbols.woff2",
+    "sha256": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "bytes": 960,
+    "format": "WOFF2 TrueType outlines",
+    "unitsPerEm": 1000,
+    "containsRasterOrSvg": false
+  },
+  "encoding": "BMP Private Use Area; preserve symbol ID and this catalogue with copied PUA text. PUA characters have no meaning outside this font/data contract.",
+  "symbols": [
+    {
+      "id": "ringed-wedge",
+      "text": "",
+      "codepoint": "U+E000",
+      "labelBn": "একটি ডিম্বাকার বেষ্টনীর মধ্যে খোলা ∧-আকৃতির চিহ্ন",
+      "fontFamily": "Qarian Symbols",
+      "intrinsicRing": true,
+      "advanceWidthEm": 0.716,
+      "inkHeightEm": 0.78,
+      "identity": "private-use observed graphical template; not a Unicode identity",
+      "meaningVerified": false,
+      "occurrenceShapeVerified": false,
+      "letterAnchorVerified": false,
+      "source": {
+        "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+        "physicalPage": 1,
+        "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+        "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+        "traceId": "a5",
+        "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+        "sourceImageSize": [
+          1510,
+          1420
+        ],
+        "fullPageImageSize": [
+          2120,
+          3000
+        ],
+        "cropOffsetInFullPage": [
+          275,
+          1100
+        ],
+        "traceBoxXYWH": [
+          651,
+          43,
+          28,
+          36
+        ],
+        "method": "Grayscale threshold on full ayah region, discard connected components smaller than3pixels, associate complete components when >=50percent of their ink overlaps audited mark box, trace closed pixel-edge outlines. Contour approximation requires independent review.",
+        "threshold": 128
+      },
+      "limits": "Template copied from one inspected occurrence. Threshold and integer font coordinates approximate scan edges. Reuse does not verify every occurrence, reading meaning, original metal/typeface design or letter position."
+    },
+    {
+      "id": "bare-wedge",
+      "text": "",
+      "codepoint": "U+E001",
+      "labelBn": "বেষ্টনীবিহীন খোলা ∧-আকৃতির চিহ্ন",
+      "fontFamily": "Qarian Symbols",
+      "intrinsicRing": false,
+      "advanceWidthEm": 0.78,
+      "inkHeightEm": 0.78,
+      "identity": "private-use observed graphical template; not a Unicode identity",
+      "meaningVerified": false,
+      "occurrenceShapeVerified": false,
+      "letterAnchorVerified": false,
+      "source": {
+        "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+        "physicalPage": 1,
+        "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+        "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+        "traceId": "w1-m2",
+        "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+        "sourceImageSize": [
+          1510,
+          1420
+        ],
+        "fullPageImageSize": [
+          2120,
+          3000
+        ],
+        "cropOffsetInFullPage": [
+          275,
+          1100
+        ],
+        "traceBoxXYWH": [
+          1298,
+          97,
+          24,
+          28
+        ],
+        "method": "Grayscale threshold on full ayah region, discard connected components smaller than3pixels, associate complete components when >=50percent of their ink overlaps audited mark box, trace closed pixel-edge outlines. Contour approximation requires independent review.",
+        "threshold": 128
+      },
+      "limits": "Template copied from one inspected occurrence. Threshold and integer font coordinates approximate scan edges. Reuse does not verify every occurrence, reading meaning, original metal/typeface design or letter position."
+    },
+    {
+      "id": "solid-down-arrow",
+      "text": "",
+      "codepoint": "U+E002",
+      "labelBn": "নিচের দিকে মোটা তীরচিহ্ন",
+      "fontFamily": "Qarian Symbols",
+      "intrinsicRing": false,
+      "advanceWidthEm": 0.686,
+      "inkHeightEm": 0.78,
+      "identity": "private-use observed graphical template; not a Unicode identity",
+      "meaningVerified": false,
+      "occurrenceShapeVerified": false,
+      "letterAnchorVerified": false,
+      "source": {
+        "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+        "physicalPage": 3,
+        "renderDpi": 300,
+        "renderSize": [
+          2480,
+          3509
+        ],
+        "cropBoxXYXY": [
+          430,
+          1160,
+          620,
+          1410
+        ],
+        "cropFile": "evidence/symbol-fix-2026-10-03/font-work/source-pdf3-arrow-native.png",
+        "cropSha256": "5354d4a920700dbceb760adc3646f685d0b66f7db994bec1f00bacbc0e4d1f26",
+        "selectionBoxXYXYInCrop": [
+          55,
+          68,
+          95,
+          118
+        ],
+        "method": "Grayscale <128, largest 8-connected component inside inspected selection, closed pixel-edge outlines; no smoothing or invented curves.",
+        "foregroundPixels": 505,
+        "touchesSelectionEdge": false
+      },
+      "limits": "Template copied from one inspected occurrence. Threshold and integer font coordinates approximate scan edges. Reuse does not verify every occurrence, reading meaning, original metal/typeface design or letter position."
+    },
+    {
+      "id": "conditional-three-or-one",
+      "text": "",
+      "codepoint": "U+E003",
+      "labelBn": "উৎসে দেখা বিশেষ শর্তসাপেক্ষ মাত্রাচিহ্ন",
+      "fontFamily": "Qarian Symbols",
+      "intrinsicRing": false,
+      "advanceWidthEm": 0.64,
+      "inkHeightEm": 0.78,
+      "identity": "private-use observed graphical template; not a Unicode identity",
+      "meaningVerified": false,
+      "occurrenceShapeVerified": false,
+      "letterAnchorVerified": false,
+      "source": {
+        "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+        "physicalPage": 1,
+        "vectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+        "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+        "traceId": "a4",
+        "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+        "sourceImageSize": [
+          1510,
+          1420
+        ],
+        "fullPageImageSize": [
+          2120,
+          3000
+        ],
+        "cropOffsetInFullPage": [
+          275,
+          1100
+        ],
+        "traceBoxXYWH": [
+          709,
+          43,
+          24,
+          35
+        ],
+        "method": "Grayscale threshold on full ayah region, discard connected components smaller than3pixels, associate complete components when >=50percent of their ink overlaps audited mark box, trace closed pixel-edge outlines. Contour approximation requires independent review.",
+        "threshold": 128
+      },
+      "limits": "Template copied from one inspected occurrence. Threshold and integer font coordinates approximate scan edges. Reuse does not verify every occurrence, reading meaning, original metal/typeface design or letter position.",
+      "legendInterpretation": {
+        "textBn": "দম ফেলিলে তিন; না ফেলিলে এক",
+        "physicalPage": 5,
+        "sourceEvidence": "evidence/symbol-fix-2026-10-03/source-legend-audit.json",
+        "status": "source reader confirms legend rule for this graphic family; does not identify this as Unicode Bengali digit 6 or approve individual occurrences"
+      }
+    }
+  ],
+  "unresolved": [
+    "Damaged PDF3 row0-a8 has no confidently separable/recovered glyph; no font glyph is assigned.",
+    "Exact occurrence-specific outlines, semantic interpretations and letter anchors remain separate verification tasks."
+  ]
+}

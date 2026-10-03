@@ -1,0 +1,1113 @@
+{
+  "status": "pass",
+  "scope": "Symbol display/selection/navigation mechanics only, not exact source letter anchors or full Quran fidelity",
+  "checks": [
+    {
+      "name": "page1: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page1: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page1: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page1: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page1: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page1: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page1/r0-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r0-a5: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r0-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r0-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r1-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r1-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r2-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r2-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r2-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r2-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r4-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1/r4-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page1 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page1 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page1 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page2: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page2: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page2: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page2: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page2: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page2/r0-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r0-a11: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r0-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r1-a1: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r1-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r2-a13: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r2-a14: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r4-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r4-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2/r4-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page2 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page2 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page2 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page3: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page3: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page3: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page3: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page3: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page3/r0-a6: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r0-a7: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r2-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r2-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r3-a6: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r3-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r3-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r4-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r4-a11: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r4-a15: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r5-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r5-a13: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r7-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r7-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r8-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r8-a5: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r9-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r9-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r10-a5: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r10-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3/r10-a13: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page3 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page3 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page3 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page4: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page4: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page4: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page4: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page4: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page4/r1-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r1-a11: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r2-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r2-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r3-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r3-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r5-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r5-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r6-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r6-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r6-a15: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r7-a15: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r8-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r8-a5: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r9-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r9-a5: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r10-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4/r10-a13: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page4 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page4 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page4 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page5: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page5: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page5: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page5: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page5: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page5/r1-a1: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r1-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r3-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r3-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r4-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r5-a7: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r5-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r6-a11: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r6-a13: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r6-a14: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r8-a1: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r8-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r9-a15: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r10-a3: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5/r10-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page5 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page5 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page5 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page6: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page6: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page6: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page6: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page6: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page6/r1-a16: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page6/r2-a11: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page6/r2-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page6 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page6 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page6 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7: no question-mark placeholders",
+      "passed": true
+    },
+    {
+      "name": "page7: complete annotation detail inventory",
+      "passed": true
+    },
+    {
+      "name": "page7: all reviewed source glyphs displayed",
+      "passed": true
+    },
+    {
+      "name": "page7: custom font ready",
+      "passed": true
+    },
+    {
+      "name": "page7: Arabic Unicode unchanged",
+      "passed": true
+    },
+    {
+      "name": "page7: glyph is text, not image",
+      "passed": true
+    },
+    {
+      "name": "page7/r1-a12: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r1-a13: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r2-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r2-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r5-a1: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r5-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r6-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r6-a4: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r6-a10: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r6-a11: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r8-a7: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r8-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r9-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r9-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r10-a1: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r10-a2: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r10-a8: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7/r10-a9: exact PUA contract",
+      "passed": true
+    },
+    {
+      "name": "page7 1200/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 1200/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 1200/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 1200/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 1200/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 1200/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 390/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 390/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 390/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 390/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 390/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 390/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 320/26: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 320/26: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 320/34: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 320/34: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "page7 320/56: no overflow",
+      "passed": true
+    },
+    {
+      "name": "page7 320/56: intrinsic ring not doubled",
+      "passed": true
+    },
+    {
+      "name": "55 original empty marks now rendered",
+      "passed": true,
+      "detail": 55
+    },
+    {
+      "name": "97 custom symbol occurrences",
+      "passed": true,
+      "detail": 97
+    },
+    {
+      "name": "page3: arrow on source boundary",
+      "passed": true
+    },
+    {
+      "name": "page6: arrow on source boundary",
+      "passed": true
+    },
+    {
+      "name": "page7: arrow on source boundary",
+      "passed": true
+    },
+    {
+      "name": "Damaged mark not falsely displayed as শ",
+      "passed": true
+    },
+    {
+      "name": "PUA glyph native selection",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "hashes": {
+    "app.js": "47759bb12fc39d0d8f0d2eed551211435dc144f7534b729d2422b359de294bae",
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db",
+    "style.css": "24d0d6889a83dced3f8007b3ea987fd84a53b2f7ceffbcf13cffa1778e222a88",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473"
+  },
+  "totals": {
+    "totalCustom": 97,
+    "emptyFixed": 55
+  }
+}

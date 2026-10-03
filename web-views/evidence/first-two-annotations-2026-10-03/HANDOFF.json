@@ -1,0 +1,23 @@
+{
+  "status": "pass_scoped_annotation_visibility_and_color",
+  "scope": "First two Fatiha ayahs upper annotations",
+  "sourceAnnotations": 10,
+  "restoredVisibleAnnotations": [
+    "r0-a9",
+    "r0-a10"
+  ],
+  "consistentColor": "#151515",
+  "glyphSizesShapesAndXPositionsUnchanged": true,
+  "sourceDataAndFontsUnchanged": true,
+  "genuineCollisionDetectionRetained": true,
+  "browserAssertions": 53,
+  "wholeQuranComplete": false,
+  "FlutterModified": false,
+  "runtimeHashes": {
+    "app.js": "78e4b962b4e1fdc8e14046c25d1617098e3bd88166e7d78f8c7c84d540c8b005",
+    "style.css": "f40b07245c1519217dd3968e732ba8ce9aa7206e3d4c40fa0d6041c92457fa53",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db"
+  },
+  "independentReviewSummary": "Independent nine-configuration review confirms source 5+5 inventory fully visible, black and transparent; recovered pair visibly distinct at desktop and mobile. Fonts/source data/opening hashes preserved."
+}

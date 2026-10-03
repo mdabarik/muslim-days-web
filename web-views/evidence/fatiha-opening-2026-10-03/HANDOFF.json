@@ -1,0 +1,41 @@
+{
+  "status": "pass_scoped_first_ayah_typography",
+  "scope": {
+    "surah": 1,
+    "ayah": "1:1",
+    "physicalPage": 1,
+    "bodyWords": 4,
+    "embeddedHarakat": 18,
+    "upperSigns": 5,
+    "nativeEndingGlyphs": 2
+  },
+  "checks": {
+    "openingBrowserAssertions": 46,
+    "generalBrowserAssertions": 27,
+    "previousSymbolRegressionAssertions": 273,
+    "structuralStatus": "pass",
+    "fullRelease": "blocked"
+  },
+  "sourceCandidateUnchanged": true,
+  "FlutterModified": false,
+  "wholeFatihaExact": false,
+  "wholeQuranExact": false,
+  "verifiedLetterAnchorsAdded": 0,
+  "limitations": [
+    "Other Arabic word occurrences remain in Amiri.",
+    "Source outlines approximate scan ink, not original publisher outlines.",
+    "Word-relative geometry does not certify individual letter identities."
+  ],
+  "runtimeHashes": {
+    "app.js": "8463339731a4d72e1b4b69b658810bebab870ec5f7426a14501c8ab6dce75c09",
+    "style.css": "6071325975fdba886a6dc386f347d84a1bd4c829e97f0e0e98c26b3bcbfe3ba8",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291"
+  },
+  "independentReview": {
+    "file": "independent-native-final.json",
+    "sha256": "87a2f09401cc9620570820815ba022dd39370a7d66b4be77156196f1c9f0a622",
+    "scope": "First printed ayah four word contexts only; whole Quran acceptance remains blocked"
+  }
+}

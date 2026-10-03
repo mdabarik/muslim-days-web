@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-03",
+  "verdict": "pass_scoped_first_two_ayah_annotations",
+  "scope": "FirstFatiha physicalrow10uppermarks, visibility and consistentcolor only.",
+  "assetHashes": {
+    "app.js": "78e4b962b4e1fdc8e14046c25d1617098e3bd88166e7d78f8c7c84d540c8b005",
+    "style.css": "f40b07245c1519217dd3968e732ba8ce9aa7206e3d4c40fa0d6041c92457fa53"
+  },
+  "preservedAssets": {
+    "data/pages/001.json": true,
+    "fonts/FatihahOpening.woff2": true,
+    "fonts/QarianSymbols.woff2": true,
+    "data/symbol-catalog.json": true,
+    "opening.js": true
+  },
+  "checks": {
+    "configurations": 9,
+    "all10Visible": true,
+    "allSameBlackTransparent": true,
+    "noOverflow": true,
+    "noContentImagesSVGCanvas": true,
+    "runtimeErrors": []
+  },
+  "visualFindings": [
+    "Originalsource10marks confirmed as5+5, including secondgroup ma/one/ma/conditionalbowl/ovalwedge.",
+    "Independentactualscreenshots1360/font56,390/font34,320/font26 showall10; previouslyhidden r0-a9/r0-a10 now distinguishable as separateinkshapes.",
+    "Colors/backgrounds nowuniformblack/transparent; nofilledbrownboxes.",
+    "SourceJSON, openingmodule anddedicatedfont/cataloguehashes unchanged."
+  ],
+  "limits": [
+    "This doesnotapprove exactcharacteridentities or letteranchors.",
+    "First5sourcefont andsecond5existingfonts remain differenttypefaces; noexactpublisherfontclaim.",
+    "Otherrows/pages andfullQuran remainoutside thisfix."
+  ]
+}

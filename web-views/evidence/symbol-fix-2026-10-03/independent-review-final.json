@@ -1,0 +1,92 @@
+{
+  "reviewer": "Independent source/content and rendered visual review",
+  "date": "2026-10-03",
+  "scope": "Known symbol representation repair in existing seven draft pages. Does not approve original-request all-Quran/letter-position fidelity.",
+  "verdict": "pass_scoped_symbol_representation_only",
+  "fullRequestedAcceptance": "fail_incomplete",
+  "sourceBaseline": "independent-review-baseline.json",
+  "assetHashes": {
+    "index.html": "a1666dad7cfc0b0b4aec8ed04302236d2304bf0dfca2ec827fb75de3c78df57c",
+    "app.js": "64c6fdbc6d1b5e042b70ad9744889fe484609232e9c9670c53973e173ca8a7d8",
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db",
+    "anchors.js": "a5430048bc6ade21d9f2e600e2e6a629f7980513f2f9f838d08321b7d19b564e",
+    "style.css": "aff0b060c3ff4c602e59ebb2605e5f72ebcd398161d1b68c25cc4717706f95a9",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "data/manifest.json": "7e555b5c699bb15cc0752aa9d05c82e9bfed128b6b5cd7c9893110c99d877dd7",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809",
+    "data/pages/002.json": "868c7b1a560010b99c0cbd9915a60dd691213e6d924dad13fe222ca0ff5dcd8b",
+    "data/pages/003.json": "8dd54bdb0f859b4db9c770c1bcef63c834518edb1061325da4241238f0a586ba",
+    "data/pages/004.json": "dbe7041a3883e1d44a803206e95f8160d47202d7ebe0964143241068f81c2708",
+    "data/pages/005.json": "b7c540603385f6c7e177384d95cdf96f5bab1dc13aed4aa1042ffb2cdfb8aaf8",
+    "data/pages/006.json": "2aadb358e340d8c241b1afe99af16e445493a954286fa6dcfaeef13aa4cd826f",
+    "data/pages/007.json": "5425026e9614513225750c4f58753371563fc02b6535926c4afb976af3a8e5b3"
+  },
+  "assetsStableDuringAudit": true,
+  "evidenceHashes": {
+    "independent-review-p1-r0-1360.png": "5365b383df808ef123aa631fc3db72c1401bcfe33fc7a12e364e1a9674ad9754",
+    "independent-review-p1-r0-390.png": "e7e121eaaca90299c581e4e1d5b8b6ffe18f70cc00ef8150fb12bf787dfc631f",
+    "independent-review-p3-r0-1360.png": "848a3f54a6829c2fdb02eac9dab19b083d8dc321b6b61b139763860471e06766",
+    "independent-review-p3-r0-390.png": "f5bffb25fe8631de84e034b04eb5c00327ebfc8c5e8095adf9704e33370e97c2",
+    "independent-review-p3-r4-1360.png": "9c99f6eaaad4766e728b01619b8060dc2c2fe63b16d2e2bacf287875dbdfad5c",
+    "independent-review-p3-r4-390.png": "2eba31471cfb704440aad2020eb9b864226e17ffeb155beb71b582fa6e4a8078",
+    "independent-review-p6-r1-1360.png": "4bb1718a614f744832774ee6aea3db4958396382b2a8be8eaf098b04a01a0eb7",
+    "independent-review-p6-r1-390.png": "a20beff5f3a4d5ba6ac37330dd40a819ac9234114010f49fb19177e81b8a28c3",
+    "independent-review-p7-r10-1360.png": "c2dd95546dde6b961fb5d61dd7f48fa07dfaea5582874de85c0c2f9353778820",
+    "independent-review-p7-r10-390.png": "c22ab983ba0d982674f7fb1d1a33baf1ab48e6fc15b012ddd527a4119ac6053d"
+  },
+  "checks": {
+    "pages": 7,
+    "allAnnotationDetails": 700,
+    "customGlyphOccurrences": 97,
+    "missingCustomTextContracts": 0,
+    "questionMarkPlaceholders": 0,
+    "loadedFontEveryPage": true,
+    "selectableCustomTextEveryPage": true,
+    "contentRasterCanvasSvgCount": 0,
+    "runtimeErrors": [],
+    "responsiveWidths": [
+      1360,
+      390,
+      320
+    ],
+    "fontSizes": [
+      26,
+      34,
+      56
+    ],
+    "overflowAtTestedSizes": false,
+    "noTofuOrDoubleEnclosureInInspectedScreenshots": true,
+    "threeArrowsRenderedAtObservedStopBoundaries": true,
+    "damagedP3R0A8ExplicitlyUnresolved": true,
+    "standardUnicodeIdentityNotFalselyAsserted": true
+  },
+  "observedMorphology": "Visible closed oval with internal Λ-like wedge; distinct hooked-bowl conditional mark; solid downward arrow. Actual screenshots agree with the source shape families, not a pixel-perfect claim.",
+  "limitations": [
+    {
+      "id": "body_marks_withheld",
+      "blockingForFullFidelity": true,
+      "detail": "At desktop1360/font34, collision protection hides156 of700 body annotations, including19 of97 custom symbol occurrences. They remain as selectable glyphs in automatically opened detail lists with notices. This is explicitly not full visible annotation placement approval."
+    },
+    {
+      "id": "all_quran_incomplete",
+      "blockingForFullFidelity": true,
+      "detail": "Seven page drafts only; 753 other physical pages absent, page6 partial; cannot claim all114surahs fixed."
+    },
+    {
+      "id": "unverified_anchors",
+      "blockingForFullFidelity": true,
+      "detail": "No exact character anchors independently validated; current word-relative anchors are provisional."
+    },
+    {
+      "id": "damaged_identity",
+      "blockingForFullFidelity": true,
+      "detail": "p3:r0-a8 remains unreadable; explicit Bengali status label correctly replaces provisional rendered guess."
+    },
+    {
+      "id": "per_occurrence_geometry",
+      "blockingForFullFidelity": true,
+      "detail": "Single glyph templates support native text but exact per-occurrence scan-outline reproduction was not demonstrated."
+    }
+  ]
+}

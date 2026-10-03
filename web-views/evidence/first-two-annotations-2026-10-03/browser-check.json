@@ -1,0 +1,225 @@
+{
+  "status": "pass",
+  "scope": "First two Fatiha ayahs annotation visibility and color; no new letter-anchor certification",
+  "checks": [
+    {
+      "name": "All ten source signs visible 1360/26",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 1360/26",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 1360/26",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 1360/26",
+      "passed": true
+    },
+    {
+      "name": "No overflow 1360/26",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 1360/34",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 1360/34",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 1360/34",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 1360/34",
+      "passed": true
+    },
+    {
+      "name": "No overflow 1360/34",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 1360/56",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 1360/56",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 1360/56",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 1360/56",
+      "passed": true
+    },
+    {
+      "name": "No overflow 1360/56",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 390/26",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 390/26",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 390/26",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 390/26",
+      "passed": true
+    },
+    {
+      "name": "No overflow 390/26",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 390/34",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 390/34",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 390/34",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 390/34",
+      "passed": true
+    },
+    {
+      "name": "No overflow 390/34",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 390/56",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 390/56",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 390/56",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 390/56",
+      "passed": true
+    },
+    {
+      "name": "No overflow 390/56",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 320/26",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 320/26",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 320/26",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 320/26",
+      "passed": true
+    },
+    {
+      "name": "No overflow 320/26",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 320/34",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 320/34",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 320/34",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 320/34",
+      "passed": true
+    },
+    {
+      "name": "No overflow 320/34",
+      "passed": true
+    },
+    {
+      "name": "All ten source signs visible 320/56",
+      "passed": true
+    },
+    {
+      "name": "Consistent black and transparent 320/56",
+      "passed": true
+    },
+    {
+      "name": "Second ayah x anchors preserved 320/56",
+      "passed": true
+    },
+    {
+      "name": "No misleading collision note 320/56",
+      "passed": true
+    },
+    {
+      "name": "No overflow 320/56",
+      "passed": true
+    },
+    {
+      "name": "All ten font sizes, widths, shapes and x positions unchanged",
+      "passed": true
+    },
+    {
+      "name": "Genuine collision still withheld",
+      "passed": true
+    },
+    {
+      "name": "Restored source positions show all ten",
+      "passed": true
+    },
+    {
+      "name": "No displayed raster/SVG/canvas",
+      "passed": true
+    },
+    {
+      "name": "Arabic codepoints unchanged",
+      "passed": true
+    },
+    {
+      "name": "Marks switch works",
+      "passed": true
+    },
+    {
+      "name": "Marks return visible",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "hashes": {
+    "app.js": "78e4b962b4e1fdc8e14046c25d1617098e3bd88166e7d78f8c7c84d540c8b005",
+    "style.css": "f40b07245c1519217dd3968e732ba8ce9aa7206e3d4c40fa0d6041c92457fa53",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db"
+  }
+}

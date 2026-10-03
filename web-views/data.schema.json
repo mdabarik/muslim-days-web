@@ -1,0 +1,283 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:quran-source:web-page:2.0.0-draft",
+  "title": "Source-evidenced draft page, not release-approved Quran",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "source",
+    "candidateSha256",
+    "status",
+    "fullyVerified",
+    "originalCandidate",
+    "graphemes",
+    "annotations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "2.0.0-draft"
+    },
+    "status": {
+      "const": "draft"
+    },
+    "fullyVerified": {
+      "const": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "pdf_sha256",
+        "pdf_page_number",
+        "coordinate_system"
+      ]
+    },
+    "candidateSha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "legacyReview": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "originalCandidate": {
+      "type": "object"
+    },
+    "graphemes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "text",
+            "startCodepoint",
+            "endCodepoint",
+            "sourceBox",
+            "verified"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "startCodepoint": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "endCodepoint": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sourceBox": {
+              "type": "null"
+            },
+            "verified": {
+              "const": false
+            }
+          }
+        }
+      }
+    },
+    "annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "sourceId",
+          "rowIndex",
+          "text",
+          "sourceBox",
+          "targetGraphemeId",
+          "verified",
+          "unresolved",
+          "draftWordAttachment"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": "string"
+          },
+          "rowIndex": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceBox": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "targetGraphemeId": {
+            "type": "null"
+          },
+          "verified": {
+            "const": false
+          },
+          "unresolved": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "draftWordAttachment": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "display": {
+            "oneOf": [
+              {
+                "type": "object",
+                "required": [
+                  "status",
+                  "symbolId",
+                  "character",
+                  "fontSha256",
+                  "reviewSha256",
+                  "shapeFamilyConfirmed",
+                  "exactOccurrenceOutlineVerified",
+                  "standardUnicodeIdentity"
+                ],
+                "properties": {
+                  "status": {
+                    "const": "source_shape_identified"
+                  },
+                  "symbolId": {
+                    "type": "string"
+                  },
+                  "character": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 1,
+                    "pattern": "^[-]$"
+                  },
+                  "fontSha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "reviewSha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "shapeFamilyConfirmed": {
+                    "const": true
+                  },
+                  "exactOccurrenceOutlineVerified": {
+                    "const": false
+                  },
+                  "standardUnicodeIdentity": {
+                    "type": "null"
+                  },
+                  "encoding": {
+                    "const": "project_private_use"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "required": [
+                  "status",
+                  "labelBn",
+                  "reviewSha256"
+                ],
+                "properties": {
+                  "status": {
+                    "const": "unresolved_identity"
+                  },
+                  "labelBn": {
+                    "type": "string"
+                  },
+                  "reviewSha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                }
+              }
+            ]
+          },
+          "displayAttachment": {
+            "type": "object",
+            "required": [
+              "targetKind",
+              "targetId",
+              "rowIndex",
+              "segmentIndex",
+              "offset"
+            ],
+            "properties": {
+              "targetKind": {
+                "enum": [
+                  "stop_sign",
+                  "verse_marker"
+                ]
+              },
+              "targetId": {
+                "type": "string"
+              },
+              "rowIndex": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "segmentIndex": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "offset": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "symbolCatalogue": {
+      "type": "object",
+      "required": [
+        "url",
+        "sha256",
+        "fontSha256",
+        "contract"
+      ],
+      "properties": {
+        "url": {
+          "const": "data/symbol-catalog.json"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "fontSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "contract": {
+          "const": "source-shapes-pua-1"
+        }
+      }
+    }
+  }
+}

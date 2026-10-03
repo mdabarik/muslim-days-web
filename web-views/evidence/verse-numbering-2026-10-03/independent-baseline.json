@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-03",
+  "scope": "Reusable source-like verse-number rosette frame, preserving actual Bengali digits, existing first source marker, body type and annotations. Not full-page or allQuran audit.",
+  "sourceObservation": "Previously independently inspected original PDF1 first row shows ornamental multilobed outer ring enclosing a Bengali1, distinct from Arabic stop sign above it. Other verse markers include Bengali2and3 etc.",
+  "sourceEvidence": "../fatiha-opening-2026-10-03/independent-source-first-ayah.png and ../sukun-fix-2026-10-03/independent-source-body1.png",
+  "required": [
+    "Preserve numeral strings and order from all7sourceJSON files.",
+    "Reuse only outer frame; do not bake source1 into every new marker.",
+    "Visible selectable real Bengali digit text, with font outline frame allowed; no image/SVG/canvas.",
+    "Preserve existing first source marker and stop stacking.",
+    "Check1/2/3digit fit and mobile rendering; retain annotations/body fonts unchanged."
+  ],
+  "preservedAssetHashes": {
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "fonts/QuranWedgeArabic.woff2": "6a7ed940b2b29b1c76f6767112bd123c83835609a90fe82f70503758e3110913",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809",
+    "data/pages/002.json": "868c7b1a560010b99c0cbd9915a60dd691213e6d924dad13fe222ca0ff5dcd8b",
+    "data/pages/003.json": "8dd54bdb0f859b4db9c770c1bcef63c834518edb1061325da4241238f0a586ba",
+    "data/pages/004.json": "dbe7041a3883e1d44a803206e95f8160d47202d7ebe0964143241068f81c2708",
+    "data/pages/005.json": "b7c540603385f6c7e177384d95cdf96f5bab1dc13aed4aa1042ffb2cdfb8aaf8",
+    "data/pages/006.json": "2aadb358e340d8c241b1afe99af16e445493a954286fa6dcfaeef13aa4cd826f",
+    "data/pages/007.json": "5425026e9614513225750c4f58753371563fc02b6535926c4afb976af3a8e5b3"
+  },
+  "expectedNumerals": {
+    "1": [
+      "১",
+      "২",
+      "৩",
+      "৪",
+      "৫",
+      "৬",
+      "৭"
+    ],
+    "2": [
+      "১",
+      "২",
+      "৩",
+      "৪"
+    ],
+    "3": [
+      "৫",
+      "৬",
+      "৭",
+      "৮",
+      "৯",
+      "১০",
+      "১১",
+      "১২",
+      "১৩"
+    ],
+    "4": [
+      "১৪",
+      "১৫",
+      "১৬",
+      "১৭",
+      "১৮",
+      "১৯",
+      "২০"
+    ],
+    "5": [
+      "২১",
+      "২২",
+      "২৩",
+      "২৪",
+      "২৫"
+    ],
+    "6": [
+      "২৬"
+    ],
+    "7": [
+      "৩১",
+      "৩২",
+      "৩৩",
+      "৩৪",
+      "৩৫",
+      "৩৬"
+    ]
+  },
+  "finalReviewPending": true
+}

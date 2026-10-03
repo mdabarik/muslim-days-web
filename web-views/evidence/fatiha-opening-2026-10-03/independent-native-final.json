@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-03",
+  "reviewer": "Independent source/content and visual reviewer",
+  "scope": "Four-word first printed Fatiha ayah,18 embedded Arabic marks,5 upper shapes and native stop/verse ending in actual HTML. Not entire Fatiha.",
+  "verdict": "pass_scoped_source_geometry_and_native_text",
+  "fullQuranAcceptance": false,
+  "assetHashes": {
+    "app.js": "8463339731a4d72e1b4b69b658810bebab870ec5f7426a14501c8ab6dce75c09",
+    "style.css": "6071325975fdba886a6dc386f347d84a1bd4c829e97f0e0e98c26b3bcbfe3ba8",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809"
+  },
+  "stableDuringAudit": true,
+  "sourceFirstBaseline": "independent-first-ayah-baseline.json",
+  "reviewedScreenshots": [
+    "independent-native-390-34.png",
+    "independent-native-320-56.png",
+    "independent-native-320-34.png",
+    "independent-native-1360-34.png",
+    "independent-native-desktop.png"
+  ],
+  "checks": {
+    "literalArabicContextsCopiedExactly": true,
+    "contexts": [
+      {
+        "text": "اَلْحَمْدُ",
+        "copied": "اَلْحَمْدُ",
+        "font": "\"Fatihah Opening\"",
+        "fontSize": "34px"
+      },
+      {
+        "text": "لِلّٰهِ",
+        "copied": "لِلّٰهِ",
+        "font": "\"Fatihah Opening\"",
+        "fontSize": "34px"
+      },
+      {
+        "text": "رَبِّ",
+        "copied": "رَبِّ",
+        "font": "\"Fatihah Opening\"",
+        "fontSize": "34px"
+      },
+      {
+        "text": "الْعٰلَمِيْنَ",
+        "copied": "الْعٰلَمِيْنَ",
+        "font": "\"Fatihah Opening\"",
+        "fontSize": "34px"
+      }
+    ],
+    "baseLetters": 17,
+    "bodyMarks": 18,
+    "fiveUpperSignsVisibleAllSamples": true,
+    "widths": [
+      1360,
+      390,
+      320
+    ],
+    "fontSizes": [
+      26,
+      34,
+      56
+    ],
+    "noHorizontalOverflow": true,
+    "endingStaysWithLastWordAllSamples": true,
+    "noContentRasterSVGCanvas": true,
+    "page2FontScopeExclusion": true,
+    "runtimeErrors": []
+  },
+  "sourceComparison": "Actual native glyphs restore observed wedge sukuns, source body proportions and joins, ba-dot/kasra separation and nun-dot-in-bowl relationships. Five top shapes and native vertically arranged stop/rosette1 are present. No missing/added in-scope body component or tofu was observed at source resolution.",
+  "resolvedReviewIssue": {
+    "issue": "Round01 stop/rosette orphaned to next line at320/font34.",
+    "repair": "Native final word+ending grouped; independently rerun all9sizes show same top and adjacent relationship.",
+    "priorEvidence": "independent-native-round01-review.md"
+  },
+  "limitations": [
+    "Four whole-word contexts only; subsequent words, basmala and title still use other fonts and are visibly different.",
+    "Source contour font approximates thresholded raster edges, not recovered publisher outlines or100percent scan identity.",
+    "Upper marks preserve observed word-local source coordinates. This does not certify Unicode letter identity or instructional span.",
+    "Native shaping ligatures retain real Arabic text; partial-character caret behavior is not certified.",
+    "Outside scoped firstayah, collision-withheld marks and incomplete allQuran data remain.",
+    "Original page bands/decorative furniture and complete global page spacing are not reproduced by this narrow fix."
+  ]
+}

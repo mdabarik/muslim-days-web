@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": {
+    "physicalPage": 1,
+    "rowIndex": 0,
+    "printedAyah": "1:1",
+    "wordIds": [
+      "r0w1",
+      "r0w2",
+      "r0w3",
+      "r0w4"
+    ]
+  },
+  "status": "source-contour-rendering-for-four-audited-contexts; new HTML integration needs browser review",
+  "font": {
+    "family": "Fatihah Opening Source",
+    "url": "fonts/FatihahOpening.woff2",
+    "sha256": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "bytes": 2504,
+    "unitsPerEm": 1000,
+    "ascentEm": 1.43,
+    "descentEm": 0.21,
+    "sourceFontSha256": "e13097a9846281686adcd7cbe3e83894915039c2c53abefe2a2539d2410dad69",
+    "wordGlyphsAndGsubPreserved": true,
+    "containsRasterOrSvg": false
+  },
+  "source": {
+    "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+    "imageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+    "imageSize": [
+      1510,
+      1420
+    ],
+    "imageOffsetInFullPage": [
+      275,
+      1100
+    ],
+    "fullPageImageSize": [
+      2120,
+      3000
+    ],
+    "wordContoursSha256": "de1605cef8c965f1334b4f1cbf41e6c404d64cb19f8f2a7ba0c33ee806d2b561",
+    "markVectorsSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+    "priorReview": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/review.json",
+    "priorReviewSha256": "6b558bf964c4b6d2c65207dbf98a756df4c1ab9947c087961d05eccf9eea44f0"
+  },
+  "layout": {
+    "sourcePixelsPerEm": 100,
+    "sourceUnitsPerPixel": 10,
+    "wrapperSourceTop": 37,
+    "wrapperSourceBottom": 237,
+    "wrapperHeightEm": 2,
+    "textLineHeightEm": 1,
+    "textBaselineFromLineBoxTopEm": 1.11,
+    "css": "word wrapper: position:relative;display:inline-block;height:2em. Every native child: position:absolute;font-family:\"Fatihah Opening Source\";font-size:1em;line-height:1;font-feature-settings:\"rlig\" 1;font-synthesis:none;white-space:pre;direction:rtl;unicode-bidi:isolate. Set child left/top in em using data; zero margins/padding/letter-spacing. Keep overflow visible and baseline word wrappers at a shared top. Do not duplicate embedded harakat.",
+    "baselineFormula": "textTopEm = (sourceBaselineY - 37) / 100 - 1.11; markTopEm = (sourceInkBottomY - 37) / 100 - 1.11",
+    "endingWrapper": {
+      "id": "ending",
+      "sourceOriginX": 575,
+      "widthEm": 0.65,
+      "heightEm": 2
+    }
+  },
+  "words": [
+    {
+      "id": "w1",
+      "pageWordId": "r0w1",
+      "text": "اَلْحَمْدُ",
+      "supportedSequences": [
+        "اَلْحَمْدُ"
+      ],
+      "sourceOriginX": 1146,
+      "sourceBaselineY": 216,
+      "sourceAdvancePx": 207,
+      "sourceInkBoxXYWH": [
+        1150,
+        95,
+        201,
+        116
+      ],
+      "widthEm": 2.07,
+      "heightEm": 2,
+      "baselineFromWrapperTopEm": 1.79,
+      "textTopEm": 0.6799999999999999,
+      "textLeftEm": 0,
+      "glyphMetrics": {
+        "advanceUnits": 2070,
+        "leftSideBearingUnits": 40,
+        "inkBoundsFontUnits": [
+          40,
+          50,
+          2040,
+          1200
+        ],
+        "leftSideBearingMinusXMinEm": 0.0
+      },
+      "sourceXToWrapperEm": "(sourceX - sourceOriginX) / 100",
+      "sourceXToAdvanceFraction": "(sourceX - sourceOriginX) / sourceAdvancePx",
+      "harakatEmbedded": true,
+      "embeddedHarakatCount": 5,
+      "letterAnchorsVerified": false
+    },
+    {
+      "id": "w2",
+      "pageWordId": "r0w2",
+      "text": "لِلّٰهِ",
+      "supportedSequences": [
+        "لِلّٰهِ"
+      ],
+      "sourceOriginX": 1052,
+      "sourceBaselineY": 208,
+      "sourceAdvancePx": 86,
+      "sourceInkBoxXYWH": [
+        1050,
+        99,
+        85,
+        129
+      ],
+      "widthEm": 0.86,
+      "heightEm": 2,
+      "baselineFromWrapperTopEm": 1.71,
+      "textTopEm": 0.5999999999999999,
+      "textLeftEm": 0,
+      "glyphMetrics": {
+        "advanceUnits": 860,
+        "leftSideBearingUnits": -20,
+        "inkBoundsFontUnits": [
+          -10,
+          -190,
+          820,
+          1080
+        ],
+        "leftSideBearingMinusXMinEm": -0.01
+      },
+      "sourceXToWrapperEm": "(sourceX - sourceOriginX) / 100",
+      "sourceXToAdvanceFraction": "(sourceX - sourceOriginX) / sourceAdvancePx",
+      "harakatEmbedded": true,
+      "embeddedHarakatCount": 4,
+      "letterAnchorsVerified": false
+    },
+    {
+      "id": "w3",
+      "pageWordId": "r0w3",
+      "text": "رَبِّ",
+      "supportedSequences": [
+        "رَبِّ",
+        "رَبِّ"
+      ],
+      "sourceOriginX": 933,
+      "sourceBaselineY": 223,
+      "sourceAdvancePx": 101,
+      "sourceInkBoxXYWH": [
+        934,
+        99,
+        101,
+        135
+      ],
+      "widthEm": 1.01,
+      "heightEm": 2,
+      "baselineFromWrapperTopEm": 1.86,
+      "textTopEm": 0.75,
+      "textLeftEm": 0,
+      "glyphMetrics": {
+        "advanceUnits": 1010,
+        "leftSideBearingUnits": 10,
+        "inkBoundsFontUnits": [
+          10,
+          -100,
+          1010,
+          1230
+        ],
+        "leftSideBearingMinusXMinEm": 0.0
+      },
+      "sourceXToWrapperEm": "(sourceX - sourceOriginX) / 100",
+      "sourceXToAdvanceFraction": "(sourceX - sourceOriginX) / sourceAdvancePx",
+      "harakatEmbedded": true,
+      "embeddedHarakatCount": 3,
+      "letterAnchorsVerified": false
+    },
+    {
+      "id": "w4",
+      "pageWordId": "r0w4",
+      "text": "الْعٰلَمِيْنَ",
+      "supportedSequences": [
+        "الْعٰلَمِيْنَ"
+      ],
+      "sourceOriginX": 645,
+      "sourceBaselineY": 235,
+      "sourceAdvancePx": 272,
+      "sourceInkBoxXYWH": [
+        646,
+        93,
+        267,
+        141
+      ],
+      "widthEm": 2.72,
+      "heightEm": 2,
+      "baselineFromWrapperTopEm": 1.98,
+      "textTopEm": 0.8699999999999999,
+      "textLeftEm": 0,
+      "glyphMetrics": {
+        "advanceUnits": 2720,
+        "leftSideBearingUnits": 10,
+        "inkBoundsFontUnits": [
+          10,
+          20,
+          2680,
+          1410
+        ],
+        "leftSideBearingMinusXMinEm": 0.0
+      },
+      "sourceXToWrapperEm": "(sourceX - sourceOriginX) / 100",
+      "sourceXToAdvanceFraction": "(sourceX - sourceOriginX) / sourceAdvancePx",
+      "harakatEmbedded": true,
+      "embeddedHarakatCount": 6,
+      "letterAnchorsVerified": false
+    }
+  ],
+  "marks": [
+    {
+      "id": "a1",
+      "wordId": "w2",
+      "text": "",
+      "codepoint": "U+E100",
+      "sourceTraceId": "a1",
+      "sourceInkBoundsXYXY": [
+        1090.0,
+        43.0,
+        1106.0,
+        77.0
+      ],
+      "leftEm": 0.38,
+      "topEm": -0.7100000000000001,
+      "widthEm": 0.16,
+      "inkHeightEm": 0.34,
+      "baselineFromWrapperTopEm": 0.4,
+      "sourceCenterX": 1098.0,
+      "sourceCenterAdvanceFraction": 0.5348837209302325,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    },
+    {
+      "id": "a2",
+      "wordId": "w3",
+      "text": "",
+      "codepoint": "U+E101",
+      "sourceTraceId": "a2",
+      "sourceInkBoundsXYXY": [
+        1012.0,
+        43.0,
+        1039.0,
+        76.0
+      ],
+      "leftEm": 0.79,
+      "topEm": -0.7200000000000001,
+      "widthEm": 0.27,
+      "inkHeightEm": 0.33,
+      "baselineFromWrapperTopEm": 0.39,
+      "sourceCenterX": 1025.5,
+      "sourceCenterAdvanceFraction": 0.9158415841584159,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    },
+    {
+      "id": "a3",
+      "wordId": "w4",
+      "text": "",
+      "codepoint": "U+E102",
+      "sourceTraceId": "a3",
+      "sourceInkBoundsXYXY": [
+        829.0,
+        43.0,
+        847.0,
+        78.0
+      ],
+      "leftEm": 1.84,
+      "topEm": -0.7000000000000002,
+      "widthEm": 0.18,
+      "inkHeightEm": 0.35,
+      "baselineFromWrapperTopEm": 0.41,
+      "sourceCenterX": 838.0,
+      "sourceCenterAdvanceFraction": 0.7095588235294118,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    },
+    {
+      "id": "a4",
+      "wordId": "w4",
+      "text": "",
+      "codepoint": "U+E103",
+      "sourceTraceId": "a4",
+      "sourceInkBoundsXYXY": [
+        710.0,
+        44.0,
+        732.0,
+        77.0
+      ],
+      "leftEm": 0.65,
+      "topEm": -0.7100000000000001,
+      "widthEm": 0.22,
+      "inkHeightEm": 0.33,
+      "baselineFromWrapperTopEm": 0.4,
+      "sourceCenterX": 721.0,
+      "sourceCenterAdvanceFraction": 0.27941176470588236,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    },
+    {
+      "id": "a5",
+      "wordId": "w4",
+      "text": "",
+      "codepoint": "U+E104",
+      "sourceTraceId": "a5",
+      "sourceInkBoundsXYXY": [
+        652.0,
+        44.0,
+        678.0,
+        78.0
+      ],
+      "leftEm": 0.07,
+      "topEm": -0.7000000000000002,
+      "widthEm": 0.26,
+      "inkHeightEm": 0.34,
+      "baselineFromWrapperTopEm": 0.41,
+      "sourceCenterX": 665.0,
+      "sourceCenterAdvanceFraction": 0.07352941176470588,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    },
+    {
+      "id": "stop-1",
+      "wordId": "ending",
+      "text": "",
+      "codepoint": "U+E105",
+      "sourceTraceId": "stop-1",
+      "sourceInkBoundsXYXY": [
+        595.0,
+        109.0,
+        613.0,
+        142.0
+      ],
+      "leftEm": 0.2,
+      "topEm": -0.06000000000000005,
+      "widthEm": 0.18,
+      "inkHeightEm": 0.33,
+      "baselineFromWrapperTopEm": 1.05,
+      "sourceCenterX": 604.0,
+      "sourceCenterAdvanceFraction": 0.4461538461538462,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    },
+    {
+      "id": "verse-1",
+      "wordId": "ending",
+      "text": "",
+      "codepoint": "U+E106",
+      "sourceTraceId": "verse-1",
+      "sourceInkBoundsXYXY": [
+        577.0,
+        152.0,
+        635.0,
+        224.0
+      ],
+      "leftEm": 0.02,
+      "topEm": 0.76,
+      "widthEm": 0.58,
+      "inkHeightEm": 0.72,
+      "baselineFromWrapperTopEm": 1.87,
+      "sourceCenterX": 606.0,
+      "sourceCenterAdvanceFraction": 0.47692307692307695,
+      "identity": "source occurrence outline encoded in Private Use Area; preserve mark id and catalogue",
+      "positionBasis": "Observed original source coordinates within atomic source-word wrapper; not inferred Unicode grapheme/letter anchor",
+      "letterAnchorVerified": false
+    }
+  ],
+  "limitations": [
+    "Only the four exact vowelled contexts are supported. Never apply the font globally or to another occurrence solely because its base text matches.",
+    "Source pixel contours are threshold approximations, not original publisher font outlines.",
+    "Whole-word ligatures preserve source body letters and harakat but do not prove individual letter caret/anchor geometry.",
+    "Prior review concerns a frozen SVG text sample; this new HTML layout requires its own visible rendering and copy checks.",
+    "PUA upper/ending shapes are selectable but need this catalogue to retain interpretation when copied."
+  ]
+}
