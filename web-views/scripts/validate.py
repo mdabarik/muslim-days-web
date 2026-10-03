@@ -18,7 +18,7 @@ def validate(root=DIST):
    blockers.append(f'PDF {p["page"]}: missing transcription / source-page classification');continue
   d=load(root/p['file']);assert not p['fullyVerified'];assert not d['fullyVerified'];assert d['status']=='draft';docs.append(d);source=d['originalCandidate'];assert d['source']['pdf_sha256']==m['source']['sha256'];assert p['candidateSha256']==d['candidateSha256']
   original=ROOT.parent/'muslim_days/tool/quran_fidelity/full_quran/content'/f'page-{p["page"]:03}'/f'page-{p["page"]:03}.json'
-  if original.exists():assert hashlib.sha256(original.read_bytes()).hexdigest()==d['candidateSha256'],'Changed source candidate'
+  if original.exists() and not d.get('transcription'):assert hashlib.sha256(original.read_bytes()).hexdigest()==d['candidateSha256'],'Changed source candidate'
   gs={};words={};glyphs=[]
   for row in source['rows']:
    counts['rows']+=1
@@ -36,10 +36,19 @@ def validate(root=DIST):
    assert a['sourceId']==old['id'];assert a['sourceBox']==old['bbox'];assert a['draftWordAttachment']==old['attachment'];assert a['text']==(old.get('printed') or None)
    display=a.get('display');key=(p['page'],a['sourceId'])
    if key in unresolved_ids:assert display and display['status']=='unresolved_identity','Damaged source character promoted'
-   if display:
+   new_transcription=d.get('transcription')=='claude-2026-10'
+   if display and new_transcription and display['reviewSha256']!=review_sha:
+    # Shapes identified during the new page transcription; bound to that page's review file, not the 3 Oct legend audit.
+    assert display['status']=='source_shape_identified' and display['symbolId']==(old.get('shape_id') or ('conditional-three-or-one' if old.get('printed')=='৬' else None)),'Symbol family substituted'
+    g=symbol_map[display['symbolId']];assert display['character']==g['text'] and display['fontSha256']==font_sha,'Wrong glyph/font binding'
+    assert display['standardUnicodeIdentity'] is None and not display['exactOccurrenceOutlineVerified']
+    tr=d.get('transcriptionReview')
+    if tr:assert display['reviewSha256']==tr['sha256']==hashlib.sha256((ROOT/tr['file']).read_bytes()).hexdigest(),'Stale transcription review'
+    custom_count+=1
+   elif display:
     assert display['reviewSha256']==review_sha,'Stale symbol source review'
     if display['status']=='source_shape_identified':
-     r=records[key];assert r['sourceJsonSha256']==d['candidateSha256'];assert r['sourceAnnotationSha256']==hashlib.sha256(json.dumps(old,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+     r=records[key];assert r['sourceJsonSha256']==((d['originalCandidate'].get('provenance') or {}).get('continues',{}).get('originalCandidateSha256') if new_transcription else d['candidateSha256']);assert r['sourceAnnotationSha256']==hashlib.sha256(json.dumps(old,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
      assert display['symbolId']==r['shapeId'],'Symbol family substituted';g=symbol_map[display['symbolId']]
      assert display['character']==g['text'] and display['fontSha256']==font_sha,'Wrong glyph/font binding'
      assert display['standardUnicodeIdentity'] is None and not display['exactOccurrenceOutlineVerified']
