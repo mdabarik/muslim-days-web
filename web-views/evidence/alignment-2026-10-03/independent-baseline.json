@@ -1,0 +1,17 @@
+{
+  "scope": "PDF1 firstrow mixedfont opticalbaseline only; do not change letters/harakat/upperannotations.",
+  "sourceReference": "../sukun-fix-2026-10-03/independent-source-body1.png",
+  "sourceObservation": "Source firstrow joiningstrokes for firstayah and following الرحمن الرحيم are on a consistent visual baseline.",
+  "liveObservation": "Fresh1360/font56 screenshot shows dedicatednativefourwordstroke significantly higher than adjacentAmiri body; upperinstructionband already aligned.",
+  "causeEvidence": "Nativewordwrapper uses positionedbody in2em box, while ordinarywords use1em top padding and inherited1.75lineheight; browser baseline alignment does not equal opticalstroke alignment acrossthese fonts.",
+  "suggestedScope": "Move only ordinarybody andordinaryverseend inPDF1row0 upward; keep nativefourwords andalluppermarks unchanged.",
+  "preservedHashes": {
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "fonts/QuranWedgeArabic.woff2": "6a7ed940b2b29b1c76f6767112bd123c83835609a90fe82f70503758e3110913",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809"
+  },
+  "finalPending": true
+}

@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "page": 1,
+      "digitsEqual": true,
+      "decoratedCount": 6,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 1,
+      "overflow": false,
+      "noImages": true
+    },
+    {
+      "page": 2,
+      "digitsEqual": true,
+      "decoratedCount": 4,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 0,
+      "overflow": false,
+      "noImages": true
+    },
+    {
+      "page": 3,
+      "digitsEqual": true,
+      "decoratedCount": 9,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 0,
+      "overflow": false,
+      "noImages": true
+    },
+    {
+      "page": 4,
+      "digitsEqual": true,
+      "decoratedCount": 7,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 0,
+      "overflow": false,
+      "noImages": true
+    },
+    {
+      "page": 5,
+      "digitsEqual": true,
+      "decoratedCount": 5,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 0,
+      "overflow": false,
+      "noImages": true
+    },
+    {
+      "page": 6,
+      "digitsEqual": true,
+      "decoratedCount": 1,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 0,
+      "overflow": false,
+      "noImages": true
+    },
+    {
+      "page": 7,
+      "digitsEqual": true,
+      "decoratedCount": 6,
+      "selection": true,
+      "bodyPreserved": true,
+      "annotationsPreserved": true,
+      "firstSource": 0,
+      "overflow": false,
+      "noImages": true
+    }
+  ],
+  "preserved": {
+    "symbols.js": true,
+    "opening.js": true,
+    "fonts/FatihahOpening.woff2": true,
+    "fonts/QarianSymbols.woff2": true,
+    "fonts/QuranWedgeArabic.woff2": true,
+    "data/symbol-catalog.json": true,
+    "data/opening-typography.json": true,
+    "data/pages/001.json": true,
+    "data/pages/002.json": true,
+    "data/pages/003.json": true,
+    "data/pages/004.json": true,
+    "data/pages/005.json": true,
+    "data/pages/006.json": true,
+    "data/pages/007.json": true
+  }
+}

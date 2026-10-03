@@ -1,0 +1,32 @@
+{
+  "status": "pass_scoped_body_sukun_shape",
+  "scope": "U+0652 form in ordinary verse word text on seven existing draft pages",
+  "bodySukunCount": 406,
+  "basmalaSukunCountUnchanged": 6,
+  "onlyFontGlyphOutlinesModified": [
+    "uni0652",
+    "glyph01442"
+  ],
+  "rawUnicodeUnchanged": true,
+  "annotationTextFontAndGeometryUnchanged": true,
+  "firstAyahScopedFontUnchanged": true,
+  "basmalaFontUnchanged": true,
+  "FlutterModified": false,
+  "checks": {
+    "sukunBrowserAssertions": 74,
+    "firstAyahRegressionAssertions": 46,
+    "structuralStatus": "pass"
+  },
+  "fullQuranComplete": false,
+  "exactSourcePositionsCertified": false,
+  "runtimeHashes": {
+    "style.css": "4ae34a200010dba56fb21f61595a99a64c8bab868d98926a88e43361aab326ee",
+    "app.js": "8463339731a4d72e1b4b69b658810bebab870ec5f7426a14501c8ab6dce75c09",
+    "opening.js": "51001fa86dacafac23f1cd4c19fa1200c0ade0f06ecdfdfc051c3729ffe41ca3",
+    "fonts/QuranWedgeArabic.woff2": "6a7ed940b2b29b1c76f6767112bd123c83835609a90fe82f70503758e3110913",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "data/sukun-font.json": "3312fbf607d7780e6fb1abd3fe83f975fdca2f0ea72bf2703b571c7ac1f9a718"
+  },
+  "independentReviewSummary": "Reviewer independently inspected all seven live first rows at 56px, and confirmed exact unchanged word Unicode/widths and annotation text/fonts/rectangles/visibility against own before/after captures. Body wedges correct; damma, basmala and special first-ayah font preserved."
+}

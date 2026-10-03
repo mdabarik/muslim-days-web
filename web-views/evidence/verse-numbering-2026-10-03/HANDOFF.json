@@ -1,0 +1,27 @@
+{
+  "status": "pass_scoped_verse_number_styling",
+  "scope": "Verse-number styling on all seven currently available draft pages",
+  "normalMarkersDecorated": 38,
+  "originalFirstMarkerPreserved": 1,
+  "rawNumbersUnchanged": true,
+  "arabicAndAnnotationFontsUnchanged": true,
+  "sourceDataUnchanged": true,
+  "FlutterModified": false,
+  "wholeQuranComplete": false,
+  "checks": {
+    "verseBrowserAssertions": 87,
+    "firstAyahRegressionAssertions": 46,
+    "dataStructure": "pass"
+  },
+  "runtimeHashes": {
+    "app.js": "0f46a0c19fc0e112885f7ba9189857df513b081525fd46d3cf785e4a5c829107",
+    "style.css": "e5799695a44c6d2fec09e77581378e71f0bfd79bfb46a70cd306e817b69179f1",
+    "verse-markers.js": "cf2e08fbc4d88d62d44d4b33e60dc4e337b0f2f8219cee27ee224ad0b6e78c53",
+    "fonts/VerseFrame.woff2": "caec165ceca9bb9af2c9e25e8384c4f34a19453e185b56778e62680c02d1b91c",
+    "data/verse-frame.json": "c88fcf3a82333cbe486dd2c39ed9106fdb7d963b0c2661d5006defc1d1170e44"
+  },
+  "independentReview": {
+    "file": "independent-final.json",
+    "sha256": "c3de08221730f9f337c69d3211bd47bad186e26dcf9e583e9b2fc444517e1dfe"
+  }
+}

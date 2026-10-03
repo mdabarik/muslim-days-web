@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-03",
+  "scope": "Representative running Arabic body sukuns on seven currently integrated PDF pages; basmala exceptions checked separately. Not whole source certification.",
+  "sourceFirst": true,
+  "sourcePDF": "/Users/barik/Downloads/oct 1 bin/CamScanner 09-20-2026 01.00.pdf",
+  "directSourceCrops": [
+    "independent-source-body4.png",
+    "independent-source-body5.png",
+    "independent-source-body7.png",
+    "independent-source-body6.png",
+    "independent-source-body2.png",
+    "independent-source-body3.png",
+    "independent-source-body1.png",
+    "independent-source-basmala1.png",
+    "independent-source-basmala2.png"
+  ],
+  "observations": [
+    {
+      "type": "running-body-sukun",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "observedShape": "Two upward-converging strokes with open bottom, Λ-like wedge, above target body letters. No enclosing ring.",
+      "examples": [
+        "p1 الرحْمن الرحيم + first الحمد",
+        "p2 الْكتاب / ريْب / فيْه",
+        "p3 منْ / ربهمْ / الْمفلحون",
+        "p4 الذين / آمنوا / خلوا",
+        "p5 اعْبدوا / خلقكمْ / منْ",
+        "p6 الذين / فيعْلمون / الْحق / منْ",
+        "p7 الْأسْماء / عرضهمْ / الْملائكة"
+      ],
+      "interpretation": "Existing source transcription uses U+0652 for these observed body marks; font rendering may use a source-compatible wedge while preserving Unicode."
+    },
+    {
+      "type": "decorative-basmala-exception",
+      "pages": [
+        1,
+        2
+      ],
+      "observedShape": "Purple basmala has hooked/loop-like small marks over sin/ha/ya, visually distinct from the running body Λ wedges. They are not the same plain wedge form.",
+      "recommendation": "Keep basmala out of a blanket running-body sukun font change; exact decorative form remains separately unverified."
+    },
+    {
+      "type": "damma-and-other-signs",
+      "observedShape": "Damma remains a loop-with-tail/waw-like sign (e.g الحمدُ, الكتابُ, همُ); shadda, fatha, dagger alif, tanwin and stop signs have distinct forms. Circled instruction-band wedges are a separate annotation class.",
+      "recommendation": "Change only the font outline selected by U+0652 in running body. Do not replace all circle-looking signs, alter Arabic text, or edit upper annotations."
+    }
+  ],
+  "preservedAssetHashes": {
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291",
+    "fonts/Amiri-Regular.woff2": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809",
+    "data/pages/002.json": "868c7b1a560010b99c0cbd9915a60dd691213e6d924dad13fe222ca0ff5dcd8b",
+    "data/pages/003.json": "8dd54bdb0f859b4db9c770c1bcef63c834518edb1061325da4241238f0a586ba",
+    "data/pages/004.json": "dbe7041a3883e1d44a803206e95f8160d47202d7ebe0964143241068f81c2708",
+    "data/pages/005.json": "b7c540603385f6c7e177384d95cdf96f5bab1dc13aed4aa1042ffb2cdfb8aaf8",
+    "data/pages/006.json": "2aadb358e340d8c241b1afe99af16e445493a954286fa6dcfaeef13aa4cd826f",
+    "data/pages/007.json": "5425026e9614513225750c4f58753371563fc02b6535926c4afb976af3a8e5b3"
+  },
+  "finalReviewPending": true
+}

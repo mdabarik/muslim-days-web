@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-03",
+  "verdict": "pass_scoped_optical_baseline_alignment",
+  "scope": "PDF1firstrow ordinarybody/end alignment with dedicatedfirst4wordfont. Nofontshape/contentchange approval.",
+  "assetHashes": {
+    "app.js": "b28c6bc29000a31a7f2e0b6900268a0b0c4d871a2f79ae6fc3f82b7909328869",
+    "style.css": "3cc105d48d25a17e1a72c07b6536de231b6cd9df6be739f8cbc81e94ed9a9866"
+  },
+  "preservedAssets": {
+    "opening.js": true,
+    "fonts/FatihahOpening.woff2": true,
+    "fonts/QuranWedgeArabic.woff2": true,
+    "fonts/QarianSymbols.woff2": true,
+    "data/opening-typography.json": true,
+    "data/pages/001.json": true
+  },
+  "visualFinding": "Independent before1360/font56 showed adjacentAmiri body distinctlylower than source4words; after1360/font56 joiningstrokes align optically.390/font34 and320/font56 reflow shows no newly observed bodymark/annotation collision.",
+  "checks": {
+    "independentConfigurations": 9,
+    "noOverflow": true,
+    "runtimeErrors": [],
+    "allSourceFontDataHashesPreserved": true
+  },
+  "screenshots": [
+    "independent-before-row.png",
+    "independent-after-1360-56.png",
+    "independent-after-390-34.png",
+    "independent-after-320-56.png"
+  ],
+  "limits": [
+    "Opticalalignment scoped to the mixedfont firstrow only; fullpage typographicfidelity remains unapproved.",
+    "Existing annotationwithholding/unknownanchors unchanged; noletteranchor claim.",
+    "Mobile wrapping may change rows; no exact scannedlinebreak claim."
+  ]
+}

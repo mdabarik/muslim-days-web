@@ -1,0 +1,31 @@
+{
+  "sourceFirst": true,
+  "clarifiedScope": "First printed Fatiha ayah: الحمد through العالمين, its body marks and five upper annotations.",
+  "sourceCrop": "independent-source-first-ayah.png",
+  "legacyEvidenceRead": [
+    "source-font-vowelled-feasibility/experimental-review.md",
+    "round-05/review.md",
+    "round-05/visual-review.md",
+    "round-05/source-reference.png",
+    "round-05/desktop.png"
+  ],
+  "expectedArabic": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ",
+  "baseLetters": 17,
+  "bodyMarks": 18,
+  "wordContexts": 4,
+  "sourceFeatures": [
+    "Wedge-shaped sukun, unlike Amiri round sukun.",
+    "Extended near-horizontal baseline and source-specific joined forms.",
+    "Ba dot distinct from lower kasra in rabb.",
+    "Nun dot inside bowl of final nun.",
+    "Five upper annotation shapes from RTL: one-like mark, Bengali ma, one-like mark, conditional hooked bowl, oval-enclosed wedge."
+  ],
+  "requirements": [
+    "Match exact underlying Unicode source strings; no hidden transcript overlay.",
+    "Font must remain gated to four approved contexts.",
+    "No raster/svg/canvas content for actual words.",
+    "Inspect ligature whole-word selection; do not claim per-letter caret or verified letter anchors.",
+    "Upper annotation fraction positions are provisional even if fixed relative to a whole word."
+  ],
+  "finalReviewPending": true
+}

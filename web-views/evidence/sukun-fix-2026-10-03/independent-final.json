@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-03",
+  "scope": "Body U+0652 display repair in seven current draft pages; annotations untouched. Representative source/visual comparison, not full-source certification.",
+  "verdict": "pass_scoped_body_sukun_repair",
+  "sourceBaseline": "independent-source-baseline.json",
+  "runtimeAssetHashes": {
+    "style.css": "4ae34a200010dba56fb21f61595a99a64c8bab868d98926a88e43361aab326ee",
+    "fonts/Amiri-Regular.woff2": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "fonts/QuranWedgeArabic.woff2": "6a7ed940b2b29b1c76f6767112bd123c83835609a90fe82f70503758e3110913",
+    "data/sukun-font.json": "3312fbf607d7780e6fb1abd3fe83f975fdca2f0ea72bf2703b571c7ac1f9a718",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db"
+  },
+  "preservedBaselineAssets": true,
+  "preservedAssetHashes": {
+    "symbols.js": "695f7a3d2455fc7934ea9f5ee543c31a03679da88aa03391ebf1055f0eba11db",
+    "fonts/QarianSymbols.woff2": "b143435ef0a9e71c4a9e002b7404bc73a7a9dcd642d48cb9e4803e71204a7473",
+    "data/symbol-catalog.json": "85fe09d3519aa073942f9d916b862e3676cb98d398636b64224eb57d76517e42",
+    "fonts/FatihahOpening.woff2": "b8c9f0012372b26156f5389ca826b6f4a2acee5568f83015e20036d9fcfd8730",
+    "data/opening-typography.json": "82fe43b0f02578b9b896fd02024712e1b49d5b68ca5e4fced7c6705cd4898291",
+    "fonts/Amiri-Regular.woff2": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809",
+    "data/pages/002.json": "868c7b1a560010b99c0cbd9915a60dd691213e6d924dad13fe222ca0ff5dcd8b",
+    "data/pages/003.json": "8dd54bdb0f859b4db9c770c1bcef63c834518edb1061325da4241238f0a586ba",
+    "data/pages/004.json": "dbe7041a3883e1d44a803206e95f8160d47202d7ebe0964143241068f81c2708",
+    "data/pages/005.json": "b7c540603385f6c7e177384d95cdf96f5bab1dc13aed4aa1042ffb2cdfb8aaf8",
+    "data/pages/006.json": "2aadb358e340d8c241b1afe99af16e445493a954286fa6dcfaeef13aa4cd826f",
+    "data/pages/007.json": "5425026e9614513225750c4f58753371563fc02b6535926c4afb976af3a8e5b3"
+  },
+  "independentBeforeAfterChecks": [
+    {
+      "page": 1,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    },
+    {
+      "page": 2,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    },
+    {
+      "page": 3,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    },
+    {
+      "page": 4,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    },
+    {
+      "page": 5,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    },
+    {
+      "page": 6,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    },
+    {
+      "page": 7,
+      "wordTextWidthsPreserved": true,
+      "annotationsExactlyPreserved": true,
+      "basmalaPreserved": true
+    }
+  ],
+  "visualFindings": [
+    "Fresh actual app screenshots of representative body rows on all7pages show open-bottomΛ sukuns.",
+    "Damma remains visibly loop-with-tail; shadda/fatha/kasra remain distinct. No blanket circle substitution observed.",
+    "Upper annotation contents, font, bounding rectangles and visibility are exactly equal in independent before/after1360/font34 DOM snapshots.",
+    "Decorative basmala1+2 excluded; original Amiri font and text remain unchanged. This avoids incorrectly applying plain body wedges to their distinct calligraphy.",
+    "The4source-shaped Fatiha opening words remain on their dedicated font."
+  ],
+  "counts": {
+    "pagesCompared": 7,
+    "bodyWordsCompared": 497,
+    "bodyAnnotationNodesCompared": 700
+  },
+  "runtimeErrors": [],
+  "limitations": [
+    "Source comparison sampled running rows across existing7draft pages; no760page/fullQuran claim.",
+    "The change fixes body sukun shape family while keeping Amiri base letters; it is not exact original publisher typography.",
+    "Existing annotation collisions, unverified exactletteranchors and incomplete fullQuran content remain outside this change.",
+    "FontTools outline diff was not independently rerun because that module is absent in available reviewer Python runtimes; builder metadata describes2changedoutlines. Actual source glyph visuals, hashes and DOM preservation were independently checked."
+  ]
+}

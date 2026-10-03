@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-03",
+  "sourceFirst": true,
+  "sourcePDF": "/Users/barik/Downloads/oct 1 bin/CamScanner 09-20-2026 01.00.pdf",
+  "scope": "PDF1 opening versus current live surah1 opening; no whole-page acceptance.",
+  "sourceImages": [
+    "independent-source-opening.png",
+    "independent-source-basmala.png"
+  ],
+  "currentAssetHashes": {
+    "app.js": "64c6fdbc6d1b5e042b70ad9744889fe484609232e9c9670c53973e173ca8a7d8",
+    "style.css": "aff0b060c3ff4c602e59ebb2605e5f72ebcd398161d1b68c25cc4717706f95a9",
+    "data/pages/001.json": "e51a96514839c89a4728a8952e642120d4b204695d126eee15596b91b0ea4809"
+  },
+  "findings": [
+    {
+      "id": "source_header_after_body",
+      "priority": 1,
+      "observed": "Original title and source metadata precede basmala. Live app puts source header and metadata in source-furniture after allfive Quran rows and page issues. Top visible app heading uses directory names আল-ফাতিহা / الفاتحة instead of source heading সূরা ফাতিহা / سورة الفاتحة.",
+      "concreteFix": "Move source header+metadata to an opening block before basmala; retain native selectable text and source uncertainty disclosure."
+    },
+    {
+      "id": "source_title_vocalization_missing",
+      "priority": 2,
+      "observed": "Original Arabic title contains diacritics/calligraphic elements; draft source header contains unvocalized سورة الفاتحة.",
+      "concreteFix": "Keep title fidelity explicitly unverified; do not invent missing marks."
+    },
+    {
+      "id": "basmala_presentation_difference",
+      "priority": 2,
+      "observed": "Source basmala is large purple extended calligraphy, with cyan Bengali line. Current Amiri basmala is smaller (0.88x base size), dark green in green card. Its skeletal words and stored vocalized text are not visibly reordered; typeface geometry and diacritic forms are different.",
+      "concreteFix": "Restore source-relative hierarchy/order/color using text; exact source calligraphy still requires appropriate font/verified shaping, not a CSS claim."
+    },
+    {
+      "id": "first_row_annotations_withheld",
+      "priority": 2,
+      "observed": "Original first row contains10band annotations; desktop1360/font34 body hides r0-a9 and r0-a10 due collision while retaining them in details.",
+      "concreteFix": "Preserve disclosure; layout repair must be independently reviewed before calling exact placements."
+    },
+    {
+      "id": "other_visual_differences",
+      "priority": 3,
+      "observed": "Original decorative title frame, band lines/pink tint, rosette markers and print typeface differ from simplified app. This does not by itself establish changed Quran words."
+    }
+  ],
+  "basmalaNumbering": "Source has separate unnumbered basmala; first numbered ayah is الحمد. Current data/UI preserves this source convention.",
+  "verdict": "opening_does_not_visually_match_source",
+  "finalReviewPending": true
+}

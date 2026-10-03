@@ -1,0 +1,50 @@
+{
+  "status": "incomplete_accuracy_blocked",
+  "website": "local draft review interface",
+  "full_quran_complete": false,
+  "source_verified_pages": 0,
+  "verified_surahs": 0,
+  "verified_letter_anchors": 0,
+  "draft_pages": 7,
+  "annotations": 700,
+  "words": 497,
+  "rows": 57,
+  "remaining_physical_pages_without_structured_transcription": 753,
+  "partial_page": 6,
+  "flutter_files_changed_by_this_task": false,
+  "published": false,
+  "local_url": "http://127.0.0.1:4173/",
+  "checks": {
+    "browser_mechanics": 27,
+    "integrity_regression": 5,
+    "json_schema_pages_validated": 7
+  },
+  "bytes": {
+    "total_static": 1777917,
+    "initial_page_uncompressed": 647500
+  },
+  "notes": [
+    "Counts are records in inherited source drafts, not newly transcribed or fully verified source content.",
+    "Collision fallback withholds overlapping floating marks and opens their text lists; it does not establish correct letter placement.",
+    "Source content and final font geometry must be independently reviewed before release."
+  ],
+  "asset_sha256": {
+    "index.html": "a1666dad7cfc0b0b4aec8ed04302236d2304bf0dfca2ec827fb75de3c78df57c",
+    "style.css": "336071c690604653e019abde5edf209e65b699de4ad5548288d30d77d458bf67",
+    "anchors.js": "a5430048bc6ade21d9f2e600e2e6a629f7980513f2f9f838d08321b7d19b564e",
+    "app.js": "31246bfa25adfc9db4c72c06ed37e58dbd0c1267148223e09d5af97482c39488",
+    "favicon.svg": "1b8f982a2ce4714c608131df7b9bbc2a9ae10d8571a9a42f84d2bfaa5c7ffb0a",
+    "fonts/NotoSansBengali-VF.woff2": "350c086f3e760a0ca48906534307b097d81ca510b0a892d3c5d17593e6e76ab3",
+    "fonts/NOTICE.txt": "92a7434151f663de272b3dbe0c18877c3a8c3bc73a11b867fca48695e00d439f",
+    "fonts/OFL.txt": "72de68e5954f4fdd24702292ef5a32f003ca960ec9330dc86e5eefb5dffb9b22",
+    "fonts/Amiri-Regular.woff2": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "data/manifest.json": "9dcd3619388ae11634b4879dd03c5352c94508c44c38f81ee744d1051b60c095",
+    "data/pages/007.json": "bba11eb0b8f0e7d6f3c80b77ede11473fa1a3454df65b83bdbefa2ae2c0c359f",
+    "data/pages/006.json": "c090b7b4cd6c6d3fa7af40070de53f18d88c08227f7ea24e8189b5427d1af1fa",
+    "data/pages/001.json": "1393a1d5391d74e599f5ac78bff346a86c6a9e754b460b5cb81ac6d45e4796c3",
+    "data/pages/003.json": "23e7c2a3f1e306a3e649e18c715f2db749ddb60e46af928c35233598a42bbdd3",
+    "data/pages/002.json": "bc73d1f55e1e4e0a90749a239292aad52ecb8df71521cd44cb7a1e2ad1364c8b",
+    "data/pages/005.json": "7df0d6ba21f8ced3ecca7c8f4d53ce5cc2167ce13830409832312ee17e3836ec",
+    "data/pages/004.json": "498a6d9e42bc60eaf8142cc5720396c07917b7d80de63baa8f61cad7b0c3bd36"
+  }
+}

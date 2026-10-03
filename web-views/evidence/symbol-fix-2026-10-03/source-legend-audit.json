@@ -1,0 +1,3270 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-10-03",
+  "role": "independent-source-reader",
+  "originalPdf": {
+    "path": "/Users/barik/Downloads/oct 1 bin/CamScanner 09-20-2026 01.00.pdf",
+    "sha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+    "physicalPages": 760
+  },
+  "scope": {
+    "sourceContentPagesInspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "emptyPrintedAnnotationsInspected": 55,
+    "ovalEnclosedWedges": 52,
+    "solidDownArrows": 3,
+    "allQuranContentConverted": false,
+    "allQuranVerified": false,
+    "conditionalCompoundOccurrencesInspected": 42,
+    "ringedDigitOccurrencesInspected": 8
+  },
+  "method": {
+    "render": "Fresh local pypdfium2 original PDF render at scale300/72, 2480x3509; empty mark montages use source bbox scaled from600dpi when necessary. Several clipped legacy bboxes rechecked in broader fresh crops.",
+    "noExternalUpload": true,
+    "montageLimitation": "Display crops resized for inspection; are not glyph reference pixel geometry."
+  },
+  "inputJsons": [
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-001/page-001.json",
+      "sha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7"
+    },
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-002/page-002.json",
+      "sha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a"
+    },
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-003/page-003.json",
+      "sha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466"
+    },
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-004/page-004.json",
+      "sha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369"
+    },
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-005/page-005.json",
+      "sha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3"
+    },
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-006/page-006.json",
+      "sha256": "0901be377df1ea5fc506e611f1122d4baae89dfe1d2bc636fcf7ed55b8e12a59"
+    },
+    {
+      "path": "muslim_days/tool/quran_fidelity/full_quran/content/page-007/page-007.json",
+      "sha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2"
+    }
+  ],
+  "legendFindings": [
+    {
+      "pdfPage": 4,
+      "symbol": "oval-enclosed inverted V",
+      "meaning": "আরবী সাকিন",
+      "identity": "custom source shape, not letter A, digit8, ringed1 or question mark",
+      "confidence": "high",
+      "evidence": "source-pdf4-legend-native.png"
+    },
+    {
+      "pdfPage": 4,
+      "symbol": "ক / শ / গ / ম",
+      "meaning": "ক্বলক্বলাহ / শিষ / গুন্নাহ / মোটা",
+      "note": "Legend explanatory bullets are circled, but ordinary occurrences can be unenclosed. Do not add rings to all marks because footer bullets have circles."
+    },
+    {
+      "pdfPage": 4,
+      "symbol": "source ikhfaa shape",
+      "meaning": "ইখফা",
+      "note": "Looks like curved loop/tail shape; Unicode digit/letter equivalence is not established by this audit."
+    },
+    {
+      "pdfPage": 5,
+      "symbol": "ordinary source ১",
+      "meaning": "এক আলিফ",
+      "note": "Legend outer bullet is explanatory; ordinary1 occurrence need not have ring."
+    },
+    {
+      "pdfPage": 5,
+      "symbol": "ringed1",
+      "meaning": "দম ফেলিলে এক আলিফ",
+      "note": "Distinct double-ring appearance in legend results from explanatory bullet plus actual enclosing ring. Keep observed occurrence enclosure."
+    },
+    {
+      "pdfPage": 5,
+      "symbol": "ringed2",
+      "meaning": "দম ফেলিলে দুই আলিফ",
+      "note": "Do not collapse ringed2 into ordinary2 or wedge."
+    },
+    {
+      "pdfPage": 5,
+      "symbol": "source ৩",
+      "meaning": "তিন আলিফ"
+    },
+    {
+      "pdfPage": 5,
+      "symbol": "source ৪",
+      "meaning": "চার আলিফ"
+    },
+    {
+      "pdfPage": 5,
+      "symbol": "conditional hooked bowl/lobed compound glyph, candidate৬",
+      "meaning": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "note": "Fresh legend visibly distinct from ordinary3. Earlier errata correctly require source contour preservation; Unicode6 identity remains unverified."
+    },
+    {
+      "pdfPage": null,
+      "symbol": "solid-down-arrow",
+      "meaning": null,
+      "note": "Three source-confirmed downward arrows over stop boundaries. Footer legend pages4/5 do not define arrow meaning; do not invent a named recitation rule."
+    }
+  ],
+  "occurrences": [
+    {
+      "pdfPage": 1,
+      "rowIndex": 0,
+      "id": "r0-a5",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "2a7ce89f1d5ed4b692a5373c1e12934ccb030757820166c1d27182d24ea0d3f7",
+      "sourceBbox": [
+        2165,
+        2668,
+        70,
+        92
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 1,
+      "sourceId": "r0-a5",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "rowIndex": 0,
+      "id": "r0-a10",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "8e167e6d9b9841ed482da076c55178c8771a3c1dc11bb54d51d2aecfada0aecf",
+      "sourceBbox": [
+        945,
+        2668,
+        70,
+        92
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 1,
+      "sourceId": "r0-a10",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "rowIndex": 1,
+      "id": "r1-a3",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "cc4bd32b23350aa1dfc02156eef0d16395b452d2a20f432cb9f02b1c5789d072",
+      "sourceBbox": [
+        2672,
+        3268,
+        72,
+        92
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 1,
+      "sourceId": "r1-a3",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "rowIndex": 2,
+      "id": "r2-a3",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "a48edfc243b6a8c421a498f6d01009e32bfa1d1e4ec5470c94e0adfc5aecf686",
+      "sourceBbox": [
+        3226,
+        3884,
+        76,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 1,
+      "sourceId": "r2-a3",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "rowIndex": 2,
+      "id": "r2-a10",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "9752a3499a5a50c8a7d9db55140dae654bb0d22bae1dfae65757f7a37b2553b7",
+      "sourceBbox": [
+        876,
+        3884,
+        76,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 1,
+      "sourceId": "r2-a10",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "rowIndex": 4,
+      "id": "r4-a4",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "758bd3265458589fe53ca02497ae9007875a4625d8013f7eec0feee7b7200b41",
+      "sourceBbox": [
+        1533,
+        5178,
+        74,
+        84
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 1,
+      "sourceId": "r4-a4",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "rowIndex": 0,
+      "id": "r0-a10",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "c61315d199ee61af27bab5642be00f69be8d232cacc3f1cf12827e191aa85990",
+      "sourceBbox": [
+        2093,
+        2802,
+        55,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 2,
+      "sourceId": "r0-a10",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "rowIndex": 0,
+      "id": "r0-a12",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "9af88e85c546eecbf4e7de6f65c81befa5c60b792f6e36ea1f92c96c0053dd01",
+      "sourceBbox": [
+        1629,
+        2822,
+        61,
+        73
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 2,
+      "sourceId": "r0-a12",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "rowIndex": 1,
+      "id": "r1-a2",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "d91baa9f40547401b25960b42bcc8820076f656aa097b78bf5e53b22c57719e9",
+      "sourceBbox": [
+        3203,
+        3457,
+        68,
+        83
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 2,
+      "sourceId": "r1-a2",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "rowIndex": 2,
+      "id": "r2-a14",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "74db91bfbaa1357b940d0e2f09ec21f8cde49e1d98fc011e8961b29db3e90cc3",
+      "sourceBbox": [
+        932,
+        4104,
+        70,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 2,
+      "sourceId": "r2-a14",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "rowIndex": 4,
+      "id": "r4-a4",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "b21e7b7b31721e18f8aefd04375e2dcdad139d6be4fdc7b3a3cd99fe4889758c",
+      "sourceBbox": [
+        3107,
+        5445,
+        72,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 2,
+      "sourceId": "r4-a4",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "rowIndex": 4,
+      "id": "r4-a9",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "ac8be768d466e99ae912d8a8bd975127b1a5023e5435dd2bf80c541b40fd0ff4",
+      "sourceBbox": [
+        901,
+        5442,
+        70,
+        87
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 2,
+      "sourceId": "r4-a9",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 0,
+      "id": "r0-a7",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "82a37e8b97c43017229ed8b25f55a64291dd05c1fd90cdcb233ec313bfbfd3d9",
+      "sourceBbox": [
+        645,
+        305,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r0-a7",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 2,
+      "id": "r2-a3",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "d4ed4c2477c9de3ad752679831abc3cbb844b9a5a7a8f1b2ddaeeaa04d67b016",
+      "sourceBbox": [
+        3615,
+        1475,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r2-a3",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 3,
+      "id": "r3-a6",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "e063f6606343e7872311998dd86589ed9a985ee95fbe0d207346d49aa5bacf3d",
+      "sourceBbox": [
+        3185,
+        1985,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r3-a6",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 3,
+      "id": "r3-a10",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "422fc1d68a5dafe712bfb1dbe0167663cb1e0b57d90d4fcbf2ac331ebd2ab4a9",
+      "sourceBbox": [
+        1675,
+        1920,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r3-a10",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 4,
+      "id": "r4-a11",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "d34ba7c712bb8186eea320fc30a92fbc21f9993613a3df4b4929e82cffca20a6",
+      "sourceBbox": [
+        1095,
+        2465,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r4-a11",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 4,
+      "id": "r4-a15",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "03f083343afee36d5810c39cb1b2e04cd5b7b3d669faffdad9358b8bb602b60a",
+      "sourceBbox": [
+        950,
+        2450,
+        95,
+        100
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "solid-down-arrow",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": null,
+      "meaningSourcePhysicalPdfPage": null,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r4-a15",
+      "shapeId": "solid-down-arrow",
+      "shapeIdentified": true,
+      "evidence": [
+        "source-pdf3-arrow.png"
+      ],
+      "displayAttachment": {
+        "targetKind": "verse_marker",
+        "rowIndex": 4,
+        "segmentIndex": 0,
+        "targetId": "r4-marker8",
+        "offset": 0.5,
+        "verification": "Stop boundary attachment observed from source; not a letter-identity assertion."
+      }
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 5,
+      "id": "r5-a13",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "10f83c40f17438780f9289b6ea383aa62593a20e9bd19f45288dcccc9b45cb37",
+      "sourceBbox": [
+        430,
+        2960,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r5-a13",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 7,
+      "id": "r7-a4",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "d4659dce70d5835439d8404abe2ce48da45c11dbf7a5314e4e0fc56b1e36d775",
+      "sourceBbox": [
+        3255,
+        4135,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-1.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r7-a4",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-1.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 8,
+      "id": "r8-a5",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "90ed1ca976d6dcd6a0c5db5303ae135dca23d95b18c2b8846e723045676d75cc",
+      "sourceBbox": [
+        2825,
+        4695,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r8-a5",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 9,
+      "id": "r9-a3",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "56ee94617183bd4f00f0b04784f5972d65856db8cc5225cb3c9318e923fc997e",
+      "sourceBbox": [
+        3665,
+        5245,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r9-a3",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 10,
+      "id": "r10-a5",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "1a1a8c799a405ac0cc1546706f696dd0bf42dd5f5bd79129215ba421d204d340",
+      "sourceBbox": [
+        3155,
+        5795,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r10-a5",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "rowIndex": 10,
+      "id": "r10-a13",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "9153b5a3a3e892b73d2eb36f62829e17f1c9fd1fc558e0aa88ca97b3cc68ed24",
+      "sourceBbox": [
+        400,
+        5805,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 3,
+      "sourceId": "r10-a13",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 1,
+      "id": "r1-a11",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "02379ebdc5a5e96b4533fb579fabdbefb84e21d5fd139184865e8346f52263fd",
+      "sourceBbox": [
+        1993,
+        748,
+        70,
+        66
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r1-a11",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 2,
+      "id": "r2-a4",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "5207bed96d749c94c8886abeaf053acbd1b9ceca2add583c40203c7d37a707e2",
+      "sourceBbox": [
+        2574,
+        1270,
+        70,
+        78
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r2-a4",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 3,
+      "id": "r3-a10",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "6cddc748b4e4fed3a603ab16b0a00bea4168089fe5dc113e34710e9bae5778c2",
+      "sourceBbox": [
+        1188,
+        1844,
+        70,
+        80
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r3-a10",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 5,
+      "id": "r5-a9",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "d2415d5ce67731bcb2b3581451319647444e7cdd4a3ffea6f1612ea86c7b0017",
+      "sourceBbox": [
+        2170,
+        2926,
+        70,
+        78
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r5-a9",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 6,
+      "id": "r6-a3",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "da87de71a1cf8e5c7bb786f15d92eabebf89766c6e9fb4fb1591b8b773498cf8",
+      "sourceBbox": [
+        3934,
+        3420,
+        70,
+        78
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r6-a3",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 6,
+      "id": "r6-a15",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "b11b0ac86c52c1e6a1284fb794254a1f67dadec363b3521b53b80207c0a5a401",
+      "sourceBbox": [
+        493,
+        3546,
+        70,
+        82
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r6-a15",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 7,
+      "id": "r7-a15",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "a799ac05271474ff8d38d2b606040872d71b4b6bfd8608db7e5fdf7df1646bb4",
+      "sourceBbox": [
+        858,
+        4108,
+        70,
+        80
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r7-a15",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 8,
+      "id": "r8-a5",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "66ce005ca8336b34773b5dadf1b8d5558adeb7fc3732a3c1042e7dbcdedc1141",
+      "sourceBbox": [
+        3394,
+        4580,
+        70,
+        82
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r8-a5",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 9,
+      "id": "r9-a5",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "091e7b4baafc4296751a85fed45b77a2aa65868210e0a882897cee3526e2d26b",
+      "sourceBbox": [
+        3228,
+        5164,
+        70,
+        82
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r9-a5",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "rowIndex": 10,
+      "id": "r10-a13",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "7f1ad7c7e64910ad4b283c68cb675646c37cb79abe5d29fc838be9b8f16eea34",
+      "sourceBbox": [
+        634,
+        5854,
+        70,
+        64
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 4,
+      "sourceId": "r10-a13",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 1,
+      "id": "r1-a2",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "03c7fad312683a233dc3fe937ac2da6ae8409770d110faeaf36b6773b8f67f7c",
+      "sourceBbox": [
+        1774,
+        378,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r1-a2",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 3,
+      "id": "r3-a10",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "9bf155d0921320821437989770d6a8fdcfe2dd348a4e2543179b806410d93bb9",
+      "sourceBbox": [
+        984,
+        912,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r3-a10",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 4,
+      "id": "r4-a12",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "66566d3a48b8fe4258cc9ce67a65087907d0a0738478427f94cd88fbdb8eec8c",
+      "sourceBbox": [
+        924,
+        1221,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r4-a12",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 5,
+      "id": "r5-a8",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "69508544ad5ab5829ae0b33c7170a62e9f32b36aac296e4e075b58d0bf0a0167",
+      "sourceBbox": [
+        1291,
+        1489,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r5-a8",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 6,
+      "id": "r6-a11",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "d0b18fd8e4d04e5a9152cd80bd3a5e274b6034b7d82f9d0ef8f32e90e2d73727",
+      "sourceBbox": [
+        1077,
+        1774,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r6-a11",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 6,
+      "id": "r6-a14",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "8205a82ac6dcc2b8c57ffef183868184e64c7478a763a1e48e5f28cf24efa9bc",
+      "sourceBbox": [
+        389,
+        1761,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-2.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r6-a14",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-2.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 8,
+      "id": "r8-a2",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "ac2be82b36a5a858d3c5324f642f4299095ed4b1bced80bed4b24d3b05d6d1fb",
+      "sourceBbox": [
+        2065,
+        2357,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r8-a2",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 9,
+      "id": "r9-a15",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "66e2b4bf7d3a64dcf0d7a95e8000342e60e09729b0c1f1b3af4e71e8b3daf27d",
+      "sourceBbox": [
+        455,
+        2623,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r9-a15",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "rowIndex": 10,
+      "id": "r10-a4",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "d71ab856b232c441084af66b9fd7923aed018b7064b9b1236f6dfef56b583bd6",
+      "sourceBbox": [
+        2032,
+        2926,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 5,
+      "sourceId": "r10-a4",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "rowIndex": 1,
+      "id": "r1-a16",
+      "sourceJsonSha256": "0901be377df1ea5fc506e611f1122d4baae89dfe1d2bc636fcf7ed55b8e12a59",
+      "sourceAnnotationSha256": "c93b6754ff65caef00349f653d8dcc83796f1e3d1a6b88eca44b8d2d58f17fe8",
+      "sourceBbox": [
+        1530,
+        860,
+        75,
+        100
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page6, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "solid-down-arrow",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": null,
+      "meaningSourcePhysicalPdfPage": null,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 6,
+      "sourceId": "r1-a16",
+      "shapeId": "solid-down-arrow",
+      "shapeIdentified": true,
+      "evidence": [
+        "source-pdf6-arrow.png"
+      ],
+      "displayAttachment": {
+        "targetKind": "stop_sign",
+        "rowIndex": 1,
+        "segmentIndex": 0,
+        "targetId": "r1-stop-mim",
+        "offset": 0.5,
+        "verification": "Stop boundary attachment observed from source; not a letter-identity assertion."
+      }
+    },
+    {
+      "pdfPage": 6,
+      "rowIndex": 2,
+      "id": "r2-a12",
+      "sourceJsonSha256": "0901be377df1ea5fc506e611f1122d4baae89dfe1d2bc636fcf7ed55b8e12a59",
+      "sourceAnnotationSha256": "bcff09e74acc3333c312c0ced5df451b10ecd3f15b6871ebf383a29b33fe385a",
+      "sourceBbox": [
+        1851,
+        1360,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page6, origin top-left, pixels, [x,y,width,height]",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 6,
+      "sourceId": "r2-a12",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 1,
+      "id": "r1-a13",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "03b5ddc73ffdccfc697db93a1b7fb6ea67f2bc2b344b49d710a091761a7e9c9b",
+      "sourceBbox": [
+        917,
+        350,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r1-a13",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 2,
+      "id": "r2-a9",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "14417229091aa15c52c51e7720828d6ad0217ce05c58155c2b853db21d8f0b2e",
+      "sourceBbox": [
+        537,
+        630,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r2-a9",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 5,
+      "id": "r5-a2",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "c2aae42f550781035a6cf5a85cacae944c2e7704b5402aea4cec18a9e8902f03",
+      "sourceBbox": [
+        1771,
+        1480,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r5-a2",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 6,
+      "id": "r6-a4",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "ca062a0320b196938b7045da08454866ac361af934fa5c321be36ce663e0cc55",
+      "sourceBbox": [
+        2037,
+        1765,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r6-a4",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 6,
+      "id": "r6-a11",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "28ed6b6cfcecb610bb98ae795cbfd602bcc5c07f18b45151caec3eb1ce25f59a",
+      "sourceBbox": [
+        821,
+        1765,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r6-a11",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 8,
+      "id": "r8-a8",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "c7103b78939adc1462dbbcf723a54359466a0eed414d4a827e8ac2d8404fe1da",
+      "sourceBbox": [
+        912,
+        2335,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r8-a8",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 9,
+      "id": "r9-a9",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "055adaaad7a09dda914b998c04852c35fa45b0e1c89cb91b24f5c92e0458607c",
+      "sourceBbox": [
+        1054,
+        2622,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r9-a9",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 10,
+      "id": "r10-a1",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "669b31e94d2ceaaf587d1d22d6863e2f366ff76e6917e34f8ba193ce0899fe86",
+      "sourceBbox": [
+        1892,
+        2915,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r10-a1",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 10,
+      "id": "r10-a2",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "e6c41a2f0641fb1c1fb19dd97792e1204fe458dc4edf171d59b2d6d3a4ccd5e2",
+      "sourceBbox": [
+        1848,
+        2915,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "solid-down-arrow",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": null,
+      "meaningSourcePhysicalPdfPage": null,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r10-a2",
+      "shapeId": "solid-down-arrow",
+      "shapeIdentified": true,
+      "evidence": [
+        "source-pdf7-arrow.png"
+      ],
+      "displayAttachment": {
+        "targetKind": "stop_sign",
+        "rowIndex": 10,
+        "segmentIndex": 0,
+        "targetId": "p7:r10:s0:stop",
+        "offset": 0.5,
+        "verification": "Stop boundary attachment observed from source; not a letter-identity assertion."
+      }
+    },
+    {
+      "pdfPage": 7,
+      "rowIndex": 10,
+      "id": "r10-a9",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "9b3ee5ba141b894c6358fe756ae749234bf33200f84676c13fb000957a2a5d29",
+      "sourceBbox": [
+        215,
+        2915,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "observedShape": "oval-enclosed-inverted-v",
+      "shapeIdentityConfirmed": true,
+      "literalUnicodeIdentity": null,
+      "meaningFromSourceLegend": "আরবী সাকিন",
+      "meaningSourcePhysicalPdfPage": 4,
+      "evidenceSheet": "empty-mark-sheet-3.png",
+      "anchorLetterIdentityVerified": false,
+      "reviewLimit": "Observed graphical class confirmed against fresh source render; exact outline, pixel bbox and letter anchor are not approved by this finding.",
+      "page": 7,
+      "sourceId": "r10-a9",
+      "shapeId": "ringed-wedge",
+      "shapeIdentified": true,
+      "evidence": [
+        "empty-mark-sheet-3.png",
+        "source-pdf4-legend-native.png"
+      ]
+    }
+  ],
+  "boundaryFindings": [
+    {
+      "pdfPage": 3,
+      "id": "r4-a15",
+      "observed": "Arrow above م stop above verse8 medallion",
+      "safeDisplayAttachment": "r4-marker8 or associated stop boundary",
+      "evidence": "source-pdf3-arrow.png"
+    },
+    {
+      "pdfPage": 6,
+      "id": "r1-a16",
+      "observed": "Arrow above م stop following مَثَلًا",
+      "safeDisplayAttachment": "r1-stop-mim",
+      "evidence": "source-pdf6-arrow.png"
+    },
+    {
+      "pdfPage": 7,
+      "id": "r10-a2",
+      "observed": "Arrow above ج stop following عَدُوٌّ; adjacent ringed wedge is right of arrow",
+      "safeDisplayAttachment": "row10 arabic_segments[0].stop_sign",
+      "reject": "Do not claim Arabic letter identity in r10w2. Legacy word attachment is provisional.",
+      "evidence": "source-pdf7-arrow.png"
+    }
+  ],
+  "unresolved": [
+    {
+      "pdfPage": 3,
+      "id": "r0-a8",
+      "legacyPrinted": "শ",
+      "sourceBbox": [
+        330,
+        315,
+        70,
+        90
+      ],
+      "coordinateSystem": "legacy600dpi x,y,width,height",
+      "observed": "Damaged dark far-left ink within band. Source degradation prevents confidently separating intended character outline from damage.",
+      "verifiedIdentity": null,
+      "reject": [
+        "Treating শ as confirmed",
+        "Replacing with1 by guess",
+        "Treating noisy damaged trace as recovered verified letter"
+      ],
+      "recommendation": "Keep raw transcription candidate and evidence, suppress asserted known-character display and expose an explicit unresolved-source status adjacent to the row; never quietly delete occurrence. Custom damaged-ink silhouette can only be labeled unverified.",
+      "evidence": "source-pdf3-r0-damaged.png",
+      "suppressAssertedCharacterDisplay": true
+    }
+  ],
+  "cropProvenance": {
+    "source-pdf3-arrow-native.png": {
+      "pdfPage": 3,
+      "dpi": 300,
+      "pilCropBox": [
+        430,
+        1160,
+        620,
+        1410
+      ],
+      "resize": null
+    },
+    "source-pdf3-arrow.png": {
+      "pdfPage": 3,
+      "dpi": 300,
+      "pilCropBox": [
+        430,
+        1160,
+        620,
+        1410
+      ],
+      "resizeMultiplier": 3
+    },
+    "source-pdf6-arrow.png": {
+      "pdfPage": 6,
+      "dpi": 300,
+      "pilCropBox": [
+        690,
+        380,
+        860,
+        610
+      ],
+      "resizeMultiplier": 3
+    },
+    "source-pdf7-arrow.png": {
+      "pdfPage": 7,
+      "dpi": 300,
+      "pilCropBox": [
+        1800,
+        2870,
+        1970,
+        3080
+      ],
+      "resizeMultiplier": 3
+    },
+    "source-pdf3-r0-damaged.png": {
+      "pdfPage": 3,
+      "dpi": 300,
+      "pilCropBox": [
+        100,
+        120,
+        620,
+        320
+      ],
+      "resizeMultiplier": 3
+    },
+    "source-pdf4-legend-native.png": {
+      "pdfPage": 4,
+      "dpi": 300,
+      "pilCropBox": [
+        670,
+        3140,
+        1950,
+        3250
+      ],
+      "resize": null
+    },
+    "source-pdf5-legend-native.png": {
+      "pdfPage": 5,
+      "dpi": 300,
+      "pilCropBox": [
+        540,
+        3150,
+        2100,
+        3280
+      ],
+      "resize": null
+    }
+  },
+  "evidenceHashes": [
+    {
+      "file": "empty-mark-sheet-1.png",
+      "sha256": "fd940d5a0a8563d2f948876d0896318252319e887610bf3f26d96aa1467586c2"
+    },
+    {
+      "file": "empty-mark-sheet-2.png",
+      "sha256": "490f5b04b1a15b063051c8ce3223888359a67e2f1424eee340570333ce8300ec"
+    },
+    {
+      "file": "empty-mark-sheet-3.png",
+      "sha256": "a1463b6ea07fa01be1c89849fe3375112f7cc0e7f8810248d4841c6e96729a9f"
+    },
+    {
+      "file": "source-pdf3-arrow-native.png",
+      "sha256": "5354d4a920700dbceb760adc3646f685d0b66f7db994bec1f00bacbc0e4d1f26"
+    },
+    {
+      "file": "source-pdf3-arrow.png",
+      "sha256": "8f11cb5ca832706fa6bcfd3253c5c8c2d70a1162190e5820b18dc5d7e4216806"
+    },
+    {
+      "file": "source-pdf3-r0-damaged.png",
+      "sha256": "0a7603a45de3be5cebd82ef98c62686360d435d50df7ca4440e2da36096e387d"
+    },
+    {
+      "file": "source-pdf3-r5-a13.png",
+      "sha256": "5bb114273d7437911033e35c7e2c52cb22dfff2f345584cd2ec5f3e9694b1bb5"
+    },
+    {
+      "file": "source-pdf4-footer.png",
+      "sha256": "e6de6fff7cc302d8d39c2bf7f68ae39bf986b0afb463598576d486e26db2ac35"
+    },
+    {
+      "file": "source-pdf4-legend-native.png",
+      "sha256": "bc7612dd11a7d90d73b36fc598fc0078706c756e2527d05480c3f9c0a7b61cb0"
+    },
+    {
+      "file": "source-pdf4-legend-wide.png",
+      "sha256": "e94e492081bba6ee6e23d1dcddffa8c5ff8630bd4e1dadf734431b86aa28c548"
+    },
+    {
+      "file": "source-pdf5-footer.png",
+      "sha256": "083fca7d19cfe87501c46134afd49ef84d606628ac533462d133e9e534b91546"
+    },
+    {
+      "file": "source-pdf5-legend-native.png",
+      "sha256": "f0165ae3d6b9f05831484b3a30e14730cfc4cdb9016e3b0a7d4623b284d4b386"
+    },
+    {
+      "file": "source-pdf5-legend-wide.png",
+      "sha256": "8c3803e5e143e4f1eca0c80774b21487161db2042d467c1ffe3c4b38fde80544"
+    },
+    {
+      "file": "source-pdf5-r1-a2-correct.png",
+      "sha256": "f4cd77de615d8e7ffacd05ba12bcd25873e4721b35b6b5e9ee5c86450d608ad1"
+    },
+    {
+      "file": "source-pdf5-r1-a2.png",
+      "sha256": "41cc7ed326715fc00f16d5b8ed9b3bc756d054de9496777f1563ad0fc04fc515"
+    },
+    {
+      "file": "source-pdf5-r3-a10.png",
+      "sha256": "cc0cfb80134d2cbbc141a7e3d7c54de833a4efea6322f35eda6715af2e739d37"
+    },
+    {
+      "file": "source-pdf5-r4-a12.png",
+      "sha256": "74e5486c185f167a5f71d2e3272204cd82441ee91b5c2904877a256153223bae"
+    },
+    {
+      "file": "source-pdf6-arrow.png",
+      "sha256": "7c998959777165fc7fbfb3d57142dfee8c30e9d1165db8eb8ba4b330765df944"
+    },
+    {
+      "file": "source-pdf7-arrow.png",
+      "sha256": "686e7e879e34baa6053ad2985f942772eb5858869bd93bb6b0c61d607ae7e103"
+    },
+    {
+      "file": "source-pdf7-r1-a13.png",
+      "sha256": "8ba33b1aa7c845eca52b5f16352b9b8e685064ceda319df72ac9cc9ce1d5da1f"
+    },
+    {
+      "file": "source-pdf7-r10-a9.png",
+      "sha256": "04ae4269f040b87f523e8ea625f43858100f14c481beb786041ff341dc85811d"
+    },
+    {
+      "file": "source-pdf7-r2-a9.png",
+      "sha256": "dc6243fda3eff5c5bef76ebbcad856a9c070b2769b923195545300bde8ed2524"
+    },
+    {
+      "file": "conditional-mark-sheet-3.png",
+      "sha256": "bc8d4ecdfa61b3e9047c0cc7e6ff87be09c50f9d7b970361b5f0ee7bb46f964b"
+    },
+    {
+      "file": "conditional-mark-sheet-2.png",
+      "sha256": "55daaece94b4cdd565aa1b0c120a992c346ce8083c5ea0e1f4ee2649c3f457d9"
+    },
+    {
+      "file": "conditional-mark-sheet-1.png",
+      "sha256": "31e2b640b9bc3be669d2d3d46d721bba4fb9814e8c192030fdaeb00013e485c3"
+    },
+    {
+      "file": "ringed-digit-sheet-1.png",
+      "sha256": "932b2f1566194257ce6f7dc838655a883e244555560d48ee5f260438fd193030"
+    }
+  ],
+  "approvalScope": "Graphical family identity mapping of55 blank-printed annotations plus42 conditional compound occurrences, and single-ring confirmation of8 ringed-digit occurrences. Does not certify glyph implementation, Arabic/Bengali text fidelity, letter anchors, source-shaped font, complete pages or complete Quran.",
+  "conditionalCompoundApplicability": {
+    "selectionCandidate": "printed == ৬ and conditional == true",
+    "legacyCountReportedByCoordinator": 42,
+    "shapeFamily": "conditional-three-or-one",
+    "familyLegendMeaningConfirmed": true,
+    "allSelectedOccurrencesIndividuallyReverified": true,
+    "requiredStatus": "All42 graphical family matches independently confirmed. Literal Unicode identity remains null; exact source contour and letter anchor still require rendering review."
+  },
+  "conditionalOccurrences": [
+    {
+      "page": 1,
+      "rowIndex": 0,
+      "sourceId": "r0-a4",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "a0b52dd9f20d427f903b42b62d96af18a8049a571405005ecb2a669e884f78ed",
+      "sourceBbox": [
+        2294,
+        2668,
+        68,
+        92
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 1,
+      "rowIndex": 0,
+      "sourceId": "r0-a9",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "36c42dbed4831b36fe9bf8408a18d038d30ef00b2add6f51b7f28f6a8adaf5d4",
+      "sourceBbox": [
+        1026,
+        2668,
+        68,
+        92
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 1,
+      "rowIndex": 1,
+      "sourceId": "r1-a2",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "3ed6605f5d3f68a3a63121cc0dfc69f03f3217cf2f62c65f65772dbc7662201c",
+      "sourceBbox": [
+        2876,
+        3268,
+        68,
+        92
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 1,
+      "rowIndex": 2,
+      "sourceId": "r2-a2",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "916cfbb91085e348c773758b75f8b23e8642f5b5b2cdc1b4dfc0a0d39543b36e",
+      "sourceBbox": [
+        3428,
+        3884,
+        76,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 1,
+      "rowIndex": 2,
+      "sourceId": "r2-a9",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "a5860c042de7670fff6b1a45467c14e792a3943a077c6936b82967495ff0638d",
+      "sourceBbox": [
+        976,
+        3884,
+        68,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 1,
+      "rowIndex": 4,
+      "sourceId": "r4-a3",
+      "sourceJsonSha256": "40ea961e502a04ac307f6de32926108a2080de1faf5df500ebc8d39bed004ca7",
+      "sourceAnnotationSha256": "509e0cba3623ba63dda0ca67653acefc5cde26887e77c28e2af6c97202758c58",
+      "sourceBbox": [
+        1740,
+        5178,
+        72,
+        84
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page1",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 2,
+      "rowIndex": 0,
+      "sourceId": "r0-a11",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "8d45a9e05e27d9a52aa2abc69553a22e686b9b5202e68cd22dadb4be83526516",
+      "sourceBbox": [
+        1760,
+        2804,
+        53,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 2,
+      "rowIndex": 1,
+      "sourceId": "r1-a1",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "ccfcddc4678a846b290a4d6e0a87d9385068476d89189cd74ac3df2fb2d84e4e",
+      "sourceBbox": [
+        3409,
+        3457,
+        59,
+        83
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 2,
+      "rowIndex": 2,
+      "sourceId": "r2-a13",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "c0acdfea42c0f2df4cb0e7b6850e3e9fa665a2e29c4046f94ec6b7e30904655c",
+      "sourceBbox": [
+        1088,
+        4104,
+        61,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 2,
+      "rowIndex": 4,
+      "sourceId": "r4-a8",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "8bb1f8eea3ed8c3b3c9c5fafa96989691ab024275ad5edb8f126c7eb21fb8bdd",
+      "sourceBbox": [
+        1057,
+        5441,
+        62,
+        86
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 0,
+      "sourceId": "r0-a6",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "d4be1e0c804a76b75a04c7343a002a05903b9d3d6013bf1b0308d1aa3bc1bfc8",
+      "sourceBbox": [
+        775,
+        305,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 2,
+      "sourceId": "r2-a2",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "e0263067f7fd7771289bd5a7979d4ebbdd91d22d9d10669b50db251323b20bd3",
+      "sourceBbox": [
+        3750,
+        1485,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 3,
+      "sourceId": "r3-a9",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "dd8f99b473b3c7d8821efa0e709f6c8e901eb820f4dc32e93b4c359af26ec7f0",
+      "sourceBbox": [
+        1795,
+        1925,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 4,
+      "sourceId": "r4-a10",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "aeca63a7728631c402dedfc0eccc01c71fdb4f277983096bbb4328768c12ea34",
+      "sourceBbox": [
+        1235,
+        2465,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 5,
+      "sourceId": "r5-a12",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "c5075e7c0813f69f31daf1f62837a13ab1d7f1eb46ebe4588ea95380bc0f2882",
+      "sourceBbox": [
+        560,
+        2965,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 7,
+      "sourceId": "r7-a3",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "e638b43f781ed7e621f995bc754348a07d34c0b3b414123caa8ceb4d4863c344",
+      "sourceBbox": [
+        3385,
+        4145,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 8,
+      "sourceId": "r8-a4",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "4fa827361cf7e2bd1afcc1e9fca442a83c29f6a8eaf036b0625f53b6e20d51c1",
+      "sourceBbox": [
+        2955,
+        4695,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 9,
+      "sourceId": "r9-a2",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "81ff36b654e6fa7655d805bb8769b3304d1436bb391b0b7e9f5750a0d12a67af",
+      "sourceBbox": [
+        3785,
+        5245,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 3,
+      "rowIndex": 10,
+      "sourceId": "r10-a12",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "38f2aa2c1bdb2a9525ba124b68101b62596639e4eecb572a3a52645532e4ecb7",
+      "sourceBbox": [
+        535,
+        5805,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 1,
+      "sourceId": "r1-a10",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "d3f21f746deff8b6de25163a6b7ac612729d8cfd9f53a5fe63370cf8f08a4def",
+      "sourceBbox": [
+        2118,
+        748,
+        70,
+        62
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-1.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 2,
+      "sourceId": "r2-a3",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "fcad0a872d1082a984a20ad140bf1412864bf4bb3960ebf4fe594a74b177faac",
+      "sourceBbox": [
+        2709,
+        1264,
+        70,
+        76
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 3,
+      "sourceId": "r3-a9",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "f9634ef54d31be2cd0ef0b7658a796c1b2d16952c5488ddb7f9b468330f86ff5",
+      "sourceBbox": [
+        1319,
+        1842,
+        70,
+        78
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 5,
+      "sourceId": "r5-a8",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "18f46b50de83cd677004d6585ca21a3ad9c25b632fdbb26199eecd852f033372",
+      "sourceBbox": [
+        2294,
+        2922,
+        70,
+        78
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 6,
+      "sourceId": "r6-a2",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "fd877ae61f5710f3a92e98b5e81aff3a45e6f2dc8891ffcb39f07ffb59f83486",
+      "sourceBbox": [
+        4079,
+        3412,
+        70,
+        80
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 8,
+      "sourceId": "r8-a4",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "5edb8404525ce3a7c5bb4bb2d8780ed9358254bacd1bec231d838ebb9fc96251",
+      "sourceBbox": [
+        3539,
+        4576,
+        70,
+        80
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 9,
+      "sourceId": "r9-a4",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "fe0e6527ade92a5d1ae584319b75e8f2d2293cb6761b9e169fbaeb963655f418",
+      "sourceBbox": [
+        3332,
+        5158,
+        70,
+        84
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 4,
+      "rowIndex": 10,
+      "sourceId": "r10-a12",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "2e7fd8a0b89d44c0a0d463173c3425ff602b5218f8f9850107c705d22c6aefa8",
+      "sourceBbox": [
+        717,
+        5850,
+        70,
+        66
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 5,
+      "rowIndex": 1,
+      "sourceId": "r1-a1",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "213c14a802b17959ba3d9aab001669e2fd79e5b74757c66cc620bfc874cd449c",
+      "sourceBbox": [
+        1820,
+        379,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 5,
+      "rowIndex": 3,
+      "sourceId": "r3-a9",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "13a19ec2e453bd79448666d9cd548de0e7b413aff3f1293dade3d606cddb14a8",
+      "sourceBbox": [
+        1053,
+        914,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 5,
+      "rowIndex": 5,
+      "sourceId": "r5-a7",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "29857a3b4836534e7138df253258aa5102ee25246974357aa148825a105075a2",
+      "sourceBbox": [
+        1354,
+        1491,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 5,
+      "rowIndex": 6,
+      "sourceId": "r6-a13",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "19501e23e9d144643286fa657ec4c9d9aaf9b212978c86025cfda2d51b7dce52",
+      "sourceBbox": [
+        464,
+        1763,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 5,
+      "rowIndex": 8,
+      "sourceId": "r8-a1",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "2f940361f4bd1ca6521b358c482871a796f9b3fa6fc15bfb30055e8f33d48279",
+      "sourceBbox": [
+        2109,
+        2357,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 5,
+      "rowIndex": 10,
+      "sourceId": "r10-a3",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "8552a749a2c16a69c8bb748506d8e5c0dbfbb2553c550b338e20770eec1829df",
+      "sourceBbox": [
+        2096,
+        2927,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 6,
+      "rowIndex": 2,
+      "sourceId": "r2-a11",
+      "sourceJsonSha256": "0901be377df1ea5fc506e611f1122d4baae89dfe1d2bc636fcf7ed55b8e12a59",
+      "sourceAnnotationSha256": "21664d959c2d50f715fb4078900296e9a91da0928219b4d68e65c4f005faee71",
+      "sourceBbox": [
+        1978,
+        1358,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page6, origin top-left, pixels, [x,y,width,height]",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 1,
+      "sourceId": "r1-a12",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "c4eb978fb3a38abd5fad3859518cea881ff733ac18b124d1eb2ba90dabcf6ad5",
+      "sourceBbox": [
+        984,
+        350,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 2,
+      "sourceId": "r2-a8",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "61c860d041107e61b8207f5710691326121d52423dcce4942b0b37d2abd2c4e5",
+      "sourceBbox": [
+        582,
+        630,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 5,
+      "sourceId": "r5-a1",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "4a8e1e32115dce230c87f8bbc07ab0f99a743de81ee7cd590cbfcbf8fbb10f48",
+      "sourceBbox": [
+        1836,
+        1480,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 6,
+      "sourceId": "r6-a2",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "e7e9d81366c8f7017b6fd6547097b2dff978749d9c117976989c579d837f5fe3",
+      "sourceBbox": [
+        2131,
+        1765,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 6,
+      "sourceId": "r6-a10",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "4a96b4cea9c36cedf3348251b2087bb3e469137ee57859a3df13be6f14ffecef",
+      "sourceBbox": [
+        887,
+        1765,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 8,
+      "sourceId": "r8-a7",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "0bfd7aabccdf71d09c59fa96810eff35b47c6ac3e8cff04843acdd4a096b06bb",
+      "sourceBbox": [
+        1008,
+        2335,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-2.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 9,
+      "sourceId": "r9-a8",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "0d23996a9668ad967c246fb5f83c9ba37da60de83b42a59cd5eb793c545fcad0",
+      "sourceBbox": [
+        1103,
+        2622,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-3.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    },
+    {
+      "page": 7,
+      "rowIndex": 10,
+      "sourceId": "r10-a8",
+      "sourceJsonSha256": "e77dd96df48d048c57970a4fb7834da7adff1f6578118f27b152b240720355f2",
+      "sourceAnnotationSha256": "f916cf561757786cbb982223e86f15156513dee7188f836c226c2813336a561c",
+      "sourceBbox": [
+        308,
+        2915,
+        32,
+        43
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page7, origin top-left, pixels",
+      "shapeId": "conditional-three-or-one",
+      "shapeIdentified": true,
+      "literalUnicodeIdentity": null,
+      "observedShape": "Open bowl, inner descending hooked stem, heavy upper-right lobe. Matches the PDF5 conditional family; distinct from ordinary৩.",
+      "meaningFromSourceLegend": "দম ফেলিলে তিন / না ফেলিলে এক",
+      "evidence": [
+        "conditional-mark-sheet-3.png",
+        "source-pdf5-legend-native.png"
+      ],
+      "anchorLetterIdentityVerified": false,
+      "note": "Source outline family confirmed; generic6 code point identity and exact occurrence contours remain unverified."
+    }
+  ],
+  "ringedDigitOccurrences": [
+    {
+      "page": 2,
+      "rowIndex": 0,
+      "sourceId": "r0-a8",
+      "sourceJsonSha256": "dbdbdb06bca101cf1548c5a1bb8150a2fa3f5f9e3868703bd05368b2f4d5335a",
+      "sourceAnnotationSha256": "a24d203d178be37fc04c4101025c31e97966954510d93fdd8be495407f4377e6",
+      "sourceBbox": [
+        2316,
+        2802,
+        70,
+        88
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page2, origin top-left, pixels, [x, y, width, height]",
+      "printed": "২",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 3,
+      "rowIndex": 6,
+      "sourceId": "r6-a12",
+      "sourceJsonSha256": "cb25ef1bc3f17d55c81c9911e924b95f07168f20eb43be885a7e7a9563e7a466",
+      "sourceAnnotationSha256": "0dc68fd766c059ed5c4ef5433eae01617fffd4a9852ed08654152c8e024bd083",
+      "sourceBbox": [
+        1805,
+        3555,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page3, origin top-left, pixels, [x,y,width,height]",
+      "printed": "১",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 4,
+      "rowIndex": 4,
+      "sourceId": "r4-a5",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "66680bf3035b8c2c928e1008f3343310dfe558fd33bd04aaf18cbfb0f337f694",
+      "sourceBbox": [
+        2751,
+        2360,
+        70,
+        78
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "printed": "১",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 4,
+      "rowIndex": 7,
+      "sourceId": "r7-a14",
+      "sourceJsonSha256": "249784b0a43877c3832d97bcf3acd41f993637b6a35601b33ad95ee11307a369",
+      "sourceAnnotationSha256": "3f810078d63ed2fe7361b6257a30d0fca613e623e6b3079cc4d176034587fe8e",
+      "sourceBbox": [
+        1049,
+        4100,
+        70,
+        80
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page4, origin top-left, pixels, [x,y,width,height]",
+      "printed": "২",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 5,
+      "rowIndex": 1,
+      "sourceId": "r1-a11",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "ee5b77da0002485e9f8d5c15defdb6201c2682639214b2ee7b40bdcc6991fc1e",
+      "sourceBbox": [
+        141,
+        346,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "printed": "১",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 5,
+      "rowIndex": 9,
+      "sourceId": "r9-a7",
+      "sourceJsonSha256": "b91174fa4cb51fc3baac40a8756cab407da9ef7f121ea4f398f9c0927561d5a3",
+      "sourceAnnotationSha256": "39d11b17a76749d71702ce883e513a98e8700e14fb710a764bc5e0540094f9db",
+      "sourceBbox": [
+        1362,
+        2640,
+        32,
+        45
+      ],
+      "coordinateSystem": "pypdfium2-300dpi-page5, origin top-left, [x,y,width,height]",
+      "printed": "১",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 6,
+      "rowIndex": 1,
+      "sourceId": "r1-a12",
+      "sourceJsonSha256": "0901be377df1ea5fc506e611f1122d4baae89dfe1d2bc636fcf7ed55b8e12a59",
+      "sourceAnnotationSha256": "cde584a5626cf343ed7b011856e1e3966bb59020894000986b1fc76de3da9070",
+      "sourceBbox": [
+        1656,
+        844,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page6, origin top-left, pixels, [x,y,width,height]",
+      "printed": "১",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    },
+    {
+      "page": 6,
+      "rowIndex": 2,
+      "sourceId": "r2-a6",
+      "sourceJsonSha256": "0901be377df1ea5fc506e611f1122d4baae89dfe1d2bc636fcf7ed55b8e12a59",
+      "sourceAnnotationSha256": "cdff2b3ab541b72e1d16d30e03d9534afdb452d025d70d93e846ad307d39c52f",
+      "sourceBbox": [
+        3483,
+        1333,
+        70,
+        90
+      ],
+      "coordinateSystem": "pdftoppm-600dpi-page6, origin top-left, pixels, [x,y,width,height]",
+      "printed": "১",
+      "enclosureObserved": "single closed ring",
+      "legacyEnclosure": "circle",
+      "correctionNeeded": false,
+      "evidence": [
+        "ringed-digit-sheet-1.png"
+      ],
+      "note": "Footer extra explanatory bullet ring must not become a second ring in occurrence."
+    }
+  ]
+}
