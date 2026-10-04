@@ -128,6 +128,7 @@ Write each printed vowel sign you see, and do not add any that are not printed. 
 - A sign printed over the last letter of a word, right next to a rosette or stop sign, targets the **word**. Only arrows (and any sign clearly centred over the rosette or stop itself) use `marker:`/`stop:`.
 - The ruku sign ع printed above an ayah ending is recorded as that segment's `stop: "ع"`, together with its `end_marker`.
 - The ruku box in the margin: copy its parts top to bottom joined with ` / `, e.g. `"৪ / রুকু / ع ১০"`. Do the same for any other marginal note.
+- Sideways margin boxes (ruku numbers, quarter-para notes, stop explanations): read them as they are, without rotating images. If a part is unclear, give your best reading and add an `uncertain` entry. Do not spend many calls on furniture.
 - Legend strip: copy it as printed on this page, or leave it out if it is illegible. Never use stock wording.
 - Write the sukun exactly as printed, e.g. on a plural verb ending before a connecting alif: if none is printed, write none.
 - A Bengali line that starts with an ayah numeral has no empty continuation segment.
