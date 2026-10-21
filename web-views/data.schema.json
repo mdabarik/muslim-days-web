@@ -35,6 +35,14 @@
       "type": "string",
       "pattern": "^[0-9a-f]{64}$"
     },
+    "authoringSource": {
+      "type": "object",
+      "required": ["file", "sha256"],
+      "properties": {
+        "file": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
     "legacyReview": {
       "type": [
         "object",

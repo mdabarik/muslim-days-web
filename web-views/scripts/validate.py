@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist'
 def load(p):return json.loads(p.read_text())
 def validate(root=DIST):
  m=load(root/'data/manifest.json');assert len(m['surahs'])==114;assert [s['id'] for s in m['surahs']]==list(range(1,115));assert len(m['pages'])==760
- counts={'words':0,'annotations':0,'rows':0};blockers=[];docs=[]
+ counts={'words':0,'annotations':0,'rows':0};unreadable_words=0;blockers=[];docs=[]
  catalog=load(root/'data/symbol-catalog.json');symbol_map={s['id']:s for s in catalog['symbols']}
  font_sha=hashlib.sha256((root/catalog['font']['url']).read_bytes()).hexdigest();assert font_sha==catalog['font']['sha256'],'Font integrity failure'
  catalog_sha=hashlib.sha256((root/'data/symbol-catalog.json').read_bytes()).hexdigest()
@@ -17,6 +17,12 @@ def validate(root=DIST):
   if not p.get('file'):
    blockers.append(f'PDF {p["page"]}: missing transcription / source-page classification');continue
   d=load(root/p['file']);assert not p['fullyVerified'];assert not d['fullyVerified'];assert d['status']=='draft';docs.append(d);source=d['originalCandidate'];assert d['source']['pdf_sha256']==m['source']['sha256'];assert p['candidateSha256']==d['candidateSha256']
+  if d.get('transcription'):
+   candidate_bytes=json.dumps(source,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+   assert hashlib.sha256(candidate_bytes).hexdigest()==d['candidateSha256'],'Changed generated candidate'
+  authoring=d.get('authoringSource')
+  if authoring:
+   authoring_path=ROOT/authoring['file'];assert authoring_path.is_file() and hashlib.sha256(authoring_path.read_bytes()).hexdigest()==authoring['sha256'],'Stale authoring source'
   original=ROOT.parent/'muslim_days/tool/quran_fidelity/full_quran/content'/f'page-{p["page"]:03}'/f'page-{p["page"]:03}.json'
   if original.exists() and not d.get('transcription'):assert hashlib.sha256(original.read_bytes()).hexdigest()==d['candidateSha256'],'Changed source candidate'
   gs={};words={};glyphs=[]
@@ -24,6 +30,9 @@ def validate(root=DIST):
    counts['rows']+=1
    for s in row['arabic_segments']:
     for w in s['words']:
+     if w.get('unreadable'):
+      assert w['text']=='' and w.get('uncertainty') and w.get('visualBaseLetters'),'Unreadable word lacks explicit source uncertainty'
+      unreadable_words+=1;blockers.append(f'PDF {p["page"]} {w["id"]}: unreadable source word')
      words[w['id']]=w;clusters=d['graphemes'][w['id']]
      assert ''.join(g['text'] for g in clusters)==w['text'],'Unicode sequence changed'
      for g in clusters:
@@ -31,15 +40,18 @@ def validate(root=DIST):
       assert w['text'][g['startCodepoint']:g['endCodepoint']]==g['text']
      counts['words']+=1
    glyphs.extend((row.get('annotation_band') or {}).get('glyphs',[]))
+  if d.get('transcription') and source.get('rows') and not glyphs:
+   blockers.append(f'PDF {p["page"]}: annotation-band transcription missing')
   assert len(glyphs)==len(d['annotations']);counts['annotations']+=len(glyphs)
   for a,old in zip(d['annotations'],glyphs):
    assert a['sourceId']==old['id'];assert a['sourceBox']==old['bbox'];assert a['draftWordAttachment']==old['attachment'];assert a['text']==(old.get('printed') or None)
    display=a.get('display');key=(p['page'],a['sourceId'])
    if key in unresolved_ids:assert display and display['status']=='unresolved_identity','Damaged source character promoted'
-   new_transcription=d.get('transcription')=='claude-2026-10'
+   new_transcription=bool(d.get('transcription'))
    if display and new_transcription and display['reviewSha256']!=review_sha:
     # Shapes identified during the new page transcription; bound to that page's review file, not the 3 Oct legend audit.
-    assert display['status']=='source_shape_identified' and display['symbolId']==(old.get('shape_id') or ('conditional-three-or-one' if old.get('printed')=='৬' else None)),'Symbol family substituted'
+    assert display['status'] in ('source_shape_identified','source_shape_candidate') and display['symbolId']==(old.get('shape_id') or ('conditional-three-or-one' if old.get('printed')=='৬' else None)),'Symbol family substituted'
+    if display['status']=='source_shape_candidate':assert not display['shapeFamilyConfirmed'] and not d.get('transcriptionReview'),'Unreviewed source shape promoted'
     g=symbol_map[display['symbolId']];assert display['character']==g['text'] and display['fontSha256']==font_sha,'Wrong glyph/font binding'
     assert display['standardUnicodeIdentity'] is None and not display['exactOccurrenceOutlineVerified']
     tr=d.get('transcriptionReview')
@@ -65,6 +77,7 @@ def validate(root=DIST):
   if d.get('symbolCatalogue'):assert d['symbolCatalogue']['sha256']==catalog_sha and d['symbolCatalogue']['fontSha256']==font_sha,'Stale page symbol contract'
  assert custom_count==m['summary']['symbolRepairs']['customGlyphOccurrences'] and empty_fixed==m['summary']['symbolRepairs']['replacedQuestionMarkOccurrences']
  for k,v in counts.items():assert v==m['summary'][k],(k,v,m['summary'][k])
+ assert unreadable_words==m['summary'].get('unreadableWordRecords',0),'Unreadable word inventory differs'
  for s in m['surahs']:
   if not s['sourcePageMappingComplete']:blockers.append(f'Surah {s["id"]}: whole-surah continuity not verified')
   if s['verifiedAyahs']:assert s['status']=='verified','Draft ayat promoted'

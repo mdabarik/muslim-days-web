@@ -63,11 +63,18 @@ def convert(a, n, review):
         for si, seg in enumerate(row.get('arabic', [])):
             ws = []
             for w in seg['words']:
-                words_in_row.append(w)
-                ws.append({'id': f'r{ri}w{len(words_in_row)}', 'text': w, 'bbox': None})
+                if isinstance(w, dict):
+                    assert w.get('unreadable') is True and not w.get('text'), f'page {n} row {ri}: invalid unreadable word record'
+                    words_in_row.append('')
+                    ws.append({'id': f'r{ri}w{len(words_in_row)}', 'text': '', 'bbox': None, 'unreadable': True,
+                               'visualBaseLetters': w.get('visual_base_letters'), 'uncertainty': w['reason']})
+                else:
+                    assert isinstance(w, str) and w, f'page {n} row {ri}: empty word is not an explicit unresolved record'
+                    words_in_row.append(w)
+                    ws.append({'id': f'r{ri}w{len(words_in_row)}', 'text': w, 'bbox': None})
             stop = seg.get('stop')
             segments.append({
-                'ayah_ref': seg['ayah'], 'text': ' '.join(seg['words']), 'words': ws, 'bbox': None, 'confidence': conf(seg.get('confidence')),
+                'ayah_ref': seg['ayah'], 'text': ' '.join(w['text'] for w in ws if w['text']), 'words': ws, 'bbox': None, 'confidence': conf(seg.get('confidence')),
                 'stop_sign': {'printed': stop, 'kind': 'ruku' if stop == 'ع' else 'waqf', 'bbox': None} if stop else None,
                 'verse_marker': {'numeral_bn': seg['end_marker'], 'form': 'rosette', 'bbox': None} if seg.get('end_marker') else None,
             })
@@ -92,7 +99,15 @@ def convert(a, n, review):
                            'legend_source_page': legend_page, 'conditional': conditional, 'bbox': None, 'attachment': attachment,
                            'confidence': conf(m.get('confidence')), **({'shape_id': shape} if shape else {})})
         bengali = [{'ayah_ref': b['ayah'], 'numeral_bn': b.get('numeral', ''), 'text': b['text'], 'bbox': None, 'confidence': conf(b.get('confidence'))} for b in row.get('bengali', [])]
-        rows.append({'row_index': ri, 'bbox': None, 'annotation_band': {'bbox': None, 'glyphs': glyphs}, 'arabic_segments': segments, 'bengali_segments': bengali})
+        word_boxes = row.get('word_source_boxes')
+        if word_boxes is not None:
+            assert len(word_boxes) == len(words_in_row), f'page {n} row {ri}: word/source-box count mismatch'
+            for word, box in zip((word for seg in segments for word in seg['words']), word_boxes):
+                word['bbox'] = box
+        for mark, glyph in zip(row.get('marks', []), glyphs):
+            if mark.get('source_bbox') is not None:
+                glyph['bbox'] = mark['source_bbox']
+        rows.append({'row_index': ri, 'bbox': row.get('source_bbox'), 'annotation_band': {'bbox': None, 'glyphs': glyphs}, 'arabic_segments': segments, 'bengali_segments': bengali})
     headers = []
     for h in a.get('surah_headers', []):
         headers.append({'surah': h['surah'], 'before_row': h['before_row'], 'arabic': h.get('arabic'), 'bengali': h.get('bengali'),
@@ -101,17 +116,18 @@ def convert(a, n, review):
     top = next((h for h in headers if h['before_row'] == 0), None)
     return {
         'schema_version': '1.1.0-claude',
-        'source': {'pdf_sha256': PDF_HASH, 'pdf_page_number': n, 'coordinate_system': 'pdftoppm 300 dpi; boxes not measured (null)'},
+        'source': {'pdf_sha256': PDF_HASH, 'pdf_page_number': n, 'coordinate_system': a.get('source', {}).get('coordinate_system', 'pdftoppm 300 dpi; boxes not measured (null)')},
         'printed_page': a.get('printed_page'),
+        **({'expected_rows': a['expected_rows']} if a.get('expected_rows') is not None else {}),
         'surah_header': {k: top[k] for k in ('arabic', 'bengali', 'surah_number_bn', 'revelation_bn', 'ruku_bn', 'ayah_count_bn', 'bbox')} if top else None,
         'basmala': top['basmala'] if top and top.get('basmala') else None,
         'surah_headers': headers,
         'rows': rows,
         'page_furniture': [{**f, 'bbox': None, 'confidence': conf(f.get('confidence'))} for f in a.get('furniture', [])],
         'non_content_marks': a.get('non_content_marks', []),
-        'provenance': {'method': 'Source-first visual transcription from the local original PDF at 300 dpi; reference skeleton used only as a mismatch detector.',
+        'provenance': {'method': a.get('source_method', 'Source-first visual transcription from the local original PDF at 300 dpi; reference skeleton used only as a mismatch detector.'),
                        'extracted_by': a.get('extracted_by', 'Claude transcription agent'), 'reviewed_by': (review or {}).get('reviewer'),
-                       'transcription': TRANSCRIPTION},
+                       'transcription': a.get('transcription_id', TRANSCRIPTION)},
         'unresolved': [{'id': f'P{n}-U{i + 1}', 'question': u.get('question') or u.get('note'), 'where': u.get('where'), 'blocking': True} for i, u in enumerate(a.get('uncertain', []))],
     }
 
@@ -119,7 +135,7 @@ def convert(a, n, review):
 def doc_from_candidate(n, cand, cand_bytes, legacy=None, review=None, review_path=None, catalog=None):
     candidate_sha = sha(cand_bytes)
     doc = {'schemaVersion': '2.0.0-draft', 'source': cand['source'], 'candidateSha256': candidate_sha, 'status': 'draft', 'fullyVerified': False,
-           'legacyReview': legacy, 'transcription': TRANSCRIPTION, 'transcriptionReview': None, 'originalCandidate': cand, 'graphemes': {}, 'annotations': []}
+           'legacyReview': legacy, 'transcription': cand['provenance']['transcription'], 'transcriptionReview': None, 'originalCandidate': cand, 'graphemes': {}, 'annotations': []}
     if review is not None:
         doc['transcriptionReview'] = {'file': str(review_path.relative_to(ROOT)), 'sha256': sha(review_path.read_bytes()), 'verdict': review.get('verdict'),
                                       'reviewer': review.get('reviewer'), 'scope': review.get('scope')}
@@ -135,9 +151,10 @@ def doc_from_candidate(n, cand, cand_bytes, legacy=None, review=None, review_pat
             shape = g.get('shape_id') or ('conditional-three-or-one' if g.get('printed') == '৬' else None)
             if shape:
                 s = symbols[shape]
-                a['display'] = {'status': 'source_shape_identified', 'symbolId': s['id'], 'character': s['text'], 'fontFamily': catalog['font']['family'],
+                shape_reviewed = bool(review) or not cand['provenance']['transcription'].startswith('codex-')
+                a['display'] = {'status': 'source_shape_identified' if shape_reviewed else 'source_shape_candidate', 'symbolId': s['id'], 'character': s['text'], 'fontFamily': catalog['font']['family'],
                                 'fontSha256': catalog['font']['sha256'], 'labelBn': g.get('legend_bengali') or s.get('labelBn'), 'standardUnicodeIdentity': None,
-                                'encoding': 'project_private_use', 'shapeFamilyConfirmed': True, 'exactOccurrenceOutlineVerified': False,
+                                'encoding': 'project_private_use', 'shapeFamilyConfirmed': shape_reviewed, 'exactOccurrenceOutlineVerified': False,
                                 'reviewFile': doc['transcriptionReview']['file'] if review else None, 'reviewSha256': doc['transcriptionReview']['sha256'] if review else None}
                 a['unresolved'].append('exact_occurrence_outline_not_verified')
                 custom += 1
@@ -185,6 +202,8 @@ def main():
             legacy = old.get('legacyReview')
         cand_bytes = json.dumps(cand, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()
         doc = doc_from_candidate(n, cand, cand_bytes, legacy, review, review_path if review else None, catalog)
+        if a.get('transcription_id'):
+            doc['authoringSource'] = {'file': str(path.relative_to(ROOT)), 'sha256': sha(path.read_bytes())}
         if a.get('continues_original_rows'):
             # keep the earlier annotation records (and their reviewed display) for the copied rows
             old_ann = {x['sourceId']: x for x in old['annotations']}
@@ -194,8 +213,9 @@ def main():
         refs = sorted({s['ayah_ref'] for r in cand['rows'] for s in r['arabic_segments']}, key=lambda x: tuple(map(int, x.split(':'))))
         entry.update(status='draft' if not a.get('incomplete') else 'partial_draft', fullyVerified=False, surahs=sorted({int(r.split(':')[0]) for r in refs}), ayahs=refs,
                      rows=len(cand['rows']), words=sum(len(s['words']) for r in cand['rows'] for s in r['arabic_segments']),
+                     unreadableWords=sum(bool(w.get('unreadable')) for r in cand['rows'] for s in r['arabic_segments'] for w in s['words']),
                      annotations=len(doc['annotations']), verifiedLetterAnchors=0, candidateSha256=doc['candidateSha256'],
-                     transcription=TRANSCRIPTION, reviewVerdict=(review or {}).get('verdict'), file=f'data/pages/{n:03}.json',
+                     transcription=cand['provenance']['transcription'], reviewVerdict=(review or {}).get('verdict'), file=f'data/pages/{n:03}.json',
                      symbolStatus=doc['symbolProgress'])
         entry.pop('legacyBodyReview', None) if not legacy else None
         built.append(n)
@@ -220,6 +240,7 @@ def main():
         s['symbolProgress'] = {**s.get('symbolProgress', {}), 'customGlyphOccurrences': sum(manifest['pages'][p - 1].get('symbolStatus', {}).get('customGlyphOccurrences', 0) for p in s['pages'])}
     with_files = [e for e in manifest['pages'] if e.get('file')]
     manifest['summary'].update(surahsWithDrafts=sum(bool(s['pages']) for s in manifest['surahs']), pagesWithDrafts=len(with_files), **totals)
+    manifest['summary']['unreadableWordRecords'] = sum(e.get('unreadableWords', 0) for e in with_files)
     manifest['summary']['symbolRepairs']['customGlyphOccurrences'] = custom
     missing = 760 - len(with_files) - sum(e.get('status') in ('duplicate', 'non_quran', 'blank') for e in manifest['pages'])
     manifest['blockingIssues'][0] = f'{missing} physical pages have no structured transcription.' if missing else 'Every Quran page has a draft transcription; none is independently fully verified.'

@@ -30,6 +30,7 @@
 /* Running-text sukun only; the source basmala has separate calligraphic loops. */
 @font-face{font-family:QuranBodyWedge;src:url('fonts/QuranWedgeArabic.woff2') format('woff2');font-display:block;font-weight:400;font-style:normal}
 .word-wrap:not(.source-opening-word) .word{font-family:QuranBodyWedge,Quran}
+.word-wrap .word.source-unreadable{font-family:Bengali,system-ui,sans-serif;font-size:.38em;line-height:1.2;color:#8b4238;background:#fff2ee;border:1px dashed #c4867a;border-radius:5px;padding:.12em .25em;white-space:nowrap;vertical-align:middle}
 
 @font-face{font-family:'Verse Frame';src:url('fonts/VerseFrame.woff2') format('woff2');font-display:block;font-weight:400;font-style:normal}
 .verse-number.decorated-verse{position:relative;display:inline-block;min-width:1.65em;width:1.65em;height:calc(2.08em + 2px);padding:0;border:0;border-radius:0;line-height:1;color:#273d32}

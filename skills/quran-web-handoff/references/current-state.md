@@ -1,8 +1,12 @@
-# Existing state — 3 October 2026
+# Existing state — updated 18 October 2026
+
+The active project is `/Users/barik/Desktop/Life & Love/muslims-days`. The website has source-derived draft rows for physical PDF pages 1–34: 362 rows, 3478 Arabic word records and 1953 annotation records. Pages 15–34 each have 11 Arabic/Bengali row drafts, but two Arabic words remain explicitly unreadable (pages 15 and 20); many upper Qarian signs on pages 16–34 remain untranscribed. Two surahs have partial text. Zero pages, surahs, or letter-level annotation anchors are fully verified. The remaining 726 physical PDF pages have no transcription; not every physical page is Quran text. The live checkpoint is `web-views/evidence/resume-2026-10-16/STATUS.json`. Build source/pages with `web-views/scripts/transcribe/build_pages.py`; `scripts/import_source.py` is the older seven-page import path and must not be used for this expanded dataset.
+
+The preview can be served from `web-views/dist` on port 4180. See `#surah=2&page=28&view=rows`. Structural validation passes; release remains blocked. The original PDF is the sole content source. Start physical page 29 from row 0, then review PDF16 signs and PDF15's unreadable word. Earlier page data 1–14 retained their previous hashes at the last check.
 
 ## Locations
 
-- Handoff project root on this Mac: `/Users/barik/Desktop/muslims-days`.
+- Handoff project root on this Mac: `/Users/barik/Desktop/Life & Love/muslims-days`.
 - Original source workspace: `/Users/barik/Desktop/Life & Love/PlayStore/Muslim Days`.
 - Old `/Users/barik/Desktop/PlayStore/Muslim Days` no longer exists. Set the real working directory explicitly.
 - Handoff website: `web-views/`, with `dist/` as the server document root.

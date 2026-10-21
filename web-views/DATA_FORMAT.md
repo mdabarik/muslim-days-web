@@ -1,5 +1,13 @@
 # JSON contract 2.0.0-draft
 
+## Expanded source pages and explicit unreadable words (16–17 October 2026)
+
+The active authoring files for added pages are `source/pages/page-NNN.json`. `scripts/transcribe/build_pages.py` converts them into `dist/data/pages/NNN.json` and updates the manifest. New generated pages carry `authoringSource.file` plus its SHA-256; `candidateSha256` hashes the canonical generated `originalCandidate` object. Older seven-page imports retain their original byte-hash rule. `scripts/validate.py` checks the appropriate hash path. The authoring format and runtime JSON remain UI-independent for a future Flutter reader.
+
+When the original scan does not support an exact Unicode transcription, an authoring `arabic[].words[]` entry can be `{"unreadable":true,"visual_base_letters":"…","reason":"…"}`. The generated word has `text:""`, `unreadable:true`, a stable word ID, and an uncertainty note. The website shows selectable **⟦মূল পাঠ অস্পষ্ট⟧** in its place; marks targeted at that word stay in the unplaced evidence list. This is an explicit gap, never inferred Quran text. The manifest counts it in `unreadableWordRecords`, and the release gate blocks it. Physical PDF page 15, row 7 uses this for an ambiguous word whose hamza and upper marks cannot yet be mapped exactly.
+
+Where a source row supplies `source_bbox`, `word_source_boxes` or a mark's `source_bbox`, the builder retains these in the generated candidate's row, word and glyph `bbox` fields. These boxes are manual 300 dpi estimates, not verified letter outlines. Missing boxes remain `null`; page 16 presently has no measured boxes. Physical page 16 contains all 11 Arabic/Bengali row drafts, but rows 1–10 have untranscribed upper signs. Its `partial_draft` status and per-row uncertainties explicitly record that gap.
+
 UTF-8 JSON; source strings are preserved **without Unicode normalization**. No guessed text or standard-edition replacements. This is a draft evidence contract, not an approved whole-Quran dataset. UI code resides separately in `dist/app.js`, `style.css` and `anchors.js`.
 
 ## `dist/data/manifest.json`
