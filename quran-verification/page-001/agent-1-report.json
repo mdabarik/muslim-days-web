@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "physical_pdf_page": 1,
+  "scope": "Surah Al-Fatiha extraction/correction candidate review",
+  "status": "COMPLETE",
+  "candidate_verdict": "READY_FOR_INDEPENDENT_REVIEW",
+  "source_pdf": "/Users/barik/Desktop/PlayStore/Muslim Days/source-pdf/Quran - Qariyana Quranul Karim.pdf",
+  "candidate_json": "/Users/barik/Desktop/PlayStore/Muslim Days/muslim_days/assets/quran/printed/page-001.json",
+  "render": "/Users/barik/Desktop/PlayStore/Muslim Days/quran-verification/page-001/rendered/page-001-600dpi.png",
+  "checks": [
+    {
+      "area": "source_identity",
+      "result": "checked",
+      "detail": "Specified PDF rendered at 600 dpi (4959 x 7017); SHA-256 recomputed."
+    },
+    {
+      "area": "arabic_quranic_body",
+      "result": "checked",
+      "detail": "All 5 body rows and 9 Arabic segments were compared for visible letters and harakat; no further definite transcription defect found."
+    },
+    {
+      "area": "basmala",
+      "result": "checked",
+      "detail": "Basmala is unnumbered in this edition; the divine name in بِسْمِ اللّٰهِ retains shadda and dagger alif."
+    },
+    {
+      "area": "ayah_references_and_markers",
+      "result": "corrected",
+      "detail": "Printed markers ১–৭ remain unchanged; API ayah_ref values now apply the Surah 1 offset (printed ১ = API 1:2)."
+    },
+    {
+      "area": "bengali",
+      "result": "checked",
+      "detail": "Basmala translation and all 9 Bengali body segments match the visible printed wording and continuation splits."
+    },
+    {
+      "area": "tajweed_instruction_signs",
+      "result": "checked",
+      "detail": "All 36 recorded band signs were compared for sequence, identity, conditional status, target word and horizontal placement; no further definite defect found. Oval/ring enclosures are treated as part of the sign."
+    }
+  ],
+  "definite_defects": [
+    {
+      "id": "P001-API-REF-OFFSET",
+      "severity": "blocking",
+      "finding": "The JSON used printed Fatiha ayah numbers as API references, ignoring that API 1:1 is the basmala while this edition leaves the basmala unnumbered.",
+      "resolution": "Corrected Arabic and Bengali segment ayah_ref values: printed ১→1:2, ২→1:3, ৩→1:4, ৪→1:5, ৫→1:6, and printed ৬–৭ content→1:7."
+    },
+    {
+      "id": "P001-SOURCE-HASH",
+      "severity": "metadata",
+      "finding": "Stored pdf_sha256 did not match the specified source PDF.",
+      "resolution": "Replaced it with e634ae746317fecc02ae0ae613e37ea8168b95ead3673d1158045db1bc0931e9."
+    }
+  ],
+  "changes_made": [
+    "Corrected 14 ayah_ref occurrences affected by the Surah 1 basmala offset.",
+    "Corrected source.pdf_sha256."
+  ],
+  "unresolved": [
+    {
+      "id": "P1-HEADER-HARAKAT",
+      "blocking": false,
+      "scope": "page_furniture",
+      "detail": "The decorated Arabic surah title contains visible marks, but this pass does not assert a complete character-by-character title transcription."
+    }
+  ],
+  "independent_verification_claimed": false
+}

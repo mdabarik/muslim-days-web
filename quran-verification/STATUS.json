@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "goal": "Fully correct, independently verify, and ship Surah Al-Fatiha and Surah Al-Baqarah",
+  "source_pdf": "/Users/barik/Desktop/PlayStore/Muslim Days/source-pdf/Quran - Qariyana Quranul Karim.pdf",
+  "physical_pages": {
+    "first": 1,
+    "last": 59
+  },
+  "surahs": {
+    "1": {
+      "name": "Al-Fatiha",
+      "status": "completed_and_verified",
+      "pages": [1]
+    },
+    "2": {
+      "name": "Al-Baqarah",
+      "status": "verification_pending",
+      "pages": {
+        "first": 2,
+        "last": 59
+      }
+    }
+  },
+  "pages": {
+    "001": {
+      "status": "completed_and_verified",
+      "web_json": "quran-verification/verified/page-001.json",
+      "independent_body_acceptance": true,
+      "verdict": "ACCEPT",
+      "page_furniture_unresolved": [
+        "Decorated Arabic surah-title harakat remain unresolved; ayah body is unaffected."
+      ]
+    }
+  },
+  "next_page": 2,
+  "completed_and_verified": false,
+  "notes": [
+    "Remote web manifest contains draft coverage through page 120 but zero fully verified pages.",
+    "Flutter remote branch exposes pages 1-3 only.",
+    "Do not declare either surah complete until every Quranic-body item is independently accepted."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "agent": "agent-2-independent-verifier",
+  "scope": "physical PDF page 1 only (Surah Al-Fatiha)",
+  "independence": "Agent 1 conclusions were not trusted or reused; candidate fields are checked directly against a fresh visual reading of the source scan.",
+  "rows_checked": [
+    {
+      "row_index": 0,
+      "result": "pass",
+      "evidence": "Fresh 600 dpi raster crop visually read right-to-left. Arabic segments exactly match اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ and الرَّحْمٰنِ الرَّحِيْمِ, including visible vowel marks, shadda and dagger alifs. Printed rosettes are ১ and ২; لا signs are present at both verse ends. Bengali lines match exactly. Ten instruction signs match in order, identity, enclosure and target placement: r0-a1 through r0-a10; conditional ৬ signs and oval-enclosed Arabic-sakin signs are correctly distinguished."
+    },
+    {
+      "row_index": 1,
+      "result": "pass",
+      "evidence": "Fresh raster crop confirms مٰلِكِ يَوْمِ الدِّيْنِ and اِيَّاكَ نَعْبُدُ وَاِيَّاكَ letter-for-letter with printed harakat. Verse marker ৩ and ط waqf are correct; the second Arabic segment intentionally continues into row 2. Both Bengali segments and numerals ৩/৪ match. Five instruction signs r1-a1..r1-a5 match identity and placement; r1-a2 is conditional ৬ and r1-a3 is the separate oval-enclosed Arabic-sakin sign, both over الدِّيْنِ."
+    },
+    {
+      "row_index": 2,
+      "result": "pass",
+      "evidence": "Fresh raster crop confirms نَسْتَعِيْنُ and اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ with all stored harakat. Rosettes ৪/৫ and their ط/لا signs match. Bengali continuation 'নিকট আমরা সাহায্য চাই ।' and ayah-৫ text match exactly. Ten signs r2-a1..r2-a10 match: three শিষ signs, two মোটা signs, one এক আলিফ, two conditional ৬ signs, and two distinct oval Arabic-sakin signs, each horizontally aligned to the candidate target word at the recorded relative position."
+    },
+    {
+      "row_index": 3,
+      "result": "pass",
+      "evidence": "Fresh raster crop confirms صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ and غَيْرِ الْمَغْضُوْبِ with their printed harakat. The small stacked marker ৬, its open-teardrop upper shape, and adjacent لا match. Bengali numeral/text segments ৬ and ৭ match exactly. Seven signs r3-a1..r3-a7 match identities and horizontal targets: শ/ম/১/ম over صِرَاطَ, ১ over الَّذِيْنَ, ম over غَيْرِ, and ১ over الْمَغْضُوْبِ."
+    },
+    {
+      "row_index": 4,
+      "result": "pass",
+      "evidence": "Fresh raster crop confirms عَلَيْهِمْ وَلَا الضَّآلِّيْنَ with all printed marks, rosette ৭, and ع ruku sign. Bengali continuation matches exactly. Four signs r4-a1..r4-a4 are visually present over الضَّآلِّيْنَ in the recorded order and positions: মোটা ম, চার আলিফ ৪, conditional ৬, and the separate oval-enclosed Arabic-sakin sign."
+    }
+  ],
+  "global_checks": {
+    "source_pdf": {
+      "result": "pass",
+      "evidence": "Independently rendered physical page 1 at 600 dpi to a 4959 x 7017 raster. Source SHA-256 independently computed as e634ae746317fecc02ae0ae613e37ea8168b95ead3673d1158045db1bc0931e9, matching the candidate."
+    },
+    "basmala": {
+      "result": "pass",
+      "evidence": "The unnumbered cyan basmala and Bengali line visually match the candidate. The scan visibly carries shadda plus dagger alif over the doubled lam in اللّٰهِ; candidate code points are U+0644 U+0651 U+0670 for the marked lam sequence."
+    },
+    "surah_1_numbering_offset": {
+      "result": "pass",
+      "evidence": "The scan prints no marker on the basmala, then labels الحمد لله... as printed ১ through الضالين as printed ৭. Candidate correctly assigns the basmala to API 1:1 and shifts printed ১–৭ body mapping to API 1:2–1:7, with split continuations retaining the same API reference."
+    },
+    "counts": {
+      "result": "pass",
+      "rows": 5,
+      "arabic_segments": 9,
+      "bengali_segments": 9,
+      "printed_ayah_markers": 7,
+      "tajweed_instruction_signs": 36,
+      "evidence": "All counts recomputed from the candidate and every item visually checked against the fresh raster."
+    },
+    "tajweed_sign_semantics": {
+      "result": "pass",
+      "evidence": "All 36 signs were checked for printed identity, ring/enclosure, conditional status, target word, and within-word horizontal placement. Every ৬ is correctly represented as conditional; every Arabic-sakin wedge is separately represented with oval enclosure; no sign is omitted, duplicated, or attached to the wrong word."
+    }
+  },
+  "page_furniture": {
+    "result": "non_blocking_uncertainty",
+    "evidence": "The decorated Arabic title carries small ornamental/diacritic-like strokes that are not fully normalized by the candidate title string. The blue Bengali furniture visibly includes spellings such as 'সুরা নং-১ মক্কী সুরা' and 'রুকু-১ আয়াত-০৭', while candidate header fields use normalized forms (for example 'মাক্কী সূরা'). These are header/furniture matters outside Quranic-body acceptance and do not alter the verdict."
+  },
+  "body_defects": [],
+  "verdict": "ACCEPT",
+  "status": "complete"
+}
