@@ -1,0 +1,482 @@
+{
+  "status": "unreviewed_ocr_hypothesis_do_not_publish",
+  "provider": "google-gemini",
+  "model": "gemini-3.8-flash",
+  "source": {
+    "path": "output/extracted_pages/page_0001.png",
+    "sha256": "c0fbba3c63e5655dcaee9ad426e12052ae339da521bf7fc769586d17af7fdc8e",
+    "mime_type": "image/png"
+  },
+  "request": {
+    "media_resolution": "HIGH",
+    "temperature": 0,
+    "schema_version": 1
+  },
+  "usage": {
+    "promptTokenCount": 1552,
+    "candidatesTokenCount": 1586,
+    "totalTokenCount": 3138,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 460
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "model_version": "gemini-3.8-flash",
+  "validation_warnings": [
+    "Output is not fully NFC-normalized; preserve raw output for review"
+  ],
+  "transcription": {
+    "page_number": 1,
+    "kind": "quran",
+    "printed_page": null,
+    "furniture": [
+      {
+        "kind": "surah_title",
+        "text": "سُورَةُ الْفَاتِحَةِ",
+        "uncertain": false
+      },
+      {
+        "kind": "surah_name_bengali",
+        "text": "সূরা ফাতিহা",
+        "uncertain": false
+      },
+      {
+        "kind": "surah_info_box",
+        "text": "সূরা নং-১ মাক্কী সূরা",
+        "uncertain": false
+      },
+      {
+        "kind": "ruku_ayah_box",
+        "text": "রুকু-১ আয়াত-০৭",
+        "uncertain": false
+      },
+      {
+        "kind": "bismillah",
+        "text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "uncertain": false
+      },
+      {
+        "kind": "bismillah_translation",
+        "text": "পরম করুণাময় ও অসীম দয়ালু আল্লাহর নামে শুরু করছি।",
+        "uncertain": false
+      }
+    ],
+    "rows": [
+      {
+        "row_index": 1,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "اَلْحَمْدُ",
+              "لِلّٰهِ",
+              "رَبِّ",
+              "الْعٰلَمِیْنَ"
+            ],
+            "stop": null,
+            "end_marker": "۝১",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "الرَّحْمٰنِ",
+              "الرَّحِيْمِ"
+            ],
+            "stop": null,
+            "end_marker": "۝২",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "১",
+            "text": "সমস্ত প্রশংসা আল্লাহর জন্য, যিনি সৃষ্টিকুলের রব।",
+            "uncertain": false
+          },
+          {
+            "numeral": "২",
+            "text": "পরম করুণাময়, অতি দয়ালু।",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 2,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "مٰلِكِ",
+              "يَوْمِ",
+              "الدِّيْنِ"
+            ],
+            "stop": "ط",
+            "end_marker": "۝৩",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "اِيَّاكَ",
+              "نَعْبُدُ",
+              "وَ اِيَّاكَ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৩",
+            "text": "বিচার দিবসের মালিক।",
+            "uncertain": false
+          },
+          {
+            "numeral": "৪",
+            "text": "আপনারই আমরা ইবাদাত করি এবং আপনারই",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 3,
+        "marks": [
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১ম",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "نَسْتَعِيْنُ"
+            ],
+            "stop": "ط",
+            "end_marker": "۝৪",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "اِهْدِنَا",
+              "الصِّرَاطَ",
+              "الْمُسْتَقِيْمَ"
+            ],
+            "stop": null,
+            "end_marker": "۝৫",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "নিকট আমরা সাহায্য চাই।",
+            "uncertain": false
+          },
+          {
+            "numeral": "৫",
+            "text": "আমাদের সরল পথের হিদায়াত দিন।",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 4,
+        "marks": [
+          {
+            "printed": "ম ১ ম শ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "صِرَاطَ",
+              "الَّذِیْنَ",
+              "اَنْعَمْتَ",
+              "عَلَيْهِمْ"
+            ],
+            "stop": "لا",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "غَيْرِ",
+              "الْمَغْضُوْبِ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬",
+            "text": "তাদের পথ, যাদের উপর আপনি অনুগ্রহ করেছেন।",
+            "uncertain": false
+          },
+          {
+            "numeral": "৭",
+            "text": "তাদের পথ নয়, যাদের প্রতি",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 5,
+        "marks": [
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "عَلَيْهِمْ",
+              "وَ لَا",
+              "الضَّآلِّیْنَ"
+            ],
+            "stop": "ع",
+            "end_marker": "۝৭",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "আপনার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      }
+    ],
+    "uncertain": []
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "status": "unreviewed_local_ocr_hypothesis_do_not_publish",
+  "method": "Local Tesseract 5.5.3 on 300-DPI extracted PNG row bands",
+  "source": {
+    "path": "output/extracted_pages/page_0446.png",
+    "sha256": "5fe5b6b4831ad67c73dae3a565c6e5a32db9a66bed13761e66bcce239ea4bd3d",
+    "dimensions": [
+      2480,
+      3509
+    ]
+  },
+  "languages": [
+    "ara",
+    "ben"
+  ],
+  "rowGeometry": {
+    "firstTop": 125,
+    "step": 268,
+    "height": 330,
+    "status": "approximate; verify against source"
+  },
+  "limitations": "OCR may omit or alter Arabic harakat, Bengali letters, and annotation shapes. Annotation crops and coordinates are evidence; every glyph requires source-image review.",
+  "physicalPage": 446,
+  "rows": [
+    {
+      "rowIndex": 0,
+      "cropRect300dpi": [
+        60,
+        125,
+        2320,
+        455
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "1 ্রা্ট 27722 আআ নার্ট রং 7 ও / ৩৮ ৬৮ ২] পর ওত তার পে রা রি রি ঠির্টে 8১০ ৪ খাছ 829",
+      "annotationTextAra": "25-0 لاط 6# 755 #راثم ك7 بحي ...وى جحي\" حر صخ كر ثر بي ارج تنقا نحل 6أ/ سجس لمم ص سىس سم 7 - أ\" ميتس /",
+      "arabicOcr": "اك ليت سداد 00 ور لني يه بلرة م اولسرا",
+      "bengaliTopOcr": "গ. গপেনি নো ১৬ লিভলএি লিন সুউ ২০০৯৪০০০৭৬৬ সির সি",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 1,
+      "cropRect300dpi": [
+        60,
+        393,
+        2320,
+        723
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "+]এব১ 29 9 ওটি ও ওটি পার্টি | ওর্গ পে রত ওর জ্প্য তরি ও 0 ওর্প পক্ব্ত ওর্প ) ভগ ভর ৮৬ ৮2)",
+      "annotationTextAra": "ث1 لنىف ل ا ا ا لل لا 7 للا الى س2 كبس <> لم يد وو ص اندر لل للش ل -14”,",
+      "arabicOcr": "ا انيوكت - ف 5 ان - ما وانا. كخيراه ولقل صر نه بيو",
+      "bengaliTopOcr": "মানি আকা” * 'মশম কমা ডম১ ৯.8... 2522...",
+      "bengaliBottomOcr": "৬ ভা ও পা 4 6১ ৮ ৮৯. ঞ্ট * | €ট ৬ ১1০1-১৯-52"
+    },
+    {
+      "rowIndex": 2,
+      "cropRect300dpi": [
+        60,
+        661,
+        2320,
+        991
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "ঈভী।, গা ইট 00, 2 ০ পু শত 2 3 ও পম 7 7 9 পি আর আজ ওর্ট চটির",
+      "annotationTextAra": "حي 009730 الل الت يلار لل ب ااا ا ال ا ال لل ل ل( اش ل | كر ار )” خرن 772 يضح اع هو و الس ا",
+      "arabicOcr": "ْ ليزكروا فانى اك كفر الناين الا كغوراج ولَوشِئنا لم عفنا : ْ",
+      "bengaliTopOcr": "প/ এ ওমানুষ সৃছি বনে ০710১ ৬ শ উগ্র ৮1877785558",
+      "bengaliBottomOcr": "আআ. পাদশ ০1 ২ ৮ ১০৭ ্. চস | রা ৮ ৪ চর ৮৯২ ৮) ঞ্ ৮)"
+    },
+    {
+      "rowIndex": 3,
+      "cropRect300dpi": [
+        60,
+        929,
+        2320,
+        1259
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "তা ২ 2 ক গে ০... ক...",
+      "annotationTextAra": "و8 سس جب سس بج جنوج مني تمر سوب رسا ماوق ارق سحب يه تج بج عاد شا وب متك بسع :وج طسوو وس سمو .ب ا ف 91 فى “ةذ 5 )) »هع 7 كت هه",
+      "arabicOcr": "ْ كل قرية نزيرا6 ذلاتطع الك غِرين 1 جَاِرْمَري ٍّّ ه 8",
+      "bengaliTopOcr": "বর্শ পদেশ গ্রহণ করতে পারে ৰঃ তার নগর তা 2 সখ সব্১৬৩৩ ৩৯ ক. খ্বু* ৩৭ টিশ্বা্খ। এত ১, সম. রি...",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 4,
+      "cropRect300dpi": [
+        60,
+        1197,
+        2320,
+        1527
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "উল 8 ২ প্র »স্খুা 2 ১ | ঙব ২... এ. 2৮4 ৫...",
+      "annotationTextAra": "اا ع ا ا ب ا ِ 1 5547 90 هل \"< © | ([5>» حنى الى 60 50 0ن",
+      "arabicOcr": "كبيراج وفوا لزى مرج الْبَحُرَير بن , ها عن 9 1 95 4 3",
+      "bengaliTopOcr": "ত্৯__ জন সতর্ককারী পাঠাতাম । ৫২ সুতরাং তুমি কাফিরদের আনুগত্য করো না এবং তুমি কুরআনের নু 8",
+      "bengaliBottomOcr": "১ _ ডে স্তাততখান্াা হল । ৮৬ আব জালে দল গো লাগান» বসা । তব ৬এ | সিটি বি তির ৩ 0 লি বি এডি ৭ ৩৯ ৯ 77 কি"
+    },
+    {
+      "rowIndex": 5,
+      "cropRect300dpi": [
+        60,
+        1465,
+        2320,
+        1795
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "আঁ (কিস ৩ ২ ৮ স্পা ক ব্যাশ গা ব্া শা ৮২ এ ১৭৭ উট 0 কি",
+      "annotationTextAra": "ا 000 9 4 , ‎٠‏ يد 72> الم | عومد الى لاا الى يل ل 0ه ا 4ه 5908| لي",
+      "arabicOcr": "",
+      "bengaliTopOcr": "বু ৫ % সিম কর? ৩ আর তিনিই দটো সাগরকে একসাথে প্রবাহিত করেছেন । একটি সুপেয় সুস্বাদু, অপরটি (",
+      "bengaliBottomOcr": "2 পে পে ৬ পপ এ লা ৯ 1৮১৮ লতি আআউনহলাহা ও ধোকা অআরাাভজজ্তা সামানা জ্ঞাপন নল ৬2৭৭ | ৫৬ সখি 5৫"
+    },
+    {
+      "rowIndex": 6,
+      "cropRect300dpi": [
+        60,
+        1733,
+        2320,
+        2063
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "111৬ সস 1৮ স্বিনিসি ১ পিক তি পিসি এই ২৯০ 80000000006 - টব ঃ বা স্বা ১৯,",
+      "annotationTextAra": "١غ‏ له 1< : 0 1 ياو لال الل اكت 1ك معلل 11 عها ل أحا 01 1لا| ا 6لكات 2| |0004| || ‎١‏ ود",
+      "arabicOcr": "",
+      "bengaliTopOcr": "টি. পট ত্র সিকি বার্টার্ট _ ভার্শন টি আর্তলায ও একটি অনতিক্রম্য সীমানা স্থাপন করেছেন । ৫৪ আর |",
+      "bengaliBottomOcr": ": চবির শর্ট. পালে 0 পে 2. ৯ উট হল এ গছ উর ঘ কা । উতাল 7তকাশ্মযাল অক কতা হিং"
+    },
+    {
+      "rowIndex": 7,
+      "cropRect300dpi": [
+        60,
+        2001,
+        2320,
+        2331
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "2০০ পান থেকে মানযষ সাঙ্ু করেছেন, অত৪পলনন 1৩৭ ০৬০৭১ বসি 151৮ ৯ তি বসি ২ 008০৯৮৮2৯07 পস্থশ্ে ছু ম্হ্ ক",
+      "annotationTextAra": "يدا الى ا بيج الال ال ل 000 لله 7 7 00 1 13 116\" لاعها د |2| “> 25ك>.ى)_|اثا »|| 35/55 .25 +1|2 612|[ة 2|055 0 ||| 0-5 إن",
+      "arabicOcr": "قدي اج يكن اث تكن ار ب مسف ممه مود وفوا",
+      "bengaliTopOcr": "দু: শি শি ৮ পার্ট 2 10101010101 5 0) ভাল আমার রব হল ছু",
+      "bengaliBottomOcr": "প্র শর্ট সি মি রা চর প্রচ শি সি ১.0... এ উট"
+    },
+    {
+      "rowIndex": 8,
+      "cropRect300dpi": [
+        60,
+        2269,
+        2320,
+        2599
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "4৬৩ ক্ষমতাজানা । ৮.৮. জ্বাল লা জ্বালাতন এসালিলির্ত ধোশ্ানা কিল ভববাদাত কবে. যা তালের ০্েশাল ৩শাব১। সি ৩ বগিতে তত 01 ৮",
+      "annotationTextAra": "ركز 1 35ما١ا١ا‏ 12امال > 4 ‎*”|>1١|‏ ذا |0 |د>.) جا |5 |[ 252 ج2117 85 نجرووجج؟ ريدن يسوج هبي مم سدم اججب بجسسي عر عر ‎١‏ مج252 25 لد",
+      "arabicOcr": "",
+      "bengaliTopOcr": "পতি 7 লি এ শশী স্৯ সস তি পার্শিশ | উ্িশ উর পট পিপি 2 ন্ট সর্প পর পর",
+      "bengaliBottomOcr": "8.2.  র্গ 1010 টি £ ঠা ২০৮: এটা ++ 2 8 ৪ শি স্পর্টি চি নং. চি"
+    },
+    {
+      "rowIndex": 9,
+      "cropRect300dpi": [
+        60,
+        2537,
+        2320,
+        2867
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "১॥ খং তারটদেল 7৮ ক 1... ১ ১ 2 লাল াল্পাকাহেতালী 1 ৮৬৬ আব আম তো তোমা ০ ৬",
+      "annotationTextAra": ">>؟] ‎359/5١‏ |5 515 5172 عدم ‎١‏ «فمصصجيبسييبدويد حيتت ءا سس مم هم ا لل سس سم عت 1010 31",
+      "arabicOcr": "",
+      "bengaliTopOcr": "24. পিসিপতি হি পা সিসি 2] স্পর্চ টি (€6/ ] টীম 19 ৬ তা টি তা",
+      "bengaliBottomOcr": "10৮, 2. ৬৩  পরঞি)ঠ ৮৮ ০ 1) ৬ ৮ ৮৫৩7 রা £ বজঙছে ০৮ অং লর্গ শর (ক"
+    },
+    {
+      "rowIndex": 10,
+      "cropRect300dpi": [
+        60,
+        2805,
+        2320,
+        3135
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "49 এশার ০৯ ১, | টি ২8০০, শট: ৬ ১২১ ৯ ৬৯৯ ক কানা চ্টাতী না | 12৫",
+      "annotationTextAra": "| و ل و ا م ار الام الت 012 0 | مسج 0 ” 0 الصا 02002 د 00 _سسحبي وت \"4 تت",
+      "arabicOcr": "5 00 0 37 7 0 , 0 : 0 0 1",
+      "bengaliTopOcr": "2.৩ লিস্ট] পতও (+0কি 4], ৯] (0৩ (পিপি েশিস্সপসিসপসসউিএ | সপন (া ৩৬ এলি ৫",
+      "bengaliBottomOcr": "%. টথউ ও ৬, ++ আআ শিস ০৮ ৬০০০০ উঠি 1] ও 71৩7৮ 6০7 ক. এ ১৬৮7 কিক ও? | ০ 2111"
+    }
+  ]
+}

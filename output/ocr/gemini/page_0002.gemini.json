@@ -1,0 +1,494 @@
+{
+  "status": "unreviewed_ocr_hypothesis_do_not_publish",
+  "provider": "google-gemini",
+  "model": "gemini-3.8-flash",
+  "source": {
+    "path": "output/extracted_pages/page_0002.png",
+    "sha256": "2c4694c9aac4f05039c4d9faab01da1a5f3228f47155d5769d9b0dc0e6ee2071",
+    "mime_type": "image/png"
+  },
+  "request": {
+    "media_resolution": "HIGH",
+    "temperature": 0,
+    "schema_version": 1
+  },
+  "usage": {
+    "promptTokenCount": 1552,
+    "candidatesTokenCount": 1669,
+    "totalTokenCount": 3221,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 460
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "model_version": "gemini-3.8-flash",
+  "validation_warnings": [
+    "Output is not fully NFC-normalized; preserve raw output for review"
+  ],
+  "transcription": {
+    "page_number": 2,
+    "kind": "quran",
+    "printed_page": null,
+    "furniture": [
+      {
+        "kind": "surah_title_arabic",
+        "text": "سُوْرَةُ الْبَقَرَةِ",
+        "uncertain": false
+      },
+      {
+        "kind": "surah_title_bengali",
+        "text": "সূরা বাক্বারাহ্",
+        "uncertain": false
+      },
+      {
+        "kind": "surah_metadata_left",
+        "text": "সূরা নং-২ মাদানী সূরা",
+        "uncertain": false
+      },
+      {
+        "kind": "surah_metadata_right",
+        "text": "রুকু-৪০ আয়াত-২৮৬",
+        "uncertain": false
+      },
+      {
+        "kind": "basmala_arabic",
+        "text": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "uncertain": false
+      },
+      {
+        "kind": "basmala_bengali",
+        "text": "পরম করুণাময় ও অসীম দয়ালু আল্লাহর নামে শুরু করছি।",
+        "uncertain": false
+      }
+    ],
+    "rows": [
+      {
+        "row_index": 1,
+        "marks": [
+          {
+            "printed": "৪গ ৪",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩ম১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪ক",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৫",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": "circled_four",
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "الٓمّٓ"
+            ],
+            "stop": "ج",
+            "end_marker": "১",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "ذٰلِكَ",
+              "الْكِتٰبُ",
+              "لَا",
+              "رَيْبَ"
+            ],
+            "stop": "ۛ",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "فِيْهِ"
+            ],
+            "stop": "ۛج",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "هُدًى"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "১",
+            "text": "আলিফ-লাম-মীম।",
+            "uncertain": false
+          },
+          {
+            "numeral": "২",
+            "text": "এই সেই কিতাব, যাতে কোন সন্দেহ নেই,",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 2,
+        "marks": [
+          {
+            "printed": "৪",
+            "shape": "circled_four",
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৫",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "لِّلْمُتَّقِيْنَ"
+            ],
+            "stop": "لا",
+            "end_marker": "২",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "الَّذِيْنَ",
+              "يُؤْمِنُوْنَ",
+              "بِالْغَيْبِ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "মুত্তাকীদের জন্য হিদায়াত।",
+            "uncertain": false
+          },
+          {
+            "numeral": "৩",
+            "text": "যারা গায়েবের প্রতি ঈমান আনে, সালাত কায়েম",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 3,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১ শম",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১ ক শ ম ১ গ",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৭",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": "circled_four",
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৫",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "وَيُقِيْمُوْنَ",
+              "الصَّلوٰةَ",
+              "وَمِمَّا",
+              "رَزَقْنٰهُمْ",
+              "يُنْفِقُوْنَ"
+            ],
+            "stop": "لا",
+            "end_marker": "৩",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "করে এবং আমি তাদেরকে যে রিযিক দিয়েছি তা থেকে ব্যয় করে।",
+            "uncertain": false
+          },
+          {
+            "numeral": "৪",
+            "text": "আর",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 4,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "শৎ",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "শৎ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "وَالَّذِيْنَ",
+              "يُؤْمِنُوْنَ",
+              "بِمَآ",
+              "اُنْزِلَ",
+              "اِلَيْكَ",
+              "وَمَآ",
+              "اُنْزِلَ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "যারা ঈমান আনে তাতে, যা তোমার প্রতি নাযিল করা হয়েছে এবং যা তোমার",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 5,
+        "marks": [
+          {
+            "printed": "ক",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "মৎ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": "circled_four",
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": "circled_four",
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৫",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "مِنْ",
+              "قَبْلِكَ"
+            ],
+            "stop": "ج",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "وَبِالْاٰخِرَةِ",
+              "هُمْ",
+              "يُوْقِنُوْنَ"
+            ],
+            "stop": "ط",
+            "end_marker": "৪",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "পূর্বে নাযিল করা হয়েছে। আর আখিরাতের প্রতি তারা ইয়াকীন রাখে।",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      }
+    ],
+    "uncertain": []
+  }
+}

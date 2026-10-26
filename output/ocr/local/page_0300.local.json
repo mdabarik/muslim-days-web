@@ -1,0 +1,246 @@
+{
+  "status": "unreviewed_local_ocr_hypothesis_do_not_publish",
+  "method": "Local Tesseract 5.5.3 on 300-DPI extracted PNG row bands",
+  "source": {
+    "path": "output/extracted_pages/page_0300.png",
+    "sha256": "658c98a04146fd6a75b093df4641e73776b7d47510799c1b79ff378b946549e0",
+    "dimensions": [
+      2480,
+      3509
+    ]
+  },
+  "languages": [
+    "ara",
+    "ben"
+  ],
+  "rowGeometry": {
+    "firstTop": 125,
+    "step": 268,
+    "height": 330,
+    "status": "approximate; verify against source"
+  },
+  "limitations": "OCR may omit or alter Arabic harakat, Bengali letters, and annotation shapes. Annotation crops and coordinates are evidence; every glyph requires source-image review.",
+  "physicalPage": 300,
+  "rows": [
+    {
+      "rowIndex": 0,
+      "cropRect300dpi": [
+        60,
+        125,
+        2320,
+        455
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "(এ 2 টি, টি রগ 8 ও এটি ৮) টি ৪৮ 7 / উ- টি ছি মর তা লি কপ রা",
+      "annotationTextAra": "ل سس لي التي ل لك شير لالش تبس اس ةش/ #4 “ىل 062 نال ترح ار ىس م 2 ا",
+      "arabicOcr": "ا ع جمرعيرة لإول الالباي ماكان |",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "(এ. নী দলা শাহী ॥ ৯০৮ সি চিএ নিার়ানি | ছক রী, রণ"
+    },
+    {
+      "rowIndex": 1,
+      "cropRect300dpi": [
+        60,
+        393,
+        2320,
+        723
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "151 ও রাঙা ভার ভগ ছি তর ৬ তে রঙ্গ / লগ 4 হি . বা নান হি",
+      "annotationTextAra": "ع | سب 70 | ” ا لش سا 5غ\" آلا سا عه »ظحي اا برستي سين سين ار 1",
+      "arabicOcr": "",
+      "bengaliTopOcr": "] ৯. ম ১ শখ. জী. না ৪",
+      "bengaliBottomOcr": "লা সর সি রি লি এ শিশির ও ও ০ 3 ওল |] এলি ওর্গা /% রা"
+    },
+    {
+      "rowIndex": 2,
+      "cropRect300dpi": [
+        60,
+        661,
+        2320,
+        991
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "হী 2 ভার 2 শি টি 0 ভঙ্গ এ প্র্শি ত ১ 5৪ তা পা ৮ & ॥ | শরিয়া",
+      "annotationTextAra": "اش 6 سر 4 0 ره نب سس همه رحا ”حي ا تبر 10# \"تي ا نئل :/ بالل 0000 الع اا طن الى 00000 7 اسم",
+      "arabicOcr": "",
+      "bengaliTopOcr": "£) ৪৩ গ মম এ... 0 তিক ঝা 87805",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 3,
+      "cropRect300dpi": [
+        60,
+        929,
+        2320,
+        1259
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "৯১ |এিিবিসছিন্ক লা সত 48. 77 8্ন ---000000002. আলাদা কা, সা) €ত ৫ 7)",
+      "annotationTextAra": "حذ 4-26 آي زلريج\" كس بت 1 ١ئ©ْءغ#ف»ئآأعقعغفثْثفضظش(ثشظْضشضظضئٌضؤٌؤ“شؤ(©(ضًضْ+َْ+ُ)2)خ7ث©ك“ه”تلعففل‏ سس 111 2 لك 137 72119 ئ 1 10101010000000 يي تر 7",
+      "arabicOcr": "",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "ক শন ২ চারি সি এ শি রি রত ওদি | ৬» সর ৩."
+    },
+    {
+      "rowIndex": 4,
+      "cropRect300dpi": [
+        60,
+        1197,
+        2320,
+        1527
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "০২৭ চুক বক] ৮07৮ 3 লা 0] স্ম্ | রঙ্গ ও ভাগ 8টি 0 ৬৬ ৮) আশ ৬",
+      "annotationTextAra": "\"يرن اها ا« ثالل الل االلل 000\" نا ثم ايرث عبس بح لخر ا 5 7[ 0 ‎١‏ 07 2 الج 554 سم",
+      "arabicOcr": "عر لاجد لمعي والزى انزل اليك من ريك الحق 1 1 .",
+      "bengaliTopOcr": "রা বি সপ সি",
+      "bengaliBottomOcr": "*ট্রু 1) আক 1 কু কা কী... _,--___ পা শি তিশা টি? ০ 7 2 9 ০ 7১৯,"
+    },
+    {
+      "rowIndex": 5,
+      "cropRect300dpi": [
+        60,
+        1465,
+        2320,
+        1795
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "রা এ এ ভা আছ 2 3 | হা ৮ নী । কে » ৬ ডি রি ঠ  শিত |",
+      "annotationTextAra": "5 ‏اب‎ ١ ‏شلك الالح اللا أئي سحل بكرا سمال كي سر ل 3 زعا جا الا را م تالبك‎ ١",
+      "arabicOcr": "حِن أكغر اناس لايؤمنونن الله الى رفع السموت يغير .",
+      "bengaliTopOcr": "'- মা ১১শ্া মণ ১ম 6৩৬. ৯ এজ নিিামীলঢাখতা",
+      "bengaliBottomOcr": "শী 717 স্ব জা 2 | 27টি. ৮ _শিনশিিিশশ্াাাটাা তিশা"
+    },
+    {
+      "rowIndex": 6,
+      "cropRect300dpi": [
+        60,
+        1733,
+        2320,
+        2063
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "লা - সি পাশা মা দি খু আরা ৪3. টা টি ৮7০ শে রে রনির রঙ",
+      "annotationTextAra": "5 ‏-نزقاثلا0000 الى لس ا بس كس لكر 55 هر سس | ع مس 004 وج سس اك كاتس‎ ٠,",
+      "arabicOcr": "رول ها ثيراستوى. على العرش وسغر الشيس والقمره | عَلُ",
+      "bengaliTopOcr": "পু তা 8০৫, এ পর 1 ০২ ৭ টি ২8, মমশ 1700 ১ শু গে ওি ... মম . ঙ. রী",
+      "bengaliBottomOcr": "চি ০. ৯৮ শিশির টিটি শি শিস্পীপশাপি নাকি টি ছি স্া (১) সা গা টি, ৪৪"
+    },
+    {
+      "rowIndex": 7,
+      "cropRect300dpi": [
+        60,
+        2001,
+        2320,
+        2331
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "শব শিখ স্‌ 0 প্রচ জট লি. ০২. ০ শা ০ নিশি 7 শি 7 ভা 7৬ ০8 ॥",
+      "annotationTextAra": "ول او ااا 6خ4ىك2 4 111021 1 01 م مسمس اجا امسر اسيم مساج صا عي سي صم سس سسا ل هه ## ##ل ل اأيا لك وخ ‎١‏ اه",
+      "arabicOcr": "هرى لجل مسهى” در يرال ‎١‏ مر ٍ ى. 1 ا الا ب عل 3 ميلقا ٍِ ْ",
+      "bengaliTopOcr": "টু দেখ খখছ । অতঃপর তিনিন আরশে ভিন ০ ৮০ ৫ এ পা১০১১-$ উস &9শগ 1 ক",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 8,
+      "cropRect300dpi": [
+        60,
+        2269,
+        2320,
+        2599
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "",
+      "annotationTextAra": "",
+      "arabicOcr": "كرتوقِنون ج وهو الى من الآرض وجعل فِيها رواي وأنهر اه",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "খু লই এ টি নি লিল শন 0 ক জ্ঘান ভা কা্দাকা লিক ভ্জাছে ভাল লজ ঞোকলিও তাল হ্লালকে লব স্টিন্ব লো তি 20 লি তননি"
+    },
+    {
+      "rowIndex": 9,
+      "cropRect300dpi": [
+        60,
+        2537,
+        2320,
+        2867
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "",
+      "annotationTextAra": "",
+      "arabicOcr": "",
+      "bengaliTopOcr": "1 ্ট _._ বিজ পার্টি পা ০ আল তিনি হসীনকে বিস্তত করেছেন এবং তাতে সদট পর্বতমালা ও নদ-নদী হ",
+      "bengaliBottomOcr": "০. চা রগ লি. চি 0 1 2. ০11100000 কাস্ালিলত 00৭ এ"
+    },
+    {
+      "rowIndex": 10,
+      "cropRect300dpi": [
+        60,
+        2805,
+        2320,
+        3135
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "*51 কুল্লক্ছেল | আব পারজোাকে পাকালেল কলা শা চ্ডা 1 ভা তা বশর পাকি বেস্্নেচ্হেশ্ব | শন ০ শব ০ মুনি টি",
+      "annotationTextAra": "5-0 '! 4251\" 53> >إكا| | - )اد 5208| يدك إذذا| ا إذا|] !5 أ ]| |2 7ص ا لق 2 | ل 2 2",
+      "arabicOcr": "ا ا 1 ظ 20500 5 ' ' 52 , ا ْ",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "451 15178117 [ভ্ ০০০ রগ টি ৮টি বগি ইত টার এ সি পল এ রা ওলা কীকী কর টি শাক তি"
+    }
+  ]
+}

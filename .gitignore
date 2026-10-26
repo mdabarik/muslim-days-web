@@ -2,3 +2,8 @@
 __pycache__/
 .venv/
 node_modules/
+.env.local
+.env.*.local
+# Large local source/rendered assets (keep locally; use external storage for transfer)
+source-pdf/
+output/extracted_pages/

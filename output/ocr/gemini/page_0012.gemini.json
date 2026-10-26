@@ -1,0 +1,1516 @@
+{
+  "status": "unreviewed_ocr_hypothesis_do_not_publish",
+  "provider": "google-gemini",
+  "model": "gemini-3.5-flash",
+  "source": {
+    "path": "output/extracted_pages/page_0012.png",
+    "sha256": "f436cfc37f0dbadba827e97d5221fbb5460be09d00fd521c49a75d540fa098cd",
+    "mime_type": "image/png"
+  },
+  "request": {
+    "media_resolution": "HIGH",
+    "temperature": 0,
+    "schema_version": 1
+  },
+  "usage": {
+    "promptTokenCount": 1553,
+    "candidatesTokenCount": 7948,
+    "totalTokenCount": 10936,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 461
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 1435,
+    "serviceTier": "standard"
+  },
+  "model_version": "gemini-3.6-flash",
+  "validation_warnings": [
+    "Output is not fully NFC-normalized; preserve raw output for review"
+  ],
+  "transcription": {
+    "page_number": 12,
+    "kind": "quran",
+    "printed_page": "12",
+    "furniture": [
+      {
+        "kind": "header",
+        "text": "আলিফ লাম মীম",
+        "uncertain": false
+      },
+      {
+        "kind": "header",
+        "text": "কুরীযানা কুরআনুল কারীম",
+        "uncertain": false
+      },
+      {
+        "kind": "header",
+        "text": "পারা-১",
+        "uncertain": false
+      },
+      {
+        "kind": "footer",
+        "text": "২ সূরা বাক্বরাহ",
+        "uncertain": false
+      },
+      {
+        "kind": "footer",
+        "text": "(ক) ক্বলক্বলাহ (শ) শিষ (গ) গুম্নাহ",
+        "uncertain": false
+      },
+      {
+        "kind": "footer",
+        "text": "১৩",
+        "uncertain": false
+      },
+      {
+        "kind": "footer",
+        "text": "(ম) মোটা (ই) ইখফা (আ) আরবী সাকিন",
+        "uncertain": false
+      },
+      {
+        "kind": "footer",
+        "text": "মানযিল-১",
+        "uncertain": false
+      }
+    ],
+    "rows": [
+      {
+        "row_index": 1,
+        "marks": [
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.6,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.5,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "وَإِذْ",
+              "أَخَذْنَا",
+              "مِيثَاقَكُمْ",
+              "وَرَفَعْنَا",
+              "فَوْقَكُمُ",
+              "الطُّورَ",
+              "خُذُوا",
+              "مَا",
+              "آتَيْنَاكُمْ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৩",
+            "text": "আর স্মরণ কর, যখন আমি তোমাদের অঙ্গীকার গ্রহণ করলাম এবং তূর পাহাড়কে তোমাদের উপর উঠালাম আমি (বললাম) ‘তোমাদেরকে",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 2,
+        "marks": [
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "بِقُوَّةٍ",
+              "وَاذْكُرُوا",
+              "مَا",
+              "فِيهِ",
+              "لَعَلَّكُمْ",
+              "تَتَّقُونَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٣",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "ثُمَّ",
+              "تَوَلَّيْتُمْ",
+              "مِنْ",
+              "بَعْدِ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৪",
+            "text": "যা দিয়েছি, তা শক্তভাবে ধর এবং তাতে যা রয়েছে তা স্মরণ কর, যাতে তোমরা তাক্বওয়া অবলম্বন করতে পার’। ৬৪ অতঃপর তোমরা এ",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 3,
+        "marks": [
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ৎ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.5,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "ذٰلِكَ",
+              "فَلَوْلَا",
+              "فَضْلُ",
+              "اللَّهِ",
+              "عَلَيْكُمْ",
+              "وَرَحْمَتُهُ",
+              "لَكُنْتُمْ",
+              "مِنَ",
+              "الْخَاسِرِينَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٤",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "সবের পর বিমুখ হয়ে ফিরে গেলে। আর যদি তোমাদের উপর আল্লাহর অনুগ্রহ ও রহমত না হত, তোমরা অবশ্যই ক্ষতিগ্রস্তদের অন্তর্ভুক্ত",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 4,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ক",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "ৎ",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ক",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.5,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "وَلَقَدْ",
+              "عَلِمْتُمُ",
+              "الَّذِينَ",
+              "اعْتَدَوْا",
+              "مِنْكُمْ",
+              "فِي",
+              "السَّبْتِ",
+              "فَقُلْنَا",
+              "لَهُمْ",
+              "كُونُوا"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৫",
+            "text": "হতে। ৬৫ আর তোমাদের মধ্যে যারা শনিবারের ব্যাপারে সীমালঙ্ঘন করেছিল, তাদেরকে অবশ্যই তোমরা জান। অতঃপর আমি তাদেরকে",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 5,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.6,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.8,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "قِرَدَةً",
+              "خَاسِئِينَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٥",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "فَجَعَلْنَاهَا",
+              "نَكَالًا",
+              "لِمَا",
+              "بَيْنَ",
+              "يَدَيْهَا",
+              "وَمَا",
+              "خَلْفَهَا"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৬",
+            "text": "বললাম, ‘তোমরা নিকৃষ্ট বানর হয়ে যাও’। ৬৬ আর আমি একে বানিয়েছি দৃষ্টান্ত, সে সময়ের এবং তৎপরবর্তী জনপদসমূহের জন্য এবং",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 6,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "وَمَوْعِظَةً",
+              "لِلْمُتَّقِينَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٦",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "وَإِذْ",
+              "قَالَ",
+              "مُوسَى",
+              "لِقَوْمِهِ",
+              "إِنَّ",
+              "اللَّهَ",
+              "يَأْمُرُكُمْ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৭",
+            "text": "মুত্তাকীদের জন্য উপদেশ। ৬৭ আর স্মরণ কর, যখন মূসা তার কওমকে বলল, ‘নিশ্চয় আল্লাহ তোমাদেরকে নির্দেশ দিচ্ছেন যে, তোমরা একটি",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 7,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.4,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.7,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৩",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.6,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ৎ",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "أَنْ",
+              "تَذْبَحُوا",
+              "بَقَرَةً"
+            ],
+            "stop": "ۖ",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "قَالُوا",
+              "أَتَتَّخِذُنَا",
+              "هُزُوًا"
+            ],
+            "stop": "ۖ",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "قَالَ",
+              "أَعُوذُ",
+              "بِاللَّهِ",
+              "أَنْ",
+              "أَكُونَ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "গাভী যবেহ করবে’। তারা বলল, ‘তুমি কি আমাদের সাথে উপহাস করছ’? সে বলল, ‘আমি মূর্খদের অন্তর্ভুক্ত হওয়া থেকে আল্লাহর আশ্রয়",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 8,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.7,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "ক",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "مِنَ",
+              "الْجَاهِلِينَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٧",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "قَالُوا",
+              "ادْعُ",
+              "لَنَا",
+              "رَبَّكَ",
+              "يُبَيِّنْ",
+              "لَنَا",
+              "مَا",
+              "هِيَ"
+            ],
+            "stop": "ۚ",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "قَالَ",
+              "إِنَّهُ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৮",
+            "text": "চাচ্ছি’। ৬৮ তারা বলল, ‘তুমি আমাদের জন্য তোমার রবের নিকট দো‘আ কর, তিনি যেন আমাদের জন্য স্পষ্ট করে দেন গাভীটি কেমন",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 9,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 9,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 12,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 13,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 14,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "يَقُولُ",
+              "إِنَّهَا",
+              "بَقَرَةٌ",
+              "لَا",
+              "فَارِضٌ",
+              "وَلَا",
+              "بِكْرٌ",
+              "عَوَانٌ",
+              "بَيْنَ",
+              "ذٰلِكَ"
+            ],
+            "stop": "ۖ",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "فَافْعَلُوا"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "হবে’। সে বলল, ‘নিশ্চয় তিনি বলছেন, নিশ্চয় তা হবে গরু, বুড়ো নয় এবং বাচ্চাও নয়। এর মাঝামাঝি ধরনের। সুতরাং তোমরা কর যা",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 10,
+        "marks": [
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 5,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "ক",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 12,
+            "offset": 0.0,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "مَا",
+              "تُؤْمَرُونَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٨",
+            "uncertain": false
+          },
+          {
+            "words": [
+              "قَالُوا",
+              "ادْعُ",
+              "لَنَا",
+              "رَبَّكَ",
+              "يُبَيِّنْ",
+              "لَنَا",
+              "مَا",
+              "لَوْنُهَا"
+            ],
+            "stop": "ۚ",
+            "end_marker": null,
+            "uncertain": false
+          },
+          {
+            "words": [
+              "قَالَ"
+            ],
+            "stop": null,
+            "end_marker": null,
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "৬৯",
+            "text": "তোমাদেরকে নির্দেশ দেয়া হচ্ছে’। ৬৯ তারা বলল, ‘তুমি আমাদের জন্য তোমার রবের নিকট দো‘আ কর, তিনি যেন আমাদের জন্য স্পষ্ট",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      },
+      {
+        "row_index": 11,
+        "marks": [
+          {
+            "printed": "Ⓐ",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৬",
+            "shape": null,
+            "target_word": 1,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 2,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 3,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 4,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "৪",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 6,
+            "offset": 0.6,
+            "uncertain": false
+          },
+          {
+            "printed": "শ",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.3,
+            "uncertain": false
+          },
+          {
+            "printed": "৫",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.6,
+            "uncertain": false
+          },
+          {
+            "printed": "ম",
+            "shape": null,
+            "target_word": 7,
+            "offset": 0.8,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 8,
+            "offset": 0.5,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 10,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "১",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.0,
+            "uncertain": false
+          },
+          {
+            "printed": "গ",
+            "shape": null,
+            "target_word": 11,
+            "offset": 0.5,
+            "uncertain": false
+          }
+        ],
+        "arabic_segments": [
+          {
+            "words": [
+              "إِنَّهُ",
+              "يَقُولُ",
+              "إِنَّهَا",
+              "بَقَرَةٌ",
+              "صَفْرَاءُ",
+              "فَاقِعٌ",
+              "لَوْنُهَا",
+              "تَسُرُّ",
+              "النَّاظِرِينَ"
+            ],
+            "stop": null,
+            "end_marker": "٦٩",
+            "uncertain": false
+          }
+        ],
+        "bengali_segments": [
+          {
+            "numeral": "",
+            "text": "করে দেন, কেমন তার রঙ’? সে বলল, ‘নিশ্চয় তিনি বলছেন, নিশ্চয় তা হবে হলুদ রঙের গাভী, তার রঙ উজ্জ্বল, দর্শকদেরকে যা আনন্দ দেবে’",
+            "uncertain": false
+          }
+        ],
+        "uncertain": []
+      }
+    ],
+    "uncertain": []
+  }
+}
