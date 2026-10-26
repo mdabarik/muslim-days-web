@@ -1,0 +1,100 @@
+{
+  "id": 11,
+  "languageId": "bn",
+  "slug": "hadis-somvar",
+  "title": "হাদীস সম্ভার",
+  "contents": {
+    "description": "সংকলকঃ আব্দুল হামিদ ফাইযী আল-মাদানী, লিসান্স- মাদীনাহ ইসলামী বিশ্ববিদ্যালয়। মোট হাদীস সংখ্যা : ২০১৩ টি। প্রকাশনী : ওয়াহীদিয়া ইসলামিয়া লাইব্রেরী, রাণীবাজার, (মাদরাসা মার্কেটের সামনে), রাজশাহী।",
+    "short_desc": "হাদিস সমাবর বিষয়ভিত্তিক সাজানো একটি সহায়ক সংকলন। হাদিস সমাবর দিয়ে নির্দিষ্ট বিষয়ে হাদিস খুঁজে পাওয়া দ্রুত ও সহজ। গবেষণা, খুতবা প্রস্তুতি এবং শিক্ষাদানের জন্য দারুণ। আধুনিক পাঠকদের জন্য সহজ ফরম্যাট।"
+  },
+  "publication": "ওয়াহীদিয়া ইসলামিয়া লাইব্রেরী, রাণীবাজার, (মাদরাসা মার্কেটের সামনে), রাজশাহী",
+  "hadithCount": 2013,
+  "chapterCount": 20,
+  "sectionCount": 258,
+  "downloadedCount": 2013,
+  "downloadedSectionCount": 258,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/hadis-somvar/part-001.json",
+      "count": 250,
+      "firstId": "1",
+      "lastId": "251",
+      "bytes": 1020456,
+      "sha256": "379bd8537afa591aa6cb34507131357e107aa410cc1a9a9e7cb8e28c545766f5"
+    },
+    {
+      "part": 2,
+      "file": "books/hadis-somvar/part-002.json",
+      "count": 250,
+      "firstId": "252",
+      "lastId": "501",
+      "bytes": 1659715,
+      "sha256": "f2db265ccf4d89cf0cbf4b9ddd61f0a9ed4aaeefd06e7ebe0a4b46542f48c1b7"
+    },
+    {
+      "part": 3,
+      "file": "books/hadis-somvar/part-003.json",
+      "count": 250,
+      "firstId": "502",
+      "lastId": "751",
+      "bytes": 803913,
+      "sha256": "1048e55d2dcc4f9081b346520bab2410fe0a32c31aa28724481df31336f7084e"
+    },
+    {
+      "part": 4,
+      "file": "books/hadis-somvar/part-004.json",
+      "count": 250,
+      "firstId": "752",
+      "lastId": "1001",
+      "bytes": 929794,
+      "sha256": "61e9629e63c73480566df2c437d74cb221031ca37e50fb86735af13d0f97e1d1"
+    },
+    {
+      "part": 5,
+      "file": "books/hadis-somvar/part-005.json",
+      "count": 250,
+      "firstId": "1002",
+      "lastId": "1250",
+      "bytes": 771183,
+      "sha256": "fad1049ed85ba4cca8c3c6656b4abe88910e95b5aabea804f0caa8e9b7821d81"
+    },
+    {
+      "part": 6,
+      "file": "books/hadis-somvar/part-006.json",
+      "count": 250,
+      "firstId": "1251",
+      "lastId": "1500",
+      "bytes": 871683,
+      "sha256": "43f9f24662983cf97abd9a2dfa98ef937fb63411c6418266410b99653f3260a2"
+    },
+    {
+      "part": 7,
+      "file": "books/hadis-somvar/part-007.json",
+      "count": 250,
+      "firstId": "1501",
+      "lastId": "1750",
+      "bytes": 1202064,
+      "sha256": "6e560fcf59dd8ad4b75f037c9318a843a2e91f81a8442ce81f53666b983f9625"
+    },
+    {
+      "part": 8,
+      "file": "books/hadis-somvar/part-008.json",
+      "count": 250,
+      "firstId": "1751",
+      "lastId": "2000",
+      "bytes": 1843828,
+      "sha256": "fba27788a5a4a32250a81f84940700c2f9b246a51b49778bb8a738df971c044a"
+    },
+    {
+      "part": 9,
+      "file": "books/hadis-somvar/part-009.json",
+      "count": 13,
+      "firstId": "2001",
+      "lastId": "2013",
+      "bytes": 52746,
+      "sha256": "b79af0b34a1b247e30a05d4c2481915f7672b92de52e8a5569a106bb16e7708d"
+    }
+  ],
+  "chaptersFile": "books/hadis-somvar/chapters.json"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "books": 25,
+  "hadiths": 52856,
+  "parts": 227,
+  "checksummedFiles": 281,
+  "sourceSamples": 80,
+  "checks": [
+    "all advertised book/chapter counts",
+    "no duplicate book+id keys",
+    "section/chapter references",
+    "JSON and SQLite record equality",
+    "previous/next IDs",
+    "all SHA-256 checksums",
+    "SQLite integrity"
+  ]
+}

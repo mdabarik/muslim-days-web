@@ -1,0 +1,28 @@
+{
+  "id": 24,
+  "languageId": "bn",
+  "slug": "upodesh",
+  "title": "ঊপদেশ",
+  "contents": {
+    "description": "সংকলক : শায়খ আব্দুর রাজ্জাক বিন ইউসুফ, মোট হাদীস সংখ্যা : ২৩৪ টি",
+    "short_desc": "উপদেশ ইসলামী নসিহত ও হেদায়েতের সংকলন। উপদেশে দৈনন্দিন মুসলিম জীবনের সহজ শিক্ষা আছে। সাধারণ মানুষের জন্য সহজ ভাষায় লেখা। উপদেশ ব্যবহারিক পরিস্থিতিতে ইসলাম প্রয়োগে সাহায্য করে।"
+  },
+  "publication": null,
+  "hadithCount": 234,
+  "chapterCount": 16,
+  "sectionCount": 17,
+  "downloadedCount": 234,
+  "downloadedSectionCount": 17,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/upodesh/part-001.json",
+      "count": 234,
+      "firstId": "1",
+      "lastId": "234",
+      "bytes": 1426686,
+      "sha256": "5043f6dde43c67789846036fb36a46bcbda9a5281847f74730e4f29e55e2629f"
+    }
+  ],
+  "chaptersFile": "books/upodesh/chapters.json"
+}

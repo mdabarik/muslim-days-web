@@ -1,0 +1,28 @@
+{
+  "id": 12,
+  "languageId": "bn",
+  "slug": "silsila-sahiha",
+  "title": "সিলসিলা সহিহা",
+  "contents": {
+    "description": "সংকলক : আল্লামা নাসিরুদ্দিন আলবানী (রহঃ)। মোট হাদীস সংখ্যা : ৬০ টি। প্রকাশনী : আতিফা পাবলিকেশন্স। তাজরীদঃ আবূ উবাইদাহ মাশহুর ইবনু হাসান আল সালমান। অনুবাদঃ হাফেজ মুফতি মোবারক সালমান।",
+    "short_desc": "সিলসিলা সহীহা শায়খ আলবানী কর্তৃক যাচাইকৃত সহীহ হাদিস সিরিজ। সিলসিলা সহীহার প্রতিটি হাদিস আধুনিক যাচাই পদ্ধতি পাস করেছে। সমসাময়িক আলেমদের কাছে বিশ্বস্ত। ক্লাসিক হাদিস আজকের গবেষণায় কীভাবে টিকে আছে তা দেখায়।"
+  },
+  "publication": "আতিফা পাবলিকেশন্স",
+  "hadithCount": 60,
+  "chapterCount": 1,
+  "sectionCount": 1,
+  "downloadedCount": 60,
+  "downloadedSectionCount": 1,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/silsila-sahiha/part-001.json",
+      "count": 60,
+      "firstId": "1",
+      "lastId": "60",
+      "bytes": 424494,
+      "sha256": "f52cbdb865373a3fd573ce1d4d55ea93f3e993da01e89bfa5ff8bd61bddb27ee"
+    }
+  ],
+  "chaptersFile": "books/silsila-sahiha/chapters.json"
+}

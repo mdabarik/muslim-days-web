@@ -1,0 +1,612 @@
+[
+  {
+    "id": 1,
+    "title": "নামাযের সময়",
+    "range": "১ - ৩০",
+    "contents": null,
+    "displayLabel": "১",
+    "arabicTitle": null,
+    "count": 30,
+    "sectionCount": 8
+  },
+  {
+    "id": 2,
+    "title": "পবিত্রতা অর্জন",
+    "range": "৩১ - ১৪৫",
+    "contents": null,
+    "displayLabel": "২",
+    "arabicTitle": null,
+    "count": 115,
+    "sectionCount": 32
+  },
+  {
+    "id": 3,
+    "title": "নামায",
+    "range": "১৪৬ - ২১৫",
+    "contents": null,
+    "displayLabel": "৩",
+    "arabicTitle": null,
+    "count": 70,
+    "sectionCount": 18
+  },
+  {
+    "id": 4,
+    "title": "নামাযের ভুলভ্রান্তি",
+    "range": "২১৬ - ২১৮",
+    "contents": null,
+    "displayLabel": "৪",
+    "arabicTitle": null,
+    "count": 3,
+    "sectionCount": 1
+  },
+  {
+    "id": 5,
+    "title": "জুম’আ",
+    "range": "২১৯ - ২৩৯",
+    "contents": null,
+    "displayLabel": "৫",
+    "arabicTitle": null,
+    "count": 21,
+    "sectionCount": 9
+  },
+  {
+    "id": 6,
+    "title": "রমাযানের নামায",
+    "range": "২৪০ - ২৪৬",
+    "contents": null,
+    "displayLabel": "৬",
+    "arabicTitle": null,
+    "count": 7,
+    "sectionCount": 2
+  },
+  {
+    "id": 7,
+    "title": "রাত্রে নফল নামায",
+    "range": "২৪৭ - ২৭৯",
+    "contents": null,
+    "displayLabel": "৭",
+    "arabicTitle": null,
+    "count": 33,
+    "sectionCount": 5
+  },
+  {
+    "id": 8,
+    "title": "জামা’আতে নামায আদায় করা",
+    "range": "২৮০ - ৩১৭",
+    "contents": null,
+    "displayLabel": "৮",
+    "arabicTitle": null,
+    "count": 38,
+    "sectionCount": 10
+  },
+  {
+    "id": 9,
+    "title": "সফরে নামায কসর আদায় করা",
+    "range": "৩১৮ - ৪১২",
+    "contents": null,
+    "displayLabel": "৯",
+    "arabicTitle": null,
+    "count": 95,
+    "sectionCount": 25
+  },
+  {
+    "id": 10,
+    "title": "দুই ঈদ",
+    "range": "৪১৩ - ৪২৫",
+    "contents": null,
+    "displayLabel": "১০",
+    "arabicTitle": null,
+    "count": 13,
+    "sectionCount": 7
+  },
+  {
+    "id": 11,
+    "title": "সালাতুল-খাওফ",
+    "range": "৪২৬ - ৪২৯",
+    "contents": null,
+    "displayLabel": "১১",
+    "arabicTitle": null,
+    "count": 4,
+    "sectionCount": 1
+  },
+  {
+    "id": 12,
+    "title": "সালাতুল-কুসূফ",
+    "range": "৪৩০ - ৪৩৩",
+    "contents": null,
+    "displayLabel": "১২",
+    "arabicTitle": null,
+    "count": 4,
+    "sectionCount": 2
+  },
+  {
+    "id": 13,
+    "title": "বৃষ্টি প্রার্থনা",
+    "range": "৪৩৪ - ৪৩৯",
+    "contents": null,
+    "displayLabel": "১৩",
+    "arabicTitle": null,
+    "count": 6,
+    "sectionCount": 3
+  },
+  {
+    "id": 14,
+    "title": "কিবলা",
+    "range": "৪৪০ - ৪৫৩",
+    "contents": null,
+    "displayLabel": "১৪",
+    "arabicTitle": null,
+    "count": 14,
+    "sectionCount": 6
+  },
+  {
+    "id": 15,
+    "title": "কুরআন",
+    "range": "৪৫৪ - ৫০৩",
+    "contents": null,
+    "displayLabel": "১৫",
+    "arabicTitle": null,
+    "count": 50,
+    "sectionCount": 10
+  },
+  {
+    "id": 16,
+    "title": "জানাইয",
+    "range": "৫০৪ - ৫৫৯",
+    "contents": null,
+    "displayLabel": "১৬",
+    "arabicTitle": null,
+    "count": 56,
+    "sectionCount": 16
+  },
+  {
+    "id": 17,
+    "title": "যাকাত",
+    "range": "৫৬০ - ৬১৫",
+    "contents": null,
+    "displayLabel": "১৭",
+    "arabicTitle": null,
+    "count": 56,
+    "sectionCount": 30
+  },
+  {
+    "id": 18,
+    "title": "রোযা",
+    "range": "৬১৬ - ৬৭৫",
+    "contents": null,
+    "displayLabel": "১৮",
+    "arabicTitle": null,
+    "count": 60,
+    "sectionCount": 22
+  },
+  {
+    "id": 19,
+    "title": "ই’তিকাফ",
+    "range": "৬৭৬ - ৬৯১",
+    "contents": null,
+    "displayLabel": "১৯",
+    "arabicTitle": null,
+    "count": 16,
+    "sectionCount": 6
+  },
+  {
+    "id": 20,
+    "title": "হজ্জ",
+    "range": "৬৯২ - ৯৪৯",
+    "contents": null,
+    "displayLabel": "২০",
+    "arabicTitle": null,
+    "count": 258,
+    "sectionCount": 83
+  },
+  {
+    "id": 21,
+    "title": "জিহাদ সম্পর্কিত",
+    "range": "৯৫০ - ১০০০",
+    "contents": null,
+    "displayLabel": "২১",
+    "arabicTitle": null,
+    "count": 51,
+    "sectionCount": 21
+  },
+  {
+    "id": 22,
+    "title": "মানত ও কসম সম্পর্কিত অধ্যায়",
+    "range": "১০০১ - ১০১৭",
+    "contents": null,
+    "displayLabel": "২২",
+    "arabicTitle": null,
+    "count": 17,
+    "sectionCount": 9
+  },
+  {
+    "id": 23,
+    "title": "কুরবানী সম্পর্কিত অধ্যায়",
+    "range": "১০১৮ - ১০৩০",
+    "contents": null,
+    "displayLabel": "২৩",
+    "arabicTitle": null,
+    "count": 13,
+    "sectionCount": 6
+  },
+  {
+    "id": 24,
+    "title": "যবেহ সম্পর্কিত অধ্যায়",
+    "range": "১০৩১ - ১০৩৯",
+    "contents": null,
+    "displayLabel": "২৪",
+    "arabicTitle": null,
+    "count": 9,
+    "sectionCount": 4
+  },
+  {
+    "id": 25,
+    "title": "শিকার সম্পর্কীত অধ্যায়",
+    "range": "১০৪০ - ১০৫৮",
+    "contents": null,
+    "displayLabel": "২৫",
+    "arabicTitle": null,
+    "count": 19,
+    "sectionCount": 7
+  },
+  {
+    "id": 26,
+    "title": "আকীকা সম্পর্কিত",
+    "range": "১০৫৯ - ১০৬৫",
+    "contents": null,
+    "displayLabel": "২৬",
+    "arabicTitle": null,
+    "count": 7,
+    "sectionCount": 2
+  },
+  {
+    "id": 27,
+    "title": "ফারায়েয",
+    "range": "১০৬৬ - ১০৮১",
+    "contents": null,
+    "displayLabel": "২৭",
+    "arabicTitle": null,
+    "count": 16,
+    "sectionCount": 15
+  },
+  {
+    "id": 28,
+    "title": "বিবাহ",
+    "range": "১০৮২ - ১১৩৮",
+    "contents": null,
+    "displayLabel": "২৮",
+    "arabicTitle": null,
+    "count": 57,
+    "sectionCount": 22
+  },
+  {
+    "id": 29,
+    "title": "তালাক অধ্যায়",
+    "range": "১১৩৯ - ১২৪৭",
+    "contents": null,
+    "displayLabel": "২৯",
+    "arabicTitle": null,
+    "count": 109,
+    "sectionCount": 35
+  },
+  {
+    "id": 30,
+    "title": "সন্তানের দুধ পান করানোর বিধান",
+    "range": "১২৪৮ - ১২৬৪",
+    "contents": null,
+    "displayLabel": "৩০",
+    "arabicTitle": null,
+    "count": 17,
+    "sectionCount": 3
+  },
+  {
+    "id": 31,
+    "title": "ক্রয়-বিক্রয় সংক্রান্ত",
+    "range": "১২৬৫ - ১৩৬৭",
+    "contents": null,
+    "displayLabel": "৩১",
+    "arabicTitle": null,
+    "count": 103,
+    "sectionCount": 45
+  },
+  {
+    "id": 32,
+    "title": "শরীকী কারবার করা অধ্যায়",
+    "range": "১৩৬৮ - ১৩৮৩",
+    "contents": null,
+    "displayLabel": "৩২",
+    "arabicTitle": null,
+    "count": 16,
+    "sectionCount": 15
+  },
+  {
+    "id": 33,
+    "title": "শরীকানায় ফলের বাগানে উৎপাদন বিষয়ক অধ্যায়",
+    "range": "১৩৮৪ - ১৩৮৬",
+    "contents": null,
+    "displayLabel": "৩৩",
+    "arabicTitle": null,
+    "count": 3,
+    "sectionCount": 2
+  },
+  {
+    "id": 34,
+    "title": "জমি (কেয়ারা) ভাড়া দেয়ার অধ্যায়",
+    "range": "১৩৮৭ - ১৩৯১",
+    "contents": null,
+    "displayLabel": "৩৪",
+    "arabicTitle": null,
+    "count": 5,
+    "sectionCount": 1
+  },
+  {
+    "id": 35,
+    "title": "শুফ্’আ",
+    "range": "১৩৯২ - ১৩৯৫",
+    "contents": null,
+    "displayLabel": "৩৫",
+    "arabicTitle": null,
+    "count": 4,
+    "sectionCount": 2
+  },
+  {
+    "id": 36,
+    "title": "বিচার সম্পর্কিত",
+    "range": "১৩৯৬ - ১৪৪৯",
+    "contents": null,
+    "displayLabel": "৩৬",
+    "arabicTitle": null,
+    "count": 54,
+    "sectionCount": 40
+  },
+  {
+    "id": 37,
+    "title": "ওসীয়্যত সম্পর্কিত",
+    "range": "১৪৫০ - ১৪৫৮",
+    "contents": null,
+    "displayLabel": "৩৭",
+    "arabicTitle": null,
+    "count": 9,
+    "sectionCount": 10
+  },
+  {
+    "id": 38,
+    "title": "গোলাম আযাদ করা এবং স্বত্বাধিকার",
+    "range": "১৪৫৯ - ১৪৮৩",
+    "contents": null,
+    "displayLabel": "৩৮",
+    "arabicTitle": null,
+    "count": 25,
+    "sectionCount": 13
+  },
+  {
+    "id": 39,
+    "title": "ক্রীতদাস আযাদীর জন্য অর্থ প্রদান করার চুক্তি করার অধ্যায়",
+    "range": "১৪৮৪ - ১৪৯৮",
+    "contents": null,
+    "displayLabel": "৩৯",
+    "arabicTitle": null,
+    "count": 15,
+    "sectionCount": 13
+  },
+  {
+    "id": 40,
+    "title": "মুদাব্বার অধ্যায়",
+    "range": "১৪৯৯ - ১৫০৬",
+    "contents": null,
+    "displayLabel": "৪০",
+    "arabicTitle": null,
+    "count": 8,
+    "sectionCount": 7
+  },
+  {
+    "id": 41,
+    "title": "হুদুদের অধ্যায়",
+    "range": "১৫০৭ - ১৫৪০",
+    "contents": null,
+    "displayLabel": "৪১",
+    "arabicTitle": null,
+    "count": 34,
+    "sectionCount": 11
+  },
+  {
+    "id": 42,
+    "title": "শরাবের বর্ণনা অধ্যায়",
+    "range": "১৫৪১ - ১৫৫৫",
+    "contents": null,
+    "displayLabel": "৪২",
+    "arabicTitle": null,
+    "count": 15,
+    "sectionCount": 5
+  },
+  {
+    "id": 43,
+    "title": "দিয়াত অধ্যায়",
+    "range": "১৫৫৬ - ১৫৭১",
+    "contents": null,
+    "displayLabel": "৪৩",
+    "arabicTitle": null,
+    "count": 16,
+    "sectionCount": 24
+  },
+  {
+    "id": 44,
+    "title": "কাসামত বা কসম নেয়া অধ্যায়",
+    "range": "১৫৭২ - ১৫৭৩",
+    "contents": null,
+    "displayLabel": "৪৪",
+    "arabicTitle": null,
+    "count": 2,
+    "sectionCount": 5
+  },
+  {
+    "id": 45,
+    "title": "বিভিন্ন প্রকারের মাস‘আলা সম্বলিত অধ্যায়",
+    "range": "১৫৭৪ - ১৫৯৯",
+    "contents": null,
+    "displayLabel": "৪৫",
+    "arabicTitle": null,
+    "count": 26,
+    "sectionCount": 7
+  },
+  {
+    "id": 46,
+    "title": "তকদীর অধ্যায়",
+    "range": "১৬০০ - ১৬০৯",
+    "contents": null,
+    "displayLabel": "৪৬",
+    "arabicTitle": null,
+    "count": 10,
+    "sectionCount": 2
+  },
+  {
+    "id": 47,
+    "title": "সৎস্বভাব বিষয়ক অধ্যায়",
+    "range": "১৬১০ - ১৬২৭",
+    "contents": null,
+    "displayLabel": "৪৭",
+    "arabicTitle": null,
+    "count": 18,
+    "sectionCount": 4
+  },
+  {
+    "id": 48,
+    "title": "পোশাক-পরিচ্ছদ অধ্যায়",
+    "range": "১৬২৮ - ১৬৪৬",
+    "contents": null,
+    "displayLabel": "৪৮",
+    "arabicTitle": null,
+    "count": 19,
+    "sectionCount": 8
+  },
+  {
+    "id": 49,
+    "title": "রসূলুল্লাহ্ সল্লাল্লাহু আলাইহি ওয়াসাল্লাম-এর দৈহিক গঠন সম্পর্কে",
+    "range": "১৬৪৭ - ১৬৮৫",
+    "contents": null,
+    "displayLabel": "৪৯",
+    "arabicTitle": null,
+    "count": 39,
+    "sectionCount": 13
+  },
+  {
+    "id": 50,
+    "title": "বদনজর সংক্রান্ত অধ্যায়",
+    "range": "১৬৮৬ - ১৭০৩",
+    "contents": null,
+    "displayLabel": "৫০",
+    "arabicTitle": null,
+    "count": 18,
+    "sectionCount": 7
+  },
+  {
+    "id": 51,
+    "title": "চুল বিষয়ক অধ্যায়",
+    "range": "১৭০৪ - ১৭২০",
+    "contents": null,
+    "displayLabel": "৫১",
+    "arabicTitle": null,
+    "count": 17,
+    "sectionCount": 5
+  },
+  {
+    "id": 52,
+    "title": "স্বপ্ন সম্পর্কিত অধ্যায়",
+    "range": "১৭২১ - ১৭২৭",
+    "contents": null,
+    "displayLabel": "৫২",
+    "arabicTitle": null,
+    "count": 7,
+    "sectionCount": 2
+  },
+  {
+    "id": 53,
+    "title": "সালাম সম্পর্কিত অধ্যায়",
+    "range": "১৭২৮ - ১৭৩৫",
+    "contents": null,
+    "displayLabel": "৫৩",
+    "arabicTitle": null,
+    "count": 8,
+    "sectionCount": 3
+  },
+  {
+    "id": 54,
+    "title": "ঘরে প্রবেশ করার অনুমতি গ্রহণ বিষয়ক অধ্যায়",
+    "range": "১৭৩৬ - ১৭৭৯",
+    "contents": null,
+    "displayLabel": "৫৪",
+    "arabicTitle": null,
+    "count": 44,
+    "sectionCount": 17
+  },
+  {
+    "id": 55,
+    "title": "বায়‘আত অধ্যায়",
+    "range": "১৭৮০ - ১৭৮২",
+    "contents": null,
+    "displayLabel": "৫৫",
+    "arabicTitle": null,
+    "count": 3,
+    "sectionCount": 1
+  },
+  {
+    "id": 56,
+    "title": "কথাবার্তা সম্পর্কিত অধ্যায়",
+    "range": "১৭৮৩ - ১৮১০",
+    "contents": null,
+    "displayLabel": "৫৬",
+    "arabicTitle": null,
+    "count": 28,
+    "sectionCount": 12
+  },
+  {
+    "id": 57,
+    "title": "জাহান্নাম অধ্যায়",
+    "range": "১৮১১ - ১৮১২",
+    "contents": null,
+    "displayLabel": "৫৭",
+    "arabicTitle": null,
+    "count": 2,
+    "sectionCount": 1
+  },
+  {
+    "id": 58,
+    "title": "সাদাকাহ্ সম্পর্কিত অধ্যায়",
+    "range": "১৮১৩ - ১৮২৭",
+    "contents": null,
+    "displayLabel": "৫৮",
+    "arabicTitle": null,
+    "count": 15,
+    "sectionCount": 3
+  },
+  {
+    "id": 59,
+    "title": "ইলম অধ্যায়",
+    "range": "১৮২৮ - ১৮২৮",
+    "contents": null,
+    "displayLabel": "৫৯",
+    "arabicTitle": null,
+    "count": 1,
+    "sectionCount": 1
+  },
+  {
+    "id": 60,
+    "title": "মযলুমের বদ দু‘আ অধ্যায়",
+    "range": "১৮২৯ - ১৮২৯",
+    "contents": null,
+    "displayLabel": "৬০",
+    "arabicTitle": null,
+    "count": 1,
+    "sectionCount": 1
+  },
+  {
+    "id": 61,
+    "title": "নবী সাল্লাল্লাহু ‘আলাইহি ওয়া সাল্লাম-এর পবিত্র নামসমূহ",
+    "range": "১৮৩০ - ১৮৩০",
+    "contents": null,
+    "displayLabel": "৬১",
+    "arabicTitle": null,
+    "count": 1,
+    "sectionCount": 1
+  }
+]

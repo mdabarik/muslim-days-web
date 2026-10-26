@@ -1,0 +1,82 @@
+{
+  "id": 9,
+  "languageId": "bn",
+  "slug": "bulugul-maram",
+  "title": "বুলুগুল মারাম",
+  "contents": {
+    "description": "সংকলক : শিহাবুদ্দীন আহমাদ বিন আলী বিন মুহাম্মাদ বিন আলী বিন মাহমুদ বিন আহমাদ বিন হাজার বিন আহমাদ আল আসকালানী আল কিনানী। মোট হাদীস সংখ্যা : ১৫৬৮ টি। প্রকাশনী : তাওহীদ পাবলিকেশন্স। বুলুগুল মারাম এমন একটি বিখ্যাত গ্রন্থ যেটি মধ্যপ্রাচ্য সহ প্রায় সকল ইসলামিক বিশ্ববিদ্যায়লের পাঠ্য তালিকার অন্তর্ভুক্ত। এর সংকলক ইবনু হাজার আসকালানী তাঁর গ্রন্থের ভূমিকায় বলেন, এই গ্রন্থটি দ্বীন ইসলামের শর’ঈয়তের হুকুম আহকাম সম্বলিত সংক্ষিপ্ত সংকলন। এমন এক উন্নত ধারাতে একে আমি সাজিয়েছি যে, এর আয়ত্বকারী তাঁর সমসাময়িকদের মাঝে শ্রেষ্ঠত্ব লাভ করতে পারবে, প্রথমিক শিক্ষার্থীরা এর সাহায্য লাভে সক্ষম হবে এবং উচ্চতর জ্ঞানান্বেষকারীগণও এর থেকে সাহায্য গ্রহণের ব্যাপারে অমুখাপেক্ষী হতে পারবে না।",
+    "short_desc": "বুলুগুল মারাম ইসলামী আইনি বিধান নিয়ে একটি সংক্ষিপ্ত বই। ইবনে হাজার আসকালানী ফিকাহ সিদ্ধান্তে ব্যবহৃত হাদিস সংকলন করেছেন। কোন হাদিস কোন বিধান সমর্থন করে তা দেখায়। ইসলামী আইন শিক্ষার্থীদের জন্য আদর্শ।"
+  },
+  "publication": "তাওহীদ পাবলিকেশন্স",
+  "hadithCount": 1568,
+  "chapterCount": 16,
+  "sectionCount": 1108,
+  "downloadedCount": 1568,
+  "downloadedSectionCount": 1108,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/bulugul-maram/part-001.json",
+      "count": 250,
+      "firstId": "1",
+      "lastId": "250",
+      "bytes": 1389084,
+      "sha256": "38a453b7d90873b146771dc504c1cfc41529be1bb4c422805faa064462a98e71"
+    },
+    {
+      "part": 2,
+      "file": "books/bulugul-maram/part-002.json",
+      "count": 250,
+      "firstId": "251",
+      "lastId": "500",
+      "bytes": 1611171,
+      "sha256": "c7e926fa7d9c95f6b305ccd1b73ebc577f8fae1e4aee07ebe324586ff8652ed3"
+    },
+    {
+      "part": 3,
+      "file": "books/bulugul-maram/part-003.json",
+      "count": 250,
+      "firstId": "501",
+      "lastId": "750",
+      "bytes": 1476694,
+      "sha256": "3f91a0b5dfa63346b6e5951b895db203461c1b4e8d35802f29fc3cdb4f421983"
+    },
+    {
+      "part": 4,
+      "file": "books/bulugul-maram/part-004.json",
+      "count": 250,
+      "firstId": "751",
+      "lastId": "1000",
+      "bytes": 1552306,
+      "sha256": "3e9a6526e99635dc80ee73513fb81f3cfc97cf6d98f168b8bb8ad237bba2899e"
+    },
+    {
+      "part": 5,
+      "file": "books/bulugul-maram/part-005.json",
+      "count": 250,
+      "firstId": "1001",
+      "lastId": "1250",
+      "bytes": 1484337,
+      "sha256": "4fc283cc6936bd98febfebf42236363f2a1376cfb4aedeee0f5c395dfdd02c82"
+    },
+    {
+      "part": 6,
+      "file": "books/bulugul-maram/part-006.json",
+      "count": 250,
+      "firstId": "1251",
+      "lastId": "1500",
+      "bytes": 1472030,
+      "sha256": "e02b2eac9d5b72dba22c50265b3429a7c002264bfd874ee7828e3c47a51922bf"
+    },
+    {
+      "part": 7,
+      "file": "books/bulugul-maram/part-007.json",
+      "count": 68,
+      "firstId": "1501",
+      "lastId": "1568",
+      "bytes": 421673,
+      "sha256": "785ba26993b0f7a4fc1b4c54504a1a2961eeae64be480615f5fb5a15d4b7c01d"
+    }
+  ],
+  "chaptersFile": "books/bulugul-maram/chapters.json"
+}

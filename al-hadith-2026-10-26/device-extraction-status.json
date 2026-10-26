@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-26",
+  "app": "com.ihadis.ihadis",
+  "version": "8.1.0",
+  "android_version": "13",
+  "downloaded_bukhari": {
+    "ui_confirmed": true,
+    "displayed_hadith_count": 7563,
+    "database_extracted": false
+  },
+  "access_checks": {
+    "run_as": "package not debuggable",
+    "private_storage": "Permission denied",
+    "external_app_data_directory": "not found",
+    "su_command": "not found"
+  },
+  "compiled_download_base": "https://download.quranmazid.com/hadith_dbs/encrypted/",
+  "download_base_evidence": "Literal in installed arm64 libapp.so; actual Bukhari request URL not captured",
+  "api_base": "https://ihadis.com/api/v1/trpc",
+  "previously_observed_procedures": [
+    "hadith.byId",
+    "hadith.wordByWord"
+  ],
+  "app_logs": "No download request URL observed",
+  "android_backup_exclusions": [
+    "app_flutter/databases",
+    "app_flutter/hadith.db",
+    "app_flutter/general_books.db",
+    "app_flutter/prayer_locations.db",
+    "app_flutter/hadith_reels.db",
+    "app_flutter/hadith_quiz.db",
+    "app_flutter/subjectwise_*.db and .sqlite for bn/en/ur/id/ar"
+  ],
+  "in_app_export_description": "Bookmarks, pins, personal notes, reading plans and reading activity; full downloaded books not listed",
+  "bundled_ihdb_format": "AES-256-GCM authenticated encrypted chunks; key not obtained",
+  "limitations": [
+    "Installed book filename and exact request URL unknown",
+    "No downloaded book database copied",
+    "No full corpus JSON generated"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-26",
+  "english_comparison": [
+    {
+      "book": "bukhari",
+      "hadith_id": 1,
+      "language": "en",
+      "ird_reader_url": "https://ihadis.com/en/bukhari/hadith/1",
+      "comparison_url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/eng-bukhari/1.json",
+      "raw_differences": [
+        {
+          "operation": "delete",
+          "ird_fragment": ".\"",
+          "comparison_fragment": ""
+        }
+      ],
+      "meaning": "Differences restricted to final punctuation in these three samples. No direction of copying established."
+    },
+    {
+      "book": "bukhari",
+      "hadith_id": 2,
+      "language": "en",
+      "ird_reader_url": "https://ihadis.com/en/bukhari/hadith/2",
+      "comparison_url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/eng-bukhari/2.json",
+      "raw_differences": [
+        {
+          "operation": "delete",
+          "ird_fragment": ".",
+          "comparison_fragment": ""
+        }
+      ],
+      "meaning": "Differences restricted to final punctuation in these three samples. No direction of copying established."
+    },
+    {
+      "book": "bukhari",
+      "hadith_id": 54,
+      "language": "en",
+      "ird_reader_url": "https://ihadis.com/en/bukhari/hadith/54",
+      "comparison_url": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/eng-bukhari/54.json",
+      "raw_differences": [
+        {
+          "operation": "delete",
+          "ird_fragment": ".\"",
+          "comparison_fragment": ""
+        }
+      ],
+      "meaning": "Differences restricted to final punctuation in these three samples. No direction of copying established."
+    }
+  ],
+  "fawaz_editions_author_for_eng_bukhari": "Muhsin Khan",
+  "desktop_history": {
+    "repo": "https://github.com/ajaxray/iHadisDesktop",
+    "oldest_commit": "f0eb0640",
+    "oldest_commit_date": "2013-06-17T09:42:54Z",
+    "description": "digitize hadith collections in Arabic, Bengali and English"
+  },
+  "downstream_credit": {
+    "repo": "https://github.com/rakibrahman/hadith-api",
+    "statement": "Thanks to iHadis for providing hadiths"
+  },
+  "word_by_word_origin": "Not established; no publisher, dictionary or preparation-pipeline attribution found in inspected word response, reader component or public search."
+}

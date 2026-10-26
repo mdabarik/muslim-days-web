@@ -1,0 +1,972 @@
+[
+  {
+    "id": 1,
+    "title": "ওহীর সূচনা অধ্যায়",
+    "range": "১ - ৭",
+    "contents": null,
+    "displayLabel": "১",
+    "arabicTitle": "كتاب بدء الوحى",
+    "count": 7,
+    "sectionCount": 6
+  },
+  {
+    "id": 2,
+    "title": "ঈমান",
+    "range": "৮ - ৫৮",
+    "contents": null,
+    "displayLabel": "২",
+    "arabicTitle": "كتاب الإيمان",
+    "count": 51,
+    "sectionCount": 43
+  },
+  {
+    "id": 3,
+    "title": "ইলম",
+    "range": "৫৯ - ১৩৪",
+    "contents": null,
+    "displayLabel": "৩",
+    "arabicTitle": "كتاب العلم",
+    "count": 76,
+    "sectionCount": 53
+  },
+  {
+    "id": 4,
+    "title": "ওযু",
+    "range": "১৩৫ - ২৪৭",
+    "contents": null,
+    "displayLabel": "৪",
+    "arabicTitle": "كتاب الوضوء",
+    "count": 113,
+    "sectionCount": 77
+  },
+  {
+    "id": 5,
+    "title": "গোসল",
+    "range": "২৪৮ - ২৯৩",
+    "contents": null,
+    "displayLabel": "৫",
+    "arabicTitle": "كتاب الغسل",
+    "count": 46,
+    "sectionCount": 29
+  },
+  {
+    "id": 6,
+    "title": "হায়েজ",
+    "range": "২৯৪ - ৩৩৩",
+    "contents": null,
+    "displayLabel": "৬",
+    "arabicTitle": "كتاب الحيض",
+    "count": 40,
+    "sectionCount": 31
+  },
+  {
+    "id": 7,
+    "title": "তায়াম্মুম",
+    "range": "৩৩৪ - ৩৪৮",
+    "contents": null,
+    "displayLabel": "৭",
+    "arabicTitle": "كتاب التيمم",
+    "count": 15,
+    "sectionCount": 9
+  },
+  {
+    "id": 8,
+    "title": "সালাত",
+    "range": "৩৪৯ - ৫২০",
+    "contents": null,
+    "displayLabel": "৮",
+    "arabicTitle": "كتاب الصلاة",
+    "count": 172,
+    "sectionCount": 109
+  },
+  {
+    "id": 9,
+    "title": "সালাতের ওয়াক্তসমূহ",
+    "range": "৫২১ - ৬০২",
+    "contents": null,
+    "displayLabel": "৯",
+    "arabicTitle": "كتاب مواقيت الصلاة",
+    "count": 82,
+    "sectionCount": 41
+  },
+  {
+    "id": 10,
+    "title": "আজান",
+    "range": "৬০৩ - ৮৭৫",
+    "contents": null,
+    "displayLabel": "১০",
+    "arabicTitle": "كتاب الأذان",
+    "count": 273,
+    "sectionCount": 166
+  },
+  {
+    "id": 11,
+    "title": "জুমা",
+    "range": "৮৭৬ - ৯৪১",
+    "contents": null,
+    "displayLabel": "১১",
+    "arabicTitle": "كتاب الجمعة",
+    "count": 66,
+    "sectionCount": 41
+  },
+  {
+    "id": 12,
+    "title": "খাওফ (ভয় ভীতির সালাত)",
+    "range": "৯৪২ - ৯৪৭",
+    "contents": null,
+    "displayLabel": "১২",
+    "arabicTitle": "كتاب صلاة الخوف",
+    "count": 6,
+    "sectionCount": 6
+  },
+  {
+    "id": 13,
+    "title": "দুই ঈদ",
+    "range": "৯৪৮ - ৯৮৯",
+    "contents": null,
+    "displayLabel": "১৩",
+    "arabicTitle": "كتاب العيدين",
+    "count": 42,
+    "sectionCount": 26
+  },
+  {
+    "id": 14,
+    "title": "বিতর",
+    "range": "৯৯০ - ১০০৪",
+    "contents": null,
+    "displayLabel": "১৪",
+    "arabicTitle": "كتاب الوتر",
+    "count": 15,
+    "sectionCount": 7
+  },
+  {
+    "id": 15,
+    "title": "বৃষ্টির জন্য দোয়া",
+    "range": "১০০৫ - ১০৩৯",
+    "contents": null,
+    "displayLabel": "১৫",
+    "arabicTitle": "كتاب الاستسقاء",
+    "count": 35,
+    "sectionCount": 29
+  },
+  {
+    "id": 16,
+    "title": "সূর্যগ্রহণ",
+    "range": "১০৪০ - ১০৬৬",
+    "contents": null,
+    "displayLabel": "১৬",
+    "arabicTitle": "كتاب الكسوف",
+    "count": 27,
+    "sectionCount": 19
+  },
+  {
+    "id": 17,
+    "title": "কুরআন তিলাওয়াতের সিজদা",
+    "range": "১০৬৭ - ১০৭৯",
+    "contents": null,
+    "displayLabel": "১৭",
+    "arabicTitle": "كتاب سجود القرآن",
+    "count": 13,
+    "sectionCount": 12
+  },
+  {
+    "id": 18,
+    "title": "সালাতে কসর করা",
+    "range": "১০৮০ - ১১১৯",
+    "contents": null,
+    "displayLabel": "১৮",
+    "arabicTitle": "كتاب التقصير",
+    "count": 40,
+    "sectionCount": 20
+  },
+  {
+    "id": 19,
+    "title": "তাহাজ্জুদ",
+    "range": "১১২০ - ১১৮৭",
+    "contents": null,
+    "displayLabel": "১৯",
+    "arabicTitle": "كتاب التهجد",
+    "count": 68,
+    "sectionCount": 37
+  },
+  {
+    "id": 20,
+    "title": "মক্কা ও মদীনার মসজিদে সালাতের মর্যাদা",
+    "range": "১১৮৮ - ১১৯৭",
+    "contents": null,
+    "displayLabel": "২০",
+    "arabicTitle": "كتاب فضل الصلاة فى مسجد مكة والمدينة",
+    "count": 10,
+    "sectionCount": 6
+  },
+  {
+    "id": 21,
+    "title": "সালাতের সাথে সংশ্লিষ্ট কাজ",
+    "range": "১১৯৮ - ১২২৩",
+    "contents": null,
+    "displayLabel": "২১",
+    "arabicTitle": "كتاب العمل فى الصلاة",
+    "count": 26,
+    "sectionCount": 18
+  },
+  {
+    "id": 22,
+    "title": "সাহু",
+    "range": "১২২৪ - ১২৩৬",
+    "contents": null,
+    "displayLabel": "২২",
+    "arabicTitle": "كتاب السهو",
+    "count": 13,
+    "sectionCount": 9
+  },
+  {
+    "id": 23,
+    "title": "জানাজা",
+    "range": "১২৩৭ - ১৩৯৪",
+    "contents": null,
+    "displayLabel": "২৩",
+    "arabicTitle": "كتاب الجنائز",
+    "count": 158,
+    "sectionCount": 98
+  },
+  {
+    "id": 24,
+    "title": "যাকাত",
+    "range": "১৩৯৫ - ১৫১২",
+    "contents": null,
+    "displayLabel": "২৪",
+    "arabicTitle": "كتاب الزكاة",
+    "count": 118,
+    "sectionCount": 79
+  },
+  {
+    "id": 25,
+    "title": "হজ্জ",
+    "range": "১৫১৩ - ১৭৭২",
+    "contents": null,
+    "displayLabel": "২৫",
+    "arabicTitle": "كتاب الحج",
+    "count": 260,
+    "sectionCount": 151
+  },
+  {
+    "id": 26,
+    "title": "উমরাহ",
+    "range": "১৭৭৩ - ১৮০৫",
+    "contents": null,
+    "displayLabel": "২৬",
+    "arabicTitle": "كتاب العمرة",
+    "count": 33,
+    "sectionCount": 20
+  },
+  {
+    "id": 27,
+    "title": "পথে আটকে পড়া ও ইহরাম অবস্থায় শিকারকারীর বিধান",
+    "range": "১৮০৬ - ১৮২০",
+    "contents": null,
+    "displayLabel": "২৭",
+    "arabicTitle": "كتاب المحصر",
+    "count": 15,
+    "sectionCount": 10
+  },
+  {
+    "id": 28,
+    "title": "ইহরাম অবস্থায় শিকার ও অনুরূপ কিছুর বদলা",
+    "range": "১৮২১ - ১৮৬৬",
+    "contents": null,
+    "displayLabel": "২৮",
+    "arabicTitle": "كتاب جزاء الصيد",
+    "count": 46,
+    "sectionCount": 27
+  },
+  {
+    "id": 29,
+    "title": "মদীনার ফজিলত",
+    "range": "১৮৬৭ - ১৮৯০",
+    "contents": null,
+    "displayLabel": "২৯",
+    "arabicTitle": "كتاب فضائل المدينة",
+    "count": 24,
+    "sectionCount": 13
+  },
+  {
+    "id": 30,
+    "title": "সাওম",
+    "range": "১৮৯১ - ২০০৭",
+    "contents": null,
+    "displayLabel": "৩০",
+    "arabicTitle": "كتاب الصوم",
+    "count": 117,
+    "sectionCount": 69
+  },
+  {
+    "id": 31,
+    "title": "তারাবীহর সালাত",
+    "range": "২০০৮ - ২০১৩",
+    "contents": null,
+    "displayLabel": "৩১",
+    "arabicTitle": "كتاب صلاة التراويح",
+    "count": 6,
+    "sectionCount": 1
+  },
+  {
+    "id": 32,
+    "title": "লাইলাতুল কদর এর ফজিলত",
+    "range": "২০১৪ - ২০২৪",
+    "contents": null,
+    "displayLabel": "৩২",
+    "arabicTitle": "كتاب فضل ليلة القدر",
+    "count": 11,
+    "sectionCount": 5
+  },
+  {
+    "id": 33,
+    "title": "ইতিকাফ",
+    "range": "২০২৫ - ২০৪৬",
+    "contents": null,
+    "displayLabel": "৩৩",
+    "arabicTitle": "كتاب الاعتكاف",
+    "count": 22,
+    "sectionCount": 19
+  },
+  {
+    "id": 34,
+    "title": "ক্রয়-বিক্রয়",
+    "range": "২০৪৭ - ২২৩৮",
+    "contents": null,
+    "displayLabel": "৩৪",
+    "arabicTitle": "كتاب البيوع",
+    "count": 192,
+    "sectionCount": 113
+  },
+  {
+    "id": 35,
+    "title": "সলম (অগ্রিম ক্রয়-বিক্রয়)",
+    "range": "২২৩৯ - ২২৫৬",
+    "contents": null,
+    "displayLabel": "৩৫",
+    "arabicTitle": "كتاب السلم",
+    "count": 18,
+    "sectionCount": 8
+  },
+  {
+    "id": 36,
+    "title": "শুফআ",
+    "range": "২২৫৭ - ২২৫৯",
+    "contents": null,
+    "displayLabel": "৩৬",
+    "arabicTitle": "كتاب الشفعة",
+    "count": 3,
+    "sectionCount": 3
+  },
+  {
+    "id": 37,
+    "title": "ইজারা",
+    "range": "২২৬০ - ২২৮৬",
+    "contents": null,
+    "displayLabel": "৩৭",
+    "arabicTitle": "كتاب الإجارة",
+    "count": 27,
+    "sectionCount": 22
+  },
+  {
+    "id": 38,
+    "title": "হাওয়ালাত",
+    "range": "২২৮৭ - ২২৮৯",
+    "contents": null,
+    "displayLabel": "৩৮",
+    "arabicTitle": "كتاب الحوالات",
+    "count": 3,
+    "sectionCount": 3
+  },
+  {
+    "id": 39,
+    "title": "যামিন হওয়া",
+    "range": "২২৯০ - ২২৯৮",
+    "contents": null,
+    "displayLabel": "৩৯",
+    "arabicTitle": "كتاب الكفالة",
+    "count": 9,
+    "sectionCount": 5
+  },
+  {
+    "id": 40,
+    "title": "ওয়াকালাহ (প্রতিনিধিত্ব)",
+    "range": "২২৯৯ - ২৩১৯",
+    "contents": null,
+    "displayLabel": "৪০",
+    "arabicTitle": "كتاب الوكالة",
+    "count": 21,
+    "sectionCount": 16
+  },
+  {
+    "id": 41,
+    "title": "চাষাবাদ",
+    "range": "২৩২০ - ২৩৫০",
+    "contents": null,
+    "displayLabel": "৪১",
+    "arabicTitle": "كتاب المزارعة",
+    "count": 31,
+    "sectionCount": 21
+  },
+  {
+    "id": 42,
+    "title": "পানি সেচ",
+    "range": "২৩৫১ - ২৩৮৪",
+    "contents": null,
+    "displayLabel": "৪২",
+    "arabicTitle": "كتاب المساقاة",
+    "count": 34,
+    "sectionCount": 18
+  },
+  {
+    "id": 43,
+    "title": "ঋণ গ্রহণ, ঋণ পরিশোধ, নিষেধাজ্ঞা আরোপ ও দেউলিয়া ঘোষণা",
+    "range": "২৩৮৫ - ২৪০৯",
+    "contents": null,
+    "displayLabel": "৪৩",
+    "arabicTitle": "كتاب فى الاستقراض",
+    "count": 25,
+    "sectionCount": 20
+  },
+  {
+    "id": 44,
+    "title": "ঝগড়া-বিবাদ মীমাংসা",
+    "range": "২৪১০ - ২৪২৫",
+    "contents": null,
+    "displayLabel": "৪৪",
+    "arabicTitle": "كتاب الخصومات",
+    "count": 16,
+    "sectionCount": 10
+  },
+  {
+    "id": 45,
+    "title": "পড়ে থাকা বস্তু উঠানো",
+    "range": "২৪২৬ - ২৪৩৯",
+    "contents": null,
+    "displayLabel": "৪৫",
+    "arabicTitle": "كتاب فى اللقطة",
+    "count": 14,
+    "sectionCount": 12
+  },
+  {
+    "id": 46,
+    "title": "জুলুম ও কিসাস",
+    "range": "২৪৪০ - ২৪৮২",
+    "contents": null,
+    "displayLabel": "৪৬",
+    "arabicTitle": "كتاب المظالم",
+    "count": 43,
+    "sectionCount": 35
+  },
+  {
+    "id": 47,
+    "title": "অংশীদারিত্ব",
+    "range": "২৪৮৩ - ২৫০৭",
+    "contents": null,
+    "displayLabel": "৪৭",
+    "arabicTitle": "كتاب الشركة",
+    "count": 25,
+    "sectionCount": 16
+  },
+  {
+    "id": 48,
+    "title": "বন্ধক",
+    "range": "২৫০৮ - ২৫১৬",
+    "contents": null,
+    "displayLabel": "৪৮",
+    "arabicTitle": "كتاب الرهن",
+    "count": 9,
+    "sectionCount": 6
+  },
+  {
+    "id": 49,
+    "title": "ক্রীতদাস আযাদ করা",
+    "range": "২৫১৭ - ২৫৫৯",
+    "contents": null,
+    "displayLabel": "৪৯",
+    "arabicTitle": "كتاب العتق",
+    "count": 43,
+    "sectionCount": 20
+  },
+  {
+    "id": 50,
+    "title": "মুকাতাব (চুক্তিবদ্ধ দাসের বর্ণনা)",
+    "range": "২৫৬০ - ২৫৬৫",
+    "contents": null,
+    "displayLabel": "৫০",
+    "arabicTitle": "كتاب المكاتب",
+    "count": 6,
+    "sectionCount": 5
+  },
+  {
+    "id": 51,
+    "title": "হিবা ও তার ফজিলত এবং এর প্রতি উৎসাহ প্রদান",
+    "range": "২৫৬৬ - ২৬৩৬",
+    "contents": null,
+    "displayLabel": "৫১",
+    "arabicTitle": "كتاب الهبة وفضلها والتحريض عليها",
+    "count": 71,
+    "sectionCount": 37
+  },
+  {
+    "id": 52,
+    "title": "সাক্ষ্যদান",
+    "range": "২৬৩৭ - ২৬৮৯",
+    "contents": null,
+    "displayLabel": "৫২",
+    "arabicTitle": "كتاب الشهادات",
+    "count": 53,
+    "sectionCount": 30
+  },
+  {
+    "id": 53,
+    "title": "বিবাদ মীমাংসা",
+    "range": "২৬৯০ - ২৭১০",
+    "contents": null,
+    "displayLabel": "৫৩",
+    "arabicTitle": "كتاب الصلح",
+    "count": 21,
+    "sectionCount": 14
+  },
+  {
+    "id": 54,
+    "title": "শর্তাবলী",
+    "range": "২৭১১ - ২৭৩৭",
+    "contents": null,
+    "displayLabel": "৫৪",
+    "arabicTitle": "كتاب الشروط",
+    "count": 27,
+    "sectionCount": 19
+  },
+  {
+    "id": 55,
+    "title": "ওসিয়াত",
+    "range": "২৭৩৮ - ২৭৮১",
+    "contents": null,
+    "displayLabel": "৫৫",
+    "arabicTitle": "كتاب الوصايا",
+    "count": 44,
+    "sectionCount": 36
+  },
+  {
+    "id": 56,
+    "title": "জিহাদ",
+    "range": "২৭৮২ - ৩০৯০",
+    "contents": null,
+    "displayLabel": "৫৬",
+    "arabicTitle": "كتاب الجهاد والسير",
+    "count": 309,
+    "sectionCount": 199
+  },
+  {
+    "id": 57,
+    "title": "খুমুস (এক পঞ্চমাংশ)",
+    "range": "৩০৯১ - ৩১৫৫",
+    "contents": null,
+    "displayLabel": "৫৭",
+    "arabicTitle": "كتاب فرض الخمس",
+    "count": 65,
+    "sectionCount": 20
+  },
+  {
+    "id": 58,
+    "title": "জিযিয়া কর ও সন্ধি স্থাপন",
+    "range": "৩১৫৬ - ৩১৮৯",
+    "contents": null,
+    "displayLabel": "৫৮",
+    "arabicTitle": "كتاب الجزية والموادعة",
+    "count": 34,
+    "sectionCount": 22
+  },
+  {
+    "id": 59,
+    "title": "সৃষ্টির সূচনা",
+    "range": "৩১৯০ - ৩৩২৫",
+    "contents": null,
+    "displayLabel": "৫৯",
+    "arabicTitle": "كتاب بدء الخلق",
+    "count": 136,
+    "sectionCount": 17
+  },
+  {
+    "id": 60,
+    "title": "আম্বিয়া কিরাম (আঃ)",
+    "range": "৩৩২৬ - ৩৪৮৮",
+    "contents": null,
+    "displayLabel": "৬০",
+    "arabicTitle": "كتاب أحاديث الأنبياء",
+    "count": 163,
+    "sectionCount": 54
+  },
+  {
+    "id": 61,
+    "title": "মর্যাদা ও বৈশিষ্ট্য",
+    "range": "৩৪৮৯ - ৩৬৪৮",
+    "contents": null,
+    "displayLabel": "৬১",
+    "arabicTitle": "كتاب المناقب",
+    "count": 160,
+    "sectionCount": 28
+  },
+  {
+    "id": 62,
+    "title": "সাহাবীগণের মর্যাদা",
+    "range": "৩৬৪৯ - ৩৭৭৫",
+    "contents": null,
+    "displayLabel": "৬২",
+    "arabicTitle": "كتاب فضائل أصحاب النبى ﷺ",
+    "count": 127,
+    "sectionCount": 31
+  },
+  {
+    "id": 63,
+    "title": "আনসারগণের মর্যাদা",
+    "range": "৩৭৭৬ - ৩৯৪৮",
+    "contents": null,
+    "displayLabel": "৬৩",
+    "arabicTitle": "كتاب مناقب الأنصار",
+    "count": 173,
+    "sectionCount": 53
+  },
+  {
+    "id": 64,
+    "title": "মাগাজি",
+    "range": "৩৯৪৯ - ৪৪৭৩",
+    "contents": null,
+    "displayLabel": "৬৪",
+    "arabicTitle": "كتاب المغازى",
+    "count": 525,
+    "sectionCount": 90
+  },
+  {
+    "id": 65,
+    "title": "তাফসীর",
+    "range": "৪৪৭৪ - ৪৯৭৭",
+    "contents": null,
+    "displayLabel": "৬৫",
+    "arabicTitle": "كتاب التفسير",
+    "count": 504,
+    "sectionCount": 413
+  },
+  {
+    "id": 66,
+    "title": "ফজায়িলুল কুরআন",
+    "range": "৪৯৭৮ - ৫০৬২",
+    "contents": null,
+    "displayLabel": "৬৬",
+    "arabicTitle": "كتاب فضائل القرآن",
+    "count": 85,
+    "sectionCount": 37
+  },
+  {
+    "id": 67,
+    "title": "বিয়ে-শাদি",
+    "range": "৫০৬৩ - ৫২৫০",
+    "contents": null,
+    "displayLabel": "৬৭",
+    "arabicTitle": "كتاب النكاح",
+    "count": 188,
+    "sectionCount": 126
+  },
+  {
+    "id": 68,
+    "title": "তালাক",
+    "range": "৫২৫১ - ৫৩৫০",
+    "contents": null,
+    "displayLabel": "৬৮",
+    "arabicTitle": "كتاب الطلاق",
+    "count": 100,
+    "sectionCount": 53
+  },
+  {
+    "id": 69,
+    "title": "ভরণ-পোষণ",
+    "range": "৫৩৫১ - ৫৩৭২",
+    "contents": null,
+    "displayLabel": "৬৯",
+    "arabicTitle": "كتاب النفقات",
+    "count": 22,
+    "sectionCount": 16
+  },
+  {
+    "id": 70,
+    "title": "আহার সংক্রান্ত",
+    "range": "৫৩৭৩ - ৫৪৬৬",
+    "contents": null,
+    "displayLabel": "৭০",
+    "arabicTitle": "كتاب الأطعمة",
+    "count": 94,
+    "sectionCount": 59
+  },
+  {
+    "id": 71,
+    "title": "আকীকা",
+    "range": "৫৪৬৭ - ৫৪৭৪",
+    "contents": null,
+    "displayLabel": "৭১",
+    "arabicTitle": "كتاب العقيقة",
+    "count": 8,
+    "sectionCount": 4
+  },
+  {
+    "id": 72,
+    "title": "যবেহ ও শিকার করা",
+    "range": "৫৪৭৫ - ৫৫৪৪",
+    "contents": null,
+    "displayLabel": "৭২",
+    "arabicTitle": "كتاب الذبائح والصيد",
+    "count": 70,
+    "sectionCount": 38
+  },
+  {
+    "id": 73,
+    "title": "কুরবানী",
+    "range": "৫৫৪৫ - ৫৫৭৪",
+    "contents": null,
+    "displayLabel": "৭৩",
+    "arabicTitle": "كتاب الأضاحي",
+    "count": 30,
+    "sectionCount": 16
+  },
+  {
+    "id": 74,
+    "title": "পানীয় দ্রব্যসমূহ",
+    "range": "৫৫৭৫ - ৫৬৩৯",
+    "contents": null,
+    "displayLabel": "৭৪",
+    "arabicTitle": "كتاب الأشربة",
+    "count": 65,
+    "sectionCount": 31
+  },
+  {
+    "id": 75,
+    "title": "রোগীদের বর্ণনা",
+    "range": "৫৬৪০ - ৫৬৭৭",
+    "contents": null,
+    "displayLabel": "৭৫",
+    "arabicTitle": "كتاب المرضى",
+    "count": 38,
+    "sectionCount": 22
+  },
+  {
+    "id": 76,
+    "title": "চিকিৎসা",
+    "range": "৫৬৭৮ - ৫৭৮২",
+    "contents": null,
+    "displayLabel": "৭৬",
+    "arabicTitle": "كتاب الطب",
+    "count": 105,
+    "sectionCount": 58
+  },
+  {
+    "id": 77,
+    "title": "পোশাক-পরিচ্ছদ",
+    "range": "৫৭৮৩ - ৫৯৬৯",
+    "contents": null,
+    "displayLabel": "৭৭",
+    "arabicTitle": "كتاب اللباس",
+    "count": 187,
+    "sectionCount": 103
+  },
+  {
+    "id": 78,
+    "title": "আচার-ব্যবহার",
+    "range": "৫৯৭০ - ৬২২৬",
+    "contents": null,
+    "displayLabel": "৭৮",
+    "arabicTitle": "كتاب الأدب",
+    "count": 257,
+    "sectionCount": 128
+  },
+  {
+    "id": 79,
+    "title": "অনুমতি চাওয়া",
+    "range": "৬২২৭ - ৬৩০৩",
+    "contents": null,
+    "displayLabel": "৭৯",
+    "arabicTitle": "كتاب الاستئذان",
+    "count": 77,
+    "sectionCount": 53
+  },
+  {
+    "id": 80,
+    "title": "দোয়া",
+    "range": "৬৩০৪ - ৬৪১১",
+    "contents": null,
+    "displayLabel": "৮০",
+    "arabicTitle": "كتاب الدعوات",
+    "count": 108,
+    "sectionCount": 70
+  },
+  {
+    "id": 81,
+    "title": "কোমল হওয়া",
+    "range": "৬৪১২ - ৬৫৯৩",
+    "contents": null,
+    "displayLabel": "৮১",
+    "arabicTitle": "كتاب الرقاق",
+    "count": 182,
+    "sectionCount": 53
+  },
+  {
+    "id": 82,
+    "title": "তাকদীর",
+    "range": "৬৫৯৪ - ৬৬২০",
+    "contents": null,
+    "displayLabel": "৮২",
+    "arabicTitle": "كتاب القدر",
+    "count": 27,
+    "sectionCount": 16
+  },
+  {
+    "id": 83,
+    "title": "শপথ ও মানত",
+    "range": "৬৬২১ - ৬৭০৭",
+    "contents": null,
+    "displayLabel": "৮৩",
+    "arabicTitle": "كتاب الأيمان والنذور",
+    "count": 87,
+    "sectionCount": 33
+  },
+  {
+    "id": 84,
+    "title": "শপথের কাফফারা",
+    "range": "৬৭০৮ - ৬৭২২",
+    "contents": null,
+    "displayLabel": "৮৪",
+    "arabicTitle": "كتاب كفارات الأيمان",
+    "count": 15,
+    "sectionCount": 10
+  },
+  {
+    "id": 85,
+    "title": "উত্তরাধিকার",
+    "range": "৬৭২৩ - ৬৭৭১",
+    "contents": null,
+    "displayLabel": "৮৫",
+    "arabicTitle": "كتاب الفرائض",
+    "count": 49,
+    "sectionCount": 31
+  },
+  {
+    "id": 86,
+    "title": "শরিয়তের শাস্তি",
+    "range": "৬৭৭২ - ৬৮৬০",
+    "contents": null,
+    "displayLabel": "৮৬",
+    "arabicTitle": "كتاب الحدود",
+    "count": 89,
+    "sectionCount": 47
+  },
+  {
+    "id": 87,
+    "title": "রক্তপণ",
+    "range": "৬৮৬১ - ৬৯১৭",
+    "contents": null,
+    "displayLabel": "৮৭",
+    "arabicTitle": "كتاب الديات",
+    "count": 57,
+    "sectionCount": 32
+  },
+  {
+    "id": 88,
+    "title": "আল্লাহদ্রোহী ও ধর্মত্যাগীদেরকে তাওবার প্রতি আহ্বান ও তাদের সাথে যুদ্ধ",
+    "range": "৬৯১৮ - ৬৯৩৯",
+    "contents": null,
+    "displayLabel": "৮৮",
+    "arabicTitle": "كتاب استتابة المرتدين والمعاندين وقتالهم",
+    "count": 22,
+    "sectionCount": 9
+  },
+  {
+    "id": 89,
+    "title": "বলপ্রয়োগে বাধ্য করা",
+    "range": "৬৯৪০ - ৬৯৫২",
+    "contents": null,
+    "displayLabel": "৮৯",
+    "arabicTitle": "كتاب الإكراه",
+    "count": 13,
+    "sectionCount": 8
+  },
+  {
+    "id": 90,
+    "title": "কূটকৌশল",
+    "range": "৬৯৫৩ - ৬৯৮১",
+    "contents": null,
+    "displayLabel": "৯০",
+    "arabicTitle": "كتاب الحيل",
+    "count": 29,
+    "sectionCount": 15
+  },
+  {
+    "id": 91,
+    "title": "স্বপ্নের ব্যাখ্যা প্রদান",
+    "range": "৬৯৮২ - ৭০৪৭",
+    "contents": null,
+    "displayLabel": "৯১",
+    "arabicTitle": "كتاب التعبير",
+    "count": 66,
+    "sectionCount": 48
+  },
+  {
+    "id": 92,
+    "title": "ফিতনা",
+    "range": "৭০৪৮ - ৭১৩৬",
+    "contents": null,
+    "displayLabel": "৯২",
+    "arabicTitle": "كتاب الفتن",
+    "count": 89,
+    "sectionCount": 28
+  },
+  {
+    "id": 93,
+    "title": "আহকাম",
+    "range": "৭১৩৭ - ৭২২৫",
+    "contents": null,
+    "displayLabel": "৯৩",
+    "arabicTitle": "كتاب الأحكام",
+    "count": 89,
+    "sectionCount": 54
+  },
+  {
+    "id": 94,
+    "title": "আকাঙ্ক্ষা",
+    "range": "৭২২৬ - ৭২৪৫",
+    "contents": null,
+    "displayLabel": "৯৪",
+    "arabicTitle": "كتاب التمنى",
+    "count": 20,
+    "sectionCount": 9
+  },
+  {
+    "id": 95,
+    "title": "খবরে ওয়াহিদ",
+    "range": "৭২৪৬ - ৭২৬৭",
+    "contents": null,
+    "displayLabel": "৯৫",
+    "arabicTitle": "كتاب أخبار الآحاد",
+    "count": 22,
+    "sectionCount": 6
+  },
+  {
+    "id": 96,
+    "title": "কুরআন ও সুন্নাহকে দৃঢ়ভাবে ধারণ করা",
+    "range": "৭২৬৮ - ৭৩৭০",
+    "contents": null,
+    "displayLabel": "৯৬",
+    "arabicTitle": "كتاب الاعتصام بالكتاب والسنة",
+    "count": 103,
+    "sectionCount": 29
+  },
+  {
+    "id": 97,
+    "title": "জাহমিয়াদের মতের খণ্ডন ও তাওহীদ প্রসঙ্গ",
+    "range": "৭৩৭১ - ৭৫৬৩",
+    "contents": null,
+    "displayLabel": "৯৭",
+    "arabicTitle": "كتاب التوحيد",
+    "count": 193,
+    "sectionCount": 58
+  }
+]

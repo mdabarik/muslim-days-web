@@ -1,0 +1,37 @@
+{
+  "id": 21,
+  "languageId": "bn",
+  "slug": "shamayele-tirmidhi",
+  "title": "শামায়েলে তিরমিযি",
+  "contents": {
+    "description": "সংকলকঃ মুহাম্মাদ বিন ঈসা আত তিরমিযী (রহঃ)। মোট হাদীস সংখ্যা : ৩২২ টি। প্রকাশনী : ইমাম পাবলিকেশন্স লিঃ, ঢাকা। তাহক্বিকঃ আল্লামা নাসিরুদ্দিন আলবানী (রহঃ)। সম্পাদনাঃ মোহাম্মদ ইমাম হোসাইন কামরুল। রাসূলুল্লাহ (সাঃ) এর দৈহিক, চারিত্রিক এবং ব্যবহারিক বৈশিষ্ট্য ও গুণাবলীর বর্ণনা সম্বলিত হাদিস গ্রন্থ",
+    "short_desc": "শামায়েলে তিরমিযী রাসূলুল্লাহ (সা.)-এর চেহারা ও অভ্যাসের পূর্ণ চিত্র দেয়। শামায়েলে তিরমিযী বর্ণনা করে তিনি কেমন দেখতে ছিলেন, কীভাবে পোশাক পরতেন, খেতেন এবং ঘুমাতেন। শামায়েলে তিরমিযী আপনাকে রাসূলের কাছে নিয়ে যায়। সুন্নাহ অনুসরণে আগ্রহীদের প্রিয়।"
+  },
+  "publication": "ইমাম পাবলিকেশন্স লিঃ, ঢাকা",
+  "hadithCount": 322,
+  "chapterCount": 56,
+  "sectionCount": 228,
+  "downloadedCount": 322,
+  "downloadedSectionCount": 228,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/shamayele-tirmidhi/part-001.json",
+      "count": 250,
+      "firstId": "1",
+      "lastId": "250",
+      "bytes": 874652,
+      "sha256": "fd396e6e7c01c0ee60464e589b6801eb10021b52b22332a414a6f5f2a404a7c4"
+    },
+    {
+      "part": 2,
+      "file": "books/shamayele-tirmidhi/part-002.json",
+      "count": 72,
+      "firstId": "251",
+      "lastId": "322",
+      "bytes": 293823,
+      "sha256": "b568f7ef3d3804f8f94abf15170c36e1e6d0c1ebdb586f83abb9c18aff28feef"
+    }
+  ],
+  "chaptersFile": "books/shamayele-tirmidhi/chapters.json"
+}

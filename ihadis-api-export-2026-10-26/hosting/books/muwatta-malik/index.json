@@ -1,0 +1,91 @@
+{
+  "id": 7,
+  "languageId": "bn",
+  "slug": "muwatta-malik",
+  "title": "মুয়াত্তা ইমাম মালিক",
+  "contents": {
+    "description": "সংকলক : মুয়াত্তা ইমাম মালিক হল মালিক ইবনে আনাস (রহঃ) কর্তৃক সংকলিত হাদীসের একটি সংগ্রহ। এটি হাদিসের প্রাচীনতম এবং সবচেয়ে নির্ভরযোগ্য সংগ্রহগুলির মধ্যে একটি হিসাবে বিবেচিত এবং বিশ্বজুড়ে মুসলমানদের দ্বারা ব্যাপকভাবে সম্মানিত এবং অধ্যয়ন করা হয়। মুয়াত্তায় ১৮০০ টিরও বেশি হাদিস রয়েছে যা ইসলামিক বিশ্বাস, অনুশীলন এবং আইনী বিধি-বিধান সহ বিস্তৃত বিষয়গুলিকে তুলে ধরে। এটি ৫০ টিরও বেশি অধ্যায়ে সংগঠিত, যার প্রতিটি একটি নির্দিষ্ট বিষয়ে কেন্দ্র করে।",
+    "short_desc": "মুয়াত্তা মালিক আজও ব্যবহৃত সবচেয়ে পুরাতন লিখিত হাদিস গ্রন্থ। ইমাম মালিক মদীনায় বসে মুয়াত্তা লিখেছেন। এতে হাদিস এবং মদীনাবাসীর আমল দুটোই আছে। মালেকী মাযহাব অনুসারী এবং ইতিহাস প্রেমীদের জন্য অবশ্যপাঠ্য।"
+  },
+  "publication": null,
+  "hadithCount": 1830,
+  "chapterCount": 61,
+  "sectionCount": 701,
+  "downloadedCount": 1830,
+  "downloadedSectionCount": 701,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/muwatta-malik/part-001.json",
+      "count": 250,
+      "firstId": "1",
+      "lastId": "250",
+      "bytes": 1755058,
+      "sha256": "b673fd690e8133954a97d16b5a5b4eb5db338b9501a0c291ba7e908e9deeeb4f"
+    },
+    {
+      "part": 2,
+      "file": "books/muwatta-malik/part-002.json",
+      "count": 250,
+      "firstId": "251",
+      "lastId": "500",
+      "bytes": 1691346,
+      "sha256": "5bf623b1d69e19186b9462ea82181629411efed4d84f06795598e505b1713295"
+    },
+    {
+      "part": 3,
+      "file": "books/muwatta-malik/part-003.json",
+      "count": 250,
+      "firstId": "501",
+      "lastId": "750",
+      "bytes": 1786141,
+      "sha256": "57218be0e1b5166c1c2f752f6182905446082becd4ada7e692a6a2460a1dcb02"
+    },
+    {
+      "part": 4,
+      "file": "books/muwatta-malik/part-004.json",
+      "count": 250,
+      "firstId": "751",
+      "lastId": "1000",
+      "bytes": 1845843,
+      "sha256": "c53932824130074367ed68f9e178665b00dd5222dc5f922fea608cc0f1277a9b"
+    },
+    {
+      "part": 5,
+      "file": "books/muwatta-malik/part-005.json",
+      "count": 250,
+      "firstId": "1001",
+      "lastId": "1250",
+      "bytes": 1959917,
+      "sha256": "ad045bc538df3d4ea20848877e614a93629d6ca9a3ea715a96b6c1203c4e7aff"
+    },
+    {
+      "part": 6,
+      "file": "books/muwatta-malik/part-006.json",
+      "count": 250,
+      "firstId": "1251",
+      "lastId": "1500",
+      "bytes": 2510107,
+      "sha256": "fe1884fef347b81d560395852ac483b4d432caeb009dda8e3f7e05bcb9e11a99"
+    },
+    {
+      "part": 7,
+      "file": "books/muwatta-malik/part-007.json",
+      "count": 250,
+      "firstId": "1501",
+      "lastId": "1750",
+      "bytes": 1868828,
+      "sha256": "d7f576f96037d33e8db58a8f1028201c9f007aed81687d9b528a3a7dd292ff4e"
+    },
+    {
+      "part": 8,
+      "file": "books/muwatta-malik/part-008.json",
+      "count": 80,
+      "firstId": "1751",
+      "lastId": "1830",
+      "bytes": 542339,
+      "sha256": "f87662a7a356c46b7a97d4696fb2291750ac8081c9c0ec2149db04ee1852a30d"
+    }
+  ],
+  "chaptersFile": "books/muwatta-malik/chapters.json"
+}

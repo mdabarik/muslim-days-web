@@ -1,0 +1,73 @@
+{
+  "id": 16,
+  "languageId": "bn",
+  "slug": "adabul-mufrad",
+  "title": "আল-আদাবুল মুফরাদ",
+  "contents": {
+    "description": "সংকলক : শাইখ ইমামুল হুজ্জাহ আবু ‘আবদুল্লাহ মুহাম্মাদ বিন ইসমা’ঈল বিন ইবরাহীম বিন মুগীরাহ্‌ আল বুখারী আল-জু’ফী। মোট হাদীস সংখ্যা : ১৩৩৬ টি। প্রকাশনী : আহসান পাবলিকেশন্স। তাহক্বিকঃ আল্লামা নাসিরুদ্দিন আলবানী (রহঃ)",
+    "short_desc": "আদাবুল মুফরাদ ইসলামী আদব-কায়দা নিয়ে ইমাম বুখারীর বই। আদাবুল মুফরাদ পরিবার, প্রতিবেশী এবং সমাজের সাথে কীভাবে ব্যবহার করতে হয় শেখায়। রাসূলুল্লাহ (সা.)-এর সুন্দর চরিত্র দেখায়। ভেতরে-বাইরে ভালো মানুষ বানায়।"
+  },
+  "publication": "আহসান পাবলিকেশন্স",
+  "hadithCount": 1336,
+  "chapterCount": 22,
+  "sectionCount": 644,
+  "downloadedCount": 1336,
+  "downloadedSectionCount": 644,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/adabul-mufrad/part-001.json",
+      "count": 250,
+      "firstId": "1",
+      "lastId": "250",
+      "bytes": 800248,
+      "sha256": "e0043a6e5a97363a861b3b3e0344c6f957b3bcdda2a3fd83a0b655be5ca00f01"
+    },
+    {
+      "part": 2,
+      "file": "books/adabul-mufrad/part-002.json",
+      "count": 250,
+      "firstId": "251",
+      "lastId": "500",
+      "bytes": 757848,
+      "sha256": "91a7e38d97503995777de5af20223370e4d43b4f6e19dd931f7a4a44c1b9c261"
+    },
+    {
+      "part": 3,
+      "file": "books/adabul-mufrad/part-003.json",
+      "count": 250,
+      "firstId": "501",
+      "lastId": "750",
+      "bytes": 818829,
+      "sha256": "510c926577b160efb004e7891962544115d4baa0031419e0905855c59774c517"
+    },
+    {
+      "part": 4,
+      "file": "books/adabul-mufrad/part-004.json",
+      "count": 250,
+      "firstId": "751",
+      "lastId": "1000",
+      "bytes": 804661,
+      "sha256": "15f37a247a8284a43d409c5ca6033ed14c76f825b7c75f4c2a459d9ceda46b51"
+    },
+    {
+      "part": 5,
+      "file": "books/adabul-mufrad/part-005.json",
+      "count": 250,
+      "firstId": "1001",
+      "lastId": "1250",
+      "bytes": 794494,
+      "sha256": "dda6f73dc3ea2026a20a43e3b3f0b9faa1973574571aa0a59bbb24fd94467ae2"
+    },
+    {
+      "part": 6,
+      "file": "books/adabul-mufrad/part-006.json",
+      "count": 86,
+      "firstId": "1251",
+      "lastId": "1336",
+      "bytes": 235461,
+      "sha256": "303e9dec7d8b4206a921b04c35dfb1a46b4b2b3097c17806a93c4f31b766b68d"
+    }
+  ],
+  "chaptersFile": "books/adabul-mufrad/chapters.json"
+}

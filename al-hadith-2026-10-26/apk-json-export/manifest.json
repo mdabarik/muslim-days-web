@@ -1,0 +1,87 @@
+{
+  "source": "/Users/bedata/Downloads/base.apk",
+  "source_sha256": "9b4096dc03288a5041e03129d0a73013e774e97d9df8dceeb540929aea7abfee",
+  "scope": "Readable SQLite tables and JSON assets physically present in the supplied base.apk",
+  "contains_complete_hadith_collection": false,
+  "contains_online_downloads": false,
+  "exports": [
+    {
+      "source": "assets/flutter_assets/FontManifest.json",
+      "file": "assets/FontManifest.json",
+      "kind": "original_json",
+      "top_level_count": 7
+    },
+    {
+      "source": "assets/flutter_assets/NativeAssetsManifest.json",
+      "file": "assets/NativeAssetsManifest.json",
+      "kind": "original_json",
+      "top_level_count": 2
+    },
+    {
+      "source": "assets/flutter_assets/assets/databases/general_books.db",
+      "table": "general_books",
+      "file": "general_books/general_books.json",
+      "kind": "sqlite_table",
+      "rows": 25,
+      "schema": "CREATE TABLE general_books (\n    id INTEGER PRIMARY KEY,\n    language TEXT NOT NULL,\n    book_name TEXT NOT NULL,\n    book_name_en TEXT,\n    writer TEXT,\n    slug TEXT NOT NULL,\n    chapters_count INTEGER,\n    sections_count INTEGER,\n    pages_count INTEGER,\n    UNIQUE(language, slug))"
+    },
+    {
+      "source": "assets/flutter_assets/assets/databases/prayer_locations.db",
+      "table": "countries",
+      "file": "prayer_locations/countries.json",
+      "kind": "sqlite_table",
+      "rows": 245,
+      "schema": "CREATE TABLE countries (\n        id INTEGER PRIMARY KEY,\n        iso TEXT NOT NULL UNIQUE,\n        slug TEXT NOT NULL UNIQUE,\n        name TEXT NOT NULL\n      )"
+    },
+    {
+      "source": "assets/flutter_assets/assets/databases/prayer_locations.db",
+      "table": "locations",
+      "file": "prayer_locations/locations.json",
+      "kind": "sqlite_table",
+      "rows": 69456,
+      "schema": "CREATE TABLE locations (\n        id INTEGER PRIMARY KEY,\n        country_id INTEGER NOT NULL REFERENCES countries(id),\n        ordinal INTEGER NOT NULL,\n        name TEXT NOT NULL,\n        admin_area TEXT,\n        latitude REAL NOT NULL,\n        longitude REAL NOT NULL,\n        timezone_id INTEGER NOT NULL REFERENCES timezones(id),\n        x REAL NOT NULL,\n        y REAL NOT NULL,\n        z REAL NOT NULL,\n        UNIQUE(country_id, ordinal)\n      )"
+    },
+    {
+      "source": "assets/flutter_assets/assets/databases/prayer_locations.db",
+      "table": "timezones",
+      "file": "prayer_locations/timezones.json",
+      "kind": "sqlite_table",
+      "rows": 371,
+      "schema": "CREATE TABLE timezones (\n        id INTEGER PRIMARY KEY,\n        name TEXT NOT NULL UNIQUE\n      )"
+    },
+    {
+      "source": "assets/flutter_assets/assets/json/prayer_countries.json",
+      "file": "assets/prayer_countries.json",
+      "kind": "original_json",
+      "top_level_count": 245
+    }
+  ],
+  "unconverted": [
+    {
+      "source": "assets/flutter_assets/assets/databases/hadith.ihdb",
+      "file": "unconverted/hadith.ihdb",
+      "bytes": 967823,
+      "sha256": "18769026eb0326ed1229f56493fab1f76aa5f1806131b6f46f36b3b23acfb814",
+      "status": "encrypted_not_decoded",
+      "reason": "IHDB encrypted package; decryption key unavailable in supplied base.apk."
+    }
+  ],
+  "unavailable_content": [
+    {
+      "content": "Full hadith texts and translations",
+      "status": "not_exported"
+    },
+    {
+      "content": "Word-by-word hadith dataset",
+      "status": "not_exported"
+    },
+    {
+      "content": "Full text of the 25 general books",
+      "status": "not_in_catalog_database"
+    },
+    {
+      "content": "Server-only and previously downloaded application data",
+      "status": "not_present_in_supplied_apk"
+    }
+  ]
+}

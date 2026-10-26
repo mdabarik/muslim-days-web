@@ -1,0 +1,28 @@
+{
+  "id": 19,
+  "languageId": "bn",
+  "slug": "100-hadith",
+  "title": "১০০ সুসাব্যস্ত হাদীস",
+  "contents": {
+    "description": "সংকলক : হাদিস প্রজেক্ট টীম কতৃক সংগৃহীত। মোট হাদীস সংখ্যা : ১০১ টি",
+    "short_desc": "১০০ হাদিসে প্রতিটি মুসলিমের প্রয়োজনীয় অপরিহার্য হাদিস আছে। এই ১০০ হাদিস সংকলন দৈনন্দিন জীবনের নির্দেশনার জন্য সতর্কতার সাথে বাছাই করা। পড়তে ও মুখস্থ করতে সহজ। ব্যস্ত মানুষদের জন্য উপযুক্ত যারা দ্রুত ইসলামী জ্ঞান চান।"
+  },
+  "publication": null,
+  "hadithCount": 101,
+  "chapterCount": 7,
+  "sectionCount": 100,
+  "downloadedCount": 101,
+  "downloadedSectionCount": 100,
+  "parts": [
+    {
+      "part": 1,
+      "file": "books/100-hadith/part-001.json",
+      "count": 101,
+      "firstId": "1",
+      "lastId": "101",
+      "bytes": 563912,
+      "sha256": "465a64bea0e6a98a57099f49ffc5a0f0ebfc8e832c1f4f20913af9a1f62eea41"
+    }
+  ],
+  "chaptersFile": "books/100-hadith/chapters.json"
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-26",
+  "apk": {
+    "file": "/Users/bedata/Downloads/base.apk",
+    "package": "com.ihadis.ihadis",
+    "version": "8.1.0",
+    "versionCode": 119,
+    "sha256": "9b4096dc03288a5041e03129d0a73013e774e97d9df8dceeb540929aea7abfee",
+    "flutter_native_libraries_present": false
+  },
+  "assets": [
+    {
+      "path": "assets/flutter_assets/assets/databases/general_books.db",
+      "bytes": 24576
+    },
+    {
+      "path": "assets/flutter_assets/assets/databases/hadith.ihdb",
+      "bytes": 967823
+    },
+    {
+      "path": "assets/flutter_assets/assets/databases/prayer_locations.db",
+      "bytes": 6987776
+    }
+  ],
+  "fonts": [
+    {
+      "family": "MaterialIcons",
+      "fonts": [
+        {
+          "asset": "fonts/MaterialIcons-Regular.otf"
+        }
+      ]
+    },
+    {
+      "family": "Inter",
+      "fonts": [
+        {
+          "asset": "assets/fonts/inter/Inter-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "asset": "assets/fonts/inter/Inter-Bold.ttf"
+        },
+        {
+          "weight": 600,
+          "asset": "assets/fonts/inter/Inter-SemiBold.ttf"
+        },
+        {
+          "weight": 500,
+          "asset": "assets/fonts/inter/Inter-Medium.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Kalpurush",
+      "fonts": [
+        {
+          "asset": "assets/fonts/font_kalpurush.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Amiri",
+      "fonts": [
+        {
+          "asset": "assets/fonts/font_amiri.ttf"
+        }
+      ]
+    },
+    {
+      "family": "KFGQ",
+      "fonts": [
+        {
+          "asset": "assets/fonts/font_kfgq.ttf"
+        }
+      ]
+    },
+    {
+      "family": "Me_Quran",
+      "fonts": [
+        {
+          "asset": "assets/fonts/font_me_quran.ttf"
+        }
+      ]
+    },
+    {
+      "family": "packages/cupertino_icons/CupertinoIcons",
+      "fonts": [
+        {
+          "asset": "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+        }
+      ]
+    }
+  ],
+  "api_checks": [
+    {
+      "url": "https://ihadis.com/api/v1/trpc/hadith.byId?input=%7B%22json%22%3A%7B%22bookId%22%3A1%2C%22hadithId%22%3A%221%22%2C%22languageId%22%3A%22bn%22%7D%7D",
+      "http_status": 200,
+      "authentication_sent": false
+    },
+    {
+      "url": "https://ihadis.com/api/v1/trpc/hadith.wordByWord?input=%7B%22json%22%3A%7B%22bookSlug%22%3A%22bukhari%22%2C%22hadithId%22%3A%221%22%2C%22languageId%22%3A%22bn%22%7D%7D",
+      "http_status": 200,
+      "authentication_sent": false
+    }
+  ],
+  "hadith_response_keys": [
+    "id",
+    "displayLabel",
+    "arabic",
+    "narrator",
+    "translation",
+    "bookId",
+    "note",
+    "canonical",
+    "contents",
+    "chapterId",
+    "section",
+    "chapter",
+    "book",
+    "grade",
+    "siblings"
+  ],
+  "word_response_count_for_bukhari_1_bn": 24,
+  "word_response_keys": [
+    "position",
+    "wordId",
+    "arabic",
+    "arabicClean",
+    "transliteration",
+    "meaning",
+    "pos",
+    "root"
+  ],
+  "one_word_sample": {
+    "position": 3,
+    "wordId": 502,
+    "arabic": "الأَعْمَالُ",
+    "arabicClean": "الأعمال",
+    "transliteration": "আল-আমালু",
+    "meaning": "আমলসমূহ",
+    "pos": "noun",
+    "root": {
+      "id": 106979,
+      "hyphenated": "ع-م-ل",
+      "plain": "عمل",
+      "lemma": "عَمَل",
+      "alt": "—",
+      "meaning": "কাজ করা আমল করা",
+      "relatedWords": [
+        {
+          "id": 502,
+          "arabic": "الأَعْمَالُ"
+        },
+        {
+          "id": 503,
+          "arabic": "الأَعْمَالِ"
+        }
+      ]
+    }
+  },
+  "website_config_script": "https://ihadis.com/_next/static/chunks/72b9a843b4b4bdd3.js",
+  "website_word_component_script": "https://ihadis.com/_next/static/chunks/420d49956d1bc882.js",
+  "offline_package": {
+    "magic": "IHDB",
+    "format_version": 1,
+    "cipher": "AES/GCM/NoPadding",
+    "key_bytes": 32,
+    "header_bytes": 32,
+    "class": "com.ihadis.ihadis.DatabasePackageCipher",
+    "payload_decrypted": false
+  },
+  "android_remote_widget": {
+    "class": "com.ihadis.ihadis.WidgetHadithRemote",
+    "procedure": "hadith.byId",
+    "request_header": {
+      "x-trpc-source": "al-hadith-flutter"
+    },
+    "base_url": "supplied from Flutter; absent from inspected native class"
+  },
+  "hosting": {
+    "ihadis.com_response_headers": {
+      "Server": "cloudflare",
+      "x-powered-by": "Next.js"
+    },
+    "origin_provider_confirmed": false
+  },
+  "scope": "APK static inspection plus public website assets and two read-only API requests. No app execution or network capture."
+}

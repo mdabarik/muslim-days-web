@@ -1,0 +1,418 @@
+{
+  "passed": true,
+  "books": 25,
+  "hadiths": 52856,
+  "parts": 227,
+  "checksummedFiles": 281,
+  "sourceSamples": [
+    {
+      "bookId": 1,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 1,
+      "id": "3782",
+      "match": true
+    },
+    {
+      "bookId": 1,
+      "id": "7563",
+      "match": true
+    },
+    {
+      "bookId": 1,
+      "id": "409",
+      "match": true
+    },
+    {
+      "bookId": 2,
+      "id": "intro-1",
+      "match": true
+    },
+    {
+      "bookId": 2,
+      "id": "3680",
+      "match": true
+    },
+    {
+      "bookId": 2,
+      "id": "7453",
+      "match": true
+    },
+    {
+      "bookId": 3,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 3,
+      "id": "2880",
+      "match": true
+    },
+    {
+      "bookId": 3,
+      "id": "5758",
+      "match": true
+    },
+    {
+      "bookId": 4,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 4,
+      "id": "2638",
+      "match": true
+    },
+    {
+      "bookId": 4,
+      "id": "5274",
+      "match": true
+    },
+    {
+      "bookId": 5,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 5,
+      "id": "1979",
+      "match": true
+    },
+    {
+      "bookId": 5,
+      "id": "3956",
+      "match": true
+    },
+    {
+      "bookId": 6,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 6,
+      "id": "2171",
+      "match": true
+    },
+    {
+      "bookId": 6,
+      "id": "4341",
+      "match": true
+    },
+    {
+      "bookId": 7,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 7,
+      "id": "916",
+      "match": true
+    },
+    {
+      "bookId": 7,
+      "id": "1830",
+      "match": true
+    },
+    {
+      "bookId": 8,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 8,
+      "id": "953",
+      "match": true
+    },
+    {
+      "bookId": 8,
+      "id": "1905",
+      "match": true
+    },
+    {
+      "bookId": 8,
+      "id": "942",
+      "match": true
+    },
+    {
+      "bookId": 9,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 9,
+      "id": "785",
+      "match": true
+    },
+    {
+      "bookId": 9,
+      "id": "1568",
+      "match": true
+    },
+    {
+      "bookId": 9,
+      "id": "1449",
+      "match": true
+    },
+    {
+      "bookId": 10,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 10,
+      "id": "954",
+      "match": true
+    },
+    {
+      "bookId": 10,
+      "id": "1906",
+      "match": true
+    },
+    {
+      "bookId": 11,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 11,
+      "id": "1008",
+      "match": true
+    },
+    {
+      "bookId": 11,
+      "id": "2013",
+      "match": true
+    },
+    {
+      "bookId": 12,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 12,
+      "id": "31",
+      "match": true
+    },
+    {
+      "bookId": 12,
+      "id": "60",
+      "match": true
+    },
+    {
+      "bookId": 13,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 13,
+      "id": "52",
+      "match": true
+    },
+    {
+      "bookId": 13,
+      "id": "102",
+      "match": true
+    },
+    {
+      "bookId": 14,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 14,
+      "id": "3148",
+      "match": true
+    },
+    {
+      "bookId": 14,
+      "id": "6294",
+      "match": true
+    },
+    {
+      "bookId": 14,
+      "id": "4317",
+      "match": true
+    },
+    {
+      "bookId": 14,
+      "id": "2279",
+      "match": true
+    },
+    {
+      "bookId": 15,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 15,
+      "id": "22",
+      "match": true
+    },
+    {
+      "bookId": 15,
+      "id": "42",
+      "match": true
+    },
+    {
+      "bookId": 16,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 16,
+      "id": "669",
+      "match": true
+    },
+    {
+      "bookId": 16,
+      "id": "1336",
+      "match": true
+    },
+    {
+      "bookId": 17,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 17,
+      "id": "25",
+      "match": true
+    },
+    {
+      "bookId": 17,
+      "id": "48",
+      "match": true
+    },
+    {
+      "bookId": 18,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 18,
+      "id": "82",
+      "match": true
+    },
+    {
+      "bookId": 18,
+      "id": "163",
+      "match": true
+    },
+    {
+      "bookId": 19,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 19,
+      "id": "51",
+      "match": true
+    },
+    {
+      "bookId": 19,
+      "id": "101",
+      "match": true
+    },
+    {
+      "bookId": 20,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 20,
+      "id": "54",
+      "match": true
+    },
+    {
+      "bookId": 20,
+      "id": "106",
+      "match": true
+    },
+    {
+      "bookId": 21,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 21,
+      "id": "162",
+      "match": true
+    },
+    {
+      "bookId": 21,
+      "id": "322",
+      "match": true
+    },
+    {
+      "bookId": 22,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 22,
+      "id": "101",
+      "match": true
+    },
+    {
+      "bookId": 22,
+      "id": "200",
+      "match": true
+    },
+    {
+      "bookId": 23,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 23,
+      "id": "76",
+      "match": true
+    },
+    {
+      "bookId": 23,
+      "id": "151",
+      "match": true
+    },
+    {
+      "bookId": 24,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 24,
+      "id": "118",
+      "match": true
+    },
+    {
+      "bookId": 24,
+      "id": "234",
+      "match": true
+    },
+    {
+      "bookId": 25,
+      "id": "1",
+      "match": true
+    },
+    {
+      "bookId": 25,
+      "id": "19",
+      "match": true
+    },
+    {
+      "bookId": 25,
+      "id": "36",
+      "match": true
+    }
+  ],
+  "checks": [
+    "all advertised book/chapter counts",
+    "no duplicate book+id keys",
+    "section/chapter references",
+    "JSON and SQLite record equality",
+    "previous/next IDs",
+    "all SHA-256 checksums",
+    "SQLite integrity"
+  ]
+}
