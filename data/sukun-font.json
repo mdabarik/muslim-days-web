@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0.0",
+  "family": "Quran Wedge Arabic",
+  "url": "fonts/QuranWedgeArabic.woff2",
+  "sha256": "6a7ed940b2b29b1c76f6767112bd123c83835609a90fe82f70503758e3110913",
+  "bytes": 148964,
+  "sourceFont": {
+    "file": "fonts/Amiri-Regular.woff2",
+    "sha256": "083b22369749e48712b4d6da6c4a13279d62efd17cba60a9fae9f9ecec82c29f",
+    "version": "1.002"
+  },
+  "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "fonts/OFL.txt",
+    "sha256": "72de68e5954f4fdd24702292ef5a32f003ca960ec9330dc86e5eefb5dffb9b22",
+    "notice": "fonts/QuranWedgeArabic-NOTICE.txt",
+    "renamedDerivative": true
+  },
+  "sourceShape": {
+    "pdfSha256": "73fab89e61dda144b8c4b2d16239a756564303847917f1f0a69fdd283c3f6640",
+    "physicalPage": 1,
+    "traceId": "w1-m2",
+    "vectorSha256": "e616c888f359df46c318dbd4b165a7189ad2f9bf561553b909e8314fdf68428d",
+    "sourceImageSha256": "ea7d60b22a7ad45a06dddacdc04303fd844a64c0f0cc5e1d25bf469a0f58fed4",
+    "boundsInSourceCrop": [
+      1299.0,
+      98.0,
+      1321.0,
+      124.0
+    ],
+    "originalVectorFile": "muslim_days/tool/quran_fidelity/runs/fatihah-001/round-05/mark-vectors.json",
+    "method": "Uniformly fit inspected source wedge contour inside previous sukun ink bounds, preserving its aspect ratio and old center; original mark anchors and metrics remain intact."
+  },
+  "replacementGlyphs": [
+    {
+      "glyph": "uni0652",
+      "originalBounds": [
+        86,
+        836,
+        267,
+        1057
+      ],
+      "newBounds": [
+        86,
+        840,
+        267,
+        1053
+      ],
+      "uniformSourceScale": 8.227272727272727,
+      "advanceAndLsb": [
+        0,
+        86
+      ]
+    },
+    {
+      "glyph": "glyph01442",
+      "originalBounds": [
+        -114,
+        1074,
+        27,
+        1253
+      ],
+      "newBounds": [
+        -114,
+        1080,
+        27,
+        1247
+      ],
+      "uniformSourceScale": 6.409090909090909,
+      "advanceAndLsb": [
+        0,
+        -114
+      ]
+    }
+  ],
+  "changedOutlineCount": 2,
+  "otherGlyphOutlinesUnchanged": 6708,
+  "preservedTables": [
+    "cmap",
+    "GSUB",
+    "GPOS",
+    "GDEF",
+    "hmtx",
+    "hhea",
+    "OS/2"
+  ],
+  "unicodePreserved": "U+0652; no text substitution or PUA conversion",
+  "contextualCoverage": "uni0652 and its only GSUB substitution output glyph01442, lookup 51; ss03 is unrelated ampersand/at styling.",
+  "inheritedPresentationForms": {
+    "glyphs": [
+      "uniFE7E",
+      "uniFE7F"
+    ],
+    "codepoints": [
+      "U+FE7E",
+      "U+FE7F"
+    ],
+    "note": "Composite glyph bytes are unchanged but their referenced sukun outline inherits the wedge. These are sukun presentation forms, not other diacritics."
+  },
+  "applyTo": "Running Arabic .word text only. Exclude basmala calligraphy, headings, Qarian Symbols, Bengali annotation fonts, and independently source-shaped Fatihah opening font.",
+  "limits": "Changes sukun graphic family only. It does not recover the entire source typeface or verify source-specific letter/haraka positions. Rounded integer font coordinates approximate source-pixel contours."
+}
