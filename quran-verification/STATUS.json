@@ -10,7 +10,9 @@
     "1": {
       "name": "Al-Fatiha",
       "status": "completed_and_verified",
-      "pages": [1]
+      "pages": [
+        1
+      ]
     },
     "2": {
       "name": "Al-Baqarah",
@@ -30,9 +32,79 @@
       "page_furniture_unresolved": [
         "Decorated Arabic surah-title harakat remain unresolved; ayah body is unaffected."
       ]
+    },
+    "002": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:41:30"
+    },
+    "003": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:41:57"
+    },
+    "004": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:41:58"
+    },
+    "005": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:41:59"
+    },
+    "006": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:42:54"
+    },
+    "007": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:42:59"
+    },
+    "008": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:03"
+    },
+    "009": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:07"
+    },
+    "010": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:12"
+    },
+    "011": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:16"
+    },
+    "012": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:20"
+    },
+    "013": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:24"
+    },
+    "014": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:28"
+    },
+    "015": {
+      "status": "completed_and_verified",
+      "verdict": "ACCEPT",
+      "verified_at": "2026-10-27 23:43:33"
     }
   },
-  "next_page": 2,
+  "next_page": 16,
   "completed_and_verified": false,
   "notes": [
     "Remote web manifest contains draft coverage through page 120 but zero fully verified pages.",
