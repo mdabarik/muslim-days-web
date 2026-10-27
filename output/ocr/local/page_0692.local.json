@@ -1,0 +1,246 @@
+{
+  "status": "unreviewed_local_ocr_hypothesis_do_not_publish",
+  "method": "Local Tesseract 5.5.3 on 300-DPI extracted PNG row bands",
+  "source": {
+    "path": "output/extracted_pages/page_0692.png",
+    "sha256": "eb3e245c73e48be7062c31a91c6664ec85e378d844a86e342fe5adec53eef7f0",
+    "dimensions": [
+      2480,
+      3509
+    ]
+  },
+  "languages": [
+    "ara",
+    "ben"
+  ],
+  "rowGeometry": {
+    "firstTop": 125,
+    "step": 268,
+    "height": 330,
+    "status": "approximate; verify against source"
+  },
+  "limitations": "OCR may omit or alter Arabic harakat, Bengali letters, and annotation shapes. Annotation crops and coordinates are evidence; every glyph requires source-image review.",
+  "physicalPage": 692,
+  "rows": [
+    {
+      "rowIndex": 0,
+      "cropRect300dpi": [
+        60,
+        125,
+        2320,
+        455
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "\"পি, OA FPF , . ৬ $ য় “ », £ | ৬ | oe . | 4.¢@ ১ জাগে রর!”",
+      "annotationTextAra": "7 _- ١:١!.؟ء ‎١‏ . 6 \". » 08 ل \"1 1 083 08 4 - 5 .5ط ةمق - قي .2",
+      "arabicOcr": "ٍ 8 تتا هدي ض : 8 7 سيك ض مج اع عن ا",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "এর দির ।, রর ক লে A পারঙে চি DP AW  & রা রর বরা bh FP bok mw Net"
+    },
+    {
+      "rowIndex": 1,
+      "cropRect300dpi": [
+        60,
+        393,
+        2320,
+        723
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "eg OF KF Sg eg BR CTS রিি INF ৮৬৬ INFN FO Fe",
+      "annotationTextAra": "(. - -- اد !7 ا نا ‎7١7‏ ا + 7 7 ‎ ,‏ - 7 لي الل ل آآ١)ل‏ ا عد آ١د١أأ‏ ا كب ارا ان ا",
+      "arabicOcr": "يعرف واشهلوا دوي ل رو ماد الو",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "Pt cee. নানার ই আআ আআ etna meinen এ ১ ৯ ১. ২ 1"
+    },
+    {
+      "rowIndex": 2,
+      "cropRect300dpi": [
+        60,
+        661,
+        2320,
+        991
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "A] পে A AAS Th ONAN OF 31 পা ভিজা F&F Ff AP গার OB AADBDA DO 11 &*",
+      "annotationTextAra": "؟؛: ]| ي( ام وضغغ 72 مه صر م | لضم 0ط جم 7# 7 وأ ‎١ 7/2 77 7/7 ©  -‏ / كم لم سم ---_كة ا",
+      "arabicOcr": "ذلك بوعظ بي من كان بزو 7< اللو وا 5 : مز الاج 0 ٍ دمن تق '] ْ",
+      "bengaliTopOcr": "Ba vast = রগ | ্ a — = Ph eres ween তায 2. “০০৯৪ Ss pie SaaS a 5 ১: ] রা",
+      "bengaliBottomOcr": "দস পে > an | _ রা 4 নে না স্পা ্ঞ/ Ww ps) @ ১."
+    },
+    {
+      "rowIndex": 3,
+      "cropRect300dpi": [
+        60,
+        929,
+        2320,
+        1259
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "দে | নরেশ গর ৷ গর BA OAH A ল্মাউ্া াউাপাললাা! রর ৷ ই ees errs ৷",
+      "annotationTextAra": "1 د( أ( > د - 0 0 ب 0 /ه ‏ ا - - - 2ه-_- د دا ز22 00 ودر د عم هه - م بج وغ ملم مر سجر نا 2 م 0 7 078",
+      "arabicOcr": "الله يجعل له مخرجان ويرزقه من حيث لايححيب ومن",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 4,
+      "cropRect300dpi": [
+        60,
+        1197,
+        2320,
+        1527
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "",
+      "annotationTextAra": "ود ا ا ا ال اد :577707575065677 .ب اا اس مرخ ادل",
+      "arabicOcr": "َ َتَوخَل عل اللو فهو حسبة “إن الله بالغ أمرة قل ج جعل الله",
+      "bengaliTopOcr": "is পরআল্লাহকে OS min Sl ভেদে INU? লেন বাপে 2 :",
+      "bengaliBottomOcr": "ডক NN rn a ene Ree met BG"
+    },
+    {
+      "rowIndex": 5,
+      "cropRect300dpi": [
+        60,
+        1465,
+        2320,
+        1795
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "",
+      "annotationTextAra": "6 | ب“ اه © و لق © م لم ( ( د د 0 ؟؟' 0\" اا",
+      "arabicOcr": "ِكَل شو تذراج ولق يَيْمن من الْمَحِيض ون يُسَائِعُر .",
+      "bengaliTopOcr": "2] কল্পনাও করতে পারবে AW | আর যে আল্লাহর ওপর তাওয়াক্কুল করে আল্লাহ তার জন্য যথেষ্ট । আল্লাহ্‌ তার উদ্দেশ্য Yh =",
+      "bengaliBottomOcr": "“..\".।করবেনই | ito\" আহাাৎও শ্র১.৩?এ১ [SINGIN SINS ADVIL FINN ।পখানসশণ PCN IMCNCeS |শওু COINICISN প্রারার সু? থাল। শখ."
+    },
+    {
+      "rowIndex": 6,
+      "cropRect300dpi": [
+        60,
+        1733,
+        2320,
+        2063
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "কা তত (a\\ QY @Q@ NY © %& r+ | i es Fi",
+      "annotationTextAra": "ليها . - 0 00 «©«ه ا 0خ بء؟ة٠ 0‏ د د مم جحج0| ءءء 7 ا33-وؤل[(1--(ال ل",
+      "arabicOcr": "إن ارتبكر تعدتمي كلْعة أشهر وال كر بيجم وأولات.",
+      "bengaliTopOcr": "... কর্রবেনই | নিশ্চয় আল্লাহ প্রত্যেক জিনিসের জন্য একটি সময়সীমা নির্ধারণ করে দিয়েছেন ৷ ৪ তোমাদের স্ত্রীদের মধ্যে যারা প্র:",
+      "bengaliBottomOcr": "কব etme Se তাক যা এয কা তা বায়ার eee ফা rere se টা TT eet sie osrow7sT চাল ATO সালা ল শখ বও areas saa রি"
+    },
+    {
+      "rowIndex": 7,
+      "cropRect300dpi": [
+        60,
+        2001,
+        2320,
+        2331
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "",
+      "annotationTextAra": "با ا ا د ا اع ا شا د ع ا ات ا ل يا ال ال لس احج الف شود ان مجحفسط فس المفسا ا انها شط ندال الايد الملل بكسجه لفسا _ كه الم",
+      "arabicOcr": "",
+      "bengaliTopOcr": "দর পপ পা পয দি সাহা OEE গত হযার্ল aetna weer mare নী",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 8,
+      "cropRect300dpi": [
+        60,
+        2269,
+        2320,
+        2599
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "০ হন তাদের হদতকালও হবে তিন মাস | আর গঙখধানরণণলেন VAMOS MSI SPIN TIN GN পাত ও ক পান ON EN, EET 2",
+      "annotationTextAra": "خا ‎١‏ )7 وما )ما “لاما الخ) اما )| 9هاا ١ك‏ اا [9| © > 9؟9 ‎©١١16‏ 4ت ‎١‏ اله وف 24 بذ الام فاه ووات ‎١١621‏ اا",
+      "arabicOcr": "",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": "এ we i\" WH fg pw কক গক। DB C7) ~«h ৭০) সা অঙ্গ সে ব্্ীীী্ীী, eh"
+    },
+    {
+      "rowIndex": 9,
+      "cropRect300dpi": [
+        60,
+        2537,
+        2320,
+        2867
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "“এ এতারজ্স্রা- সস — ৫চঢঢ |. | ব্ুে জোগসলাল্িলে সির্শশো তিনি তা তোমাদের পাত অবতাণ করেছেন i আর যে _ শর",
+      "annotationTextAra": "",
+      "arabicOcr": "أ ا",
+      "bengaliTopOcr": "ভার তির বস্তা পসরা লোাষ্ ঠা? ai AP Pe ঠ প্প :(1।",
+      "bengaliBottomOcr": "এ রর SO ey eee ।] চরণ রা ক ॥। | ট_৷ো গার্ “it ট F&F YY - ae রর বু ©?"
+    },
+    {
+      "rowIndex": 10,
+      "cropRect300dpi": [
+        60,
+        2805,
+        2320,
+        3135
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "Yee ইতি, তি, আক eee তডেছোা তালে শালার স্তল দেল ৷ ১ STOTT es সামা বলি",
+      "annotationTextAra": "ا 97ر7 همخجحذن77-+7 رع | -م يي بيب م رميب_بيجي سا 0 ل اد مدا ل :- لي ‎١‏ بفبلنسسفففاة ‎ .‏ لوعن",
+      "arabicOcr": "",
+      "bengaliTopOcr": "SANDS (Cpe 11015 2 et ee ee কে আপ CO ং",
+      "bengaliBottomOcr": ""
+    }
+  ]
+}

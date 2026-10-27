@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=webview/">
+  <title>কুরআন · মূল সংস্করণ</title>
+  <link rel="icon" href="webview/favicon.svg" type="image/svg+xml">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #faf9f5;
+      color: #1b3932;
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      padding: 36px 48px;
+      border-radius: 16px;
+      border: 1px solid #e3e6de;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+      max-width: 480px;
+    }
+    .symbol {
+      font-size: 56px;
+      color: #ad8950;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    p {
+      color: #718079;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+    a.btn {
+      display: inline-block;
+      background: #153f37;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 15px;
+      transition: background 0.15s ease;
+    }
+    a.btn:hover {
+      background: #1b4f45;
+    }
+  </style>
+  <script>
+    // Preserve URL hash when redirecting (e.g. #surah=2&page=10)
+    const target = 'webview/' + location.hash;
+    window.location.replace(target);
+  </script>
+</head>
+<body>
+  <div class="card">
+    <div class="symbol">۞</div>
+    <h1>কুরআন · মূল সংস্করণ</h1>
+    <p>ওয়েবভিউ লোড হচ্ছে… স্বয়ংক্রিয়ভাবে প্রবেশ না করলে নিচের বাটনে ক্লিক করুন।</p>
+    <a class="btn" href="webview/">ওয়েবভিউতে প্রবেশ করুন →</a>
+  </div>
+</body>
+</html>

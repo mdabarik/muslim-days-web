@@ -1,0 +1,246 @@
+{
+  "status": "unreviewed_local_ocr_hypothesis_do_not_publish",
+  "method": "Local Tesseract 5.5.3 on 300-DPI extracted PNG row bands",
+  "source": {
+    "path": "output/extracted_pages/page_0065.png",
+    "sha256": "446b9905255442ea77b07c120ee50c13d3141399dc4a43858cd27f86b2032709",
+    "dimensions": [
+      2480,
+      3509
+    ]
+  },
+  "languages": [
+    "ara",
+    "ben"
+  ],
+  "rowGeometry": {
+    "firstTop": 125,
+    "step": 268,
+    "height": 330,
+    "status": "approximate; verify against source"
+  },
+  "limitations": "OCR may omit or alter Arabic harakat, Bengali letters, and annotation shapes. Annotation crops and coordinates are evidence; every glyph requires source-image review.",
+  "physicalPage": 65,
+  "rows": [
+    {
+      "rowIndex": 0,
+      "cropRect300dpi": [
+        60,
+        125,
+        2320,
+        455
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "' সে ০ ৫1:৬০ ৯ 268 sw wm ৯ ৪৪৫ 1২৯৪ & দৎ । ™ KF Ye ew\". ING wey LOD",
+      "annotationTextAra": "| ‏ؤ ء #4 ةج يي يأ : ل + 0 قلع‎ -- -  _. 0 ‏وحم 1لليى‎ 0 277-75, ١ 1! ١5 2505000 ‏ل\"‎ 7١ ) ‏)ره‎ , ' ٠",
+      "arabicOcr": "لايس جا ص اس الي مل مسي",
+      "bengaliTopOcr": "SE ADA A AW. 7 TA BA. নি হচ্ছ পি ও কি iN aa i A al",
+      "bengaliBottomOcr": "এ ক ভর তর সেনা ae A _ |. om en TN ৷ চট ঠক"
+    },
+    {
+      "rowIndex": 1,
+      "cropRect300dpi": [
+        60,
+        393,
+        2320,
+        723
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "এ ই ... টি banal PN , wll _~F & anor lL FF rN FAM F FRE |",
+      "annotationTextAra": "<. ‏وله‎ 0 - ٠» ‏وو# 7 ا 0-0 0-0 ا‎ 0090 ١ 4 ‏هم إرم حم صم ثم ينا م عن | م حس كمد 0-03 حم ب محص كلابقا ؟ ك0 00 - 0 ه‎ ٠",
+      "arabicOcr": ", ننْ 5 3 و ا لي ل حت 0 \"5 : ال 4 ا لا ا 7 5 ٍْ ْ",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 2,
+      "cropRect300dpi": [
+        60,
+        661,
+        2320,
+        991
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "QL. we তত তর তে ₹ ৮৬ পতল চু. চুলি তল গা Ff AF fFAKKAAM ao & _A DA ow eh |",
+      "annotationTextAra": "| يي (كحم ص رقي . صب ص ا بح 4] سح بص سم | سم سم | 22 حمر حسم اخ | زا مم لما | © 5# -- 0# 77 لهم ان",
+      "arabicOcr": "رب : ا 6 لبو 7 بسن وألبد : 81ج - انا - 21 85 الت ماي 0",
+      "bengaliTopOcr": "Papas Pe তীর, শপ... ১ম ১. মে",
+      "bengaliBottomOcr": "কু ১ কী এ ই. ae as ৬৯৭ “| ৷ w a |"
+    },
+    {
+      "rowIndex": 3,
+      "cropRect300dpi": [
+        60,
+        929,
+        2320,
+        1259
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "i a a a প্র \\ SPAA নর রর রর রর sa A — ূ 4 নল উট 4 wg ৮ |",
+      "annotationTextAra": "| »| به ب ىر ى بر سر هد د زر | 27 | حم \" لخ ب 6 2ه م سم حر ى ادا ل ا ل ا",
+      "arabicOcr": "‎١‏ َل اد خل عل . 0 : ريا الو . ا اوجلعا ‎١‏ ْ , ْ لس كتيل َ ' ٍ تقال",
+      "bengaliTopOcr": "",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 4,
+      "cropRect300dpi": [
+        60,
+        1197,
+        2320,
+        1527
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "",
+      "annotationTextAra": "",
+      "arabicOcr": "‎١ ٍ‏ مر ٍ رد ب ً 2 ٍِ مانا ً ٍ هود 2 عن اللوذا ن الله يرزق م : ّ",
+      "bengaliTopOcr": "7 ভট্ট উপ উল লস ১৬১ ১১১১ ১১১৭১ ML ea",
+      "bengaliBottomOcr": "কর Sl Ae ever pre = wet a < ~~ —— ae v বকা i re ছল eee নি দে 6S +». FF »্ রী |,  sStiqwrs ** anier- ha ng নব ট ₹৮₹ + দ্যা 8% WAL, ty oo ™ oe ৬৯1 4 |"
+    },
+    {
+      "rowIndex": 5,
+      "cropRect300dpi": [
+        60,
+        1465,
+        2320,
+        1795
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "CS ECLA ১১১০: ১... ৭ ৬\" ২২ OY ল *৯ “| ৯ ৫) Ye ৬\" | Oo 4",
+      "annotationTextAra": "أ ,8 إلى | تا لخن حم يي 0 في له | ناا ‎١‏ م ل ل ل ا لا 1",
+      "arabicOcr": "شا : غير جه حِمَ ب 6ه ُتَالِتَ دعا رَكَريَا رب قال رب ا",
+      "bengaliTopOcr": "এসে we. হে AIST, COIR থেকে তোমার জন্য এটি ”? সে বলত, 'এ টি আল্লাহর পক্ষ থেকে । নিশ্চয় আল্লাহ যাকে চান",
+      "bengaliBottomOcr": "eee INSET 1০8 11লত 40 111 1২1২ পা SPGNN | OO” CYINIGN ৭া তব সস ভজাখ AGN খাছ পাখনা Pod] Ve]. পে dele]. CS SIR রব. |"
+    },
+    {
+      "rowIndex": 6,
+      "cropRect300dpi": [
+        60,
+        1733,
+        2320,
+        2063
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "১৯১৮ ':ি \\ AQ , ww + RR a ৪ Q |",
+      "annotationTextAra": "0 6 هه \"“\"- || +“ ا ‎١ 7701 ١“.‏ 247 اتا",
+      "arabicOcr": "أن نك دونه طيبة نك سَمِيعٌ الزماوع تناه املد",
+      "bengaliTopOcr": "বিনা হিসাবে রিখিক দান করেন\" | ৩৮ সেখানে যাকারিয়্যা তার রবের কাছে প্রার্থনা করেছিল. সে বলল. * হে আমর রণ. |",
+      "bengaliBottomOcr": "ti: | WTSI ets CUTAN elie’ OSH হাত খতনা সস্তার wiser sare» eoecor carro onofar oo \"* | ক TRICO SER Poroeiretoet verter."
+    },
+    {
+      "rowIndex": 7,
+      "cropRect300dpi": [
+        60,
+        2001,
+        2320,
+        2331
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "a). oe age নিল সেরা x দলা! উলটা - _— মাল ছু দঃ পপ ষ্ট দে দক +’. % « », F*+ * + = O88 3 88 8 ae re ee ee ? ₹ 1 ee ' দ্র! es — FF ey we STS Wwe amma: “ite ২৯৪১",
+      "annotationTextAra": "‎٠« 7‏ ] ا انناف )» «هةأ ‎١)‏ لا ؟# !؟ هم ** ‎١‏ نخد ل ة؟» + ؟! ؟ ؟؛ لبي ؟!! .0 با ةق قة؟!. ‏ !؟؟!. -- وة !1ض !71 ! ؟ َ. ؟,. ‎١‏ ؟\"؟#\" ‎١‏ | )!جه ؟ © | ا ااا ب رن كوا بو ب با الم ا لفان لباه ممالا ا",
+      "arabicOcr": "كار صر المحراب \"أن الله بيرك ييحن مُصَركا.",
+      "bengaliTopOcr": "পাক আনার পদ হক Sherer সান চাক ক্ষত | যা আনে আর তি জী | es আত aerwutere",
+      "bengaliBottomOcr": "a Se দাতা যা Pe ee a ce Se / wei te রা শি er ee 2 ae oy, ee"
+    },
+    {
+      "rowIndex": 8,
+      "cropRect300dpi": [
+        60,
+        2269,
+        2320,
+        2599
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "vite GEG? এগণা, CYT NN SON লাক SST আলাম বরাহল, 1|নপলিল্চয় আল্লাহ COPTIC হয়াহইয়া AICP Wea দলটেঠন.",
+      "annotationTextAra": "ارا( ما از ]270 |[ |9 اانا ذالمنالت [5\" »| .96ا|> [7|4|[ ات ||| ]| اه »ا اما .19> كيام ا",
+      "arabicOcr": "ااا لطا لكي تر رقا الو وكا",
+      "bengaliTopOcr": "দো রি দা রোদ হস Sd",
+      "bengaliBottomOcr": ""
+    },
+    {
+      "rowIndex": 9,
+      "cropRect300dpi": [
+        60,
+        2537,
+        2320,
+        2867
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "8 নো Bra “STeaTsaa ess rolrsy sn DY eo y ee at 21 —a SYHIYIVNAT Aw নামা a a ee ee an",
+      "annotationTextAra": "مع تعر | *+سحمبستييؤارضي عنيدريهححب مسيبيسى .سير اح 0 زر ربيب يكرت الى حير كب يي يبيب دحي يدروم جوواي أدج رجا اح يصسد ‎+٠‏ 1",
+      "arabicOcr": ": , 1 5 7 ٍ 0 . : 1 ِِ ا 1 1 2 ا",
+      "bengaliTopOcr": "EF VAIS OF | জাপা DID DOD লেগ aoe",
+      "bengaliBottomOcr": "পেত, এউ.ররর অজ্ঞ? eee fe উর ওত ট উঃ ক শর I, eens Ge অ্্ার্লি ere Se | তোল ঢা আজ্ঞে ।"
+    },
+    {
+      "rowIndex": 10,
+      "cropRect300dpi": [
+        60,
+        2805,
+        2320,
+        3135
+      ],
+      "annotationBandRectInCrop": [
+        0,
+        66,
+        2260,
+        99
+      ],
+      "annotationTextBen": "ছি ie oop ye NG ee te ১, ee OO পাল ' : | বা oe",
+      "annotationTextAra": "كا ص لبمةه ‏ - 0 2 - ”مها - لل - - - #» . 6 |00 :ز م ' 2 0 ‎١١‏ .إن .1 ندا د بدا ا لماش",
+      "arabicOcr": "",
+      "bengaliTopOcr": "pS Oe ete (4 Oe) (লে সণ)",
+      "bengaliBottomOcr": "oe | সস? 9 fC eee Sd) eee (800) ৯০ beth OG) (Oh te!) CU Oe ।রট দল"
+    }
+  ]
+}
