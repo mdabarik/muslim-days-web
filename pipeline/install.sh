@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Install (or remove) the two launchd agents that keep the transcription running.
+# Install (or remove) the launchd agent that keep the transcription running.
 #   pipeline/install.sh            install and start
 #   pipeline/install.sh uninstall  stop and remove
 #   pipeline/install.sh status     show what is running
@@ -9,7 +9,7 @@ agents=~/Library/LaunchAgents
 sup=com.muslimdays.quran-supervisor
 push=com.muslimdays.quran-autopush
 uid=$(id -u)
-path="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+agent_path="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 case "${1:-install}" in
 uninstall)
@@ -36,7 +36,7 @@ cat > $agents/$sup.plist <<EOF
   </array>
   <key>WorkingDirectory</key><string>$root</string>
   <key>EnvironmentVariables</key><dict>
-    <key>PATH</key><string>$path</string>
+    <key>PATH</key><string>$agent_path</string>
     <key>HOME</key><string>$HOME</string>
     <key>QURAN_WORKERS</key><string>${QURAN_WORKERS:-3}</string>
     <key>QURAN_MODEL</key><string>${QURAN_MODEL:-opus}</string>
@@ -50,25 +50,10 @@ cat > $agents/$sup.plist <<EOF
 </dict></plist>
 EOF
 
-cat > $agents/$push.plist <<EOF
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0"><dict>
-  <key>Label</key><string>$push</string>
-  <key>ProgramArguments</key><array><string>/bin/zsh</string><string>$root/pipeline/autopush.sh</string></array>
-  <key>WorkingDirectory</key><string>$root</string>
-  <key>EnvironmentVariables</key><dict>
-    <key>PATH</key><string>$path</string>
-    <key>HOME</key><string>$HOME</string>
-  </dict>
-  <key>StartInterval</key><integer>600</integer>
-  <key>RunAtLoad</key><true/>
-</dict></plist>
-EOF
-
-for a in $sup $push; do
-  launchctl bootout gui/$uid/$a 2>/dev/null || true
+launchctl bootout gui/$uid/$push 2>/dev/null || true; rm -f $agents/$push.plist
+for a in $sup; do
+  launchctl bootout gui/$uid/$a 2>/dev/null && sleep 3 || true
   launchctl bootstrap gui/$uid $agents/$a.plist
 done
-print "installed: $sup (always on), $push (every 10 min)"
+print "installed: $sup (always on; commits and pushes every 10 min)"
 print "logs: $root/pipeline/logs/"

@@ -8,6 +8,7 @@ no new work starts until the limit resets, then it carries on by itself.
 
 usage: .venv/bin/python pipeline/supervisor.py            # run the queue
        .venv/bin/python pipeline/supervisor.py --once 752 # one page, foreground
+Every 10 minutes it also runs pipeline/autopush.sh (commit + push of data).
 env:   QURAN_WORKERS (default 3), QURAN_MODEL (default opus)
 """
 import fcntl
@@ -31,6 +32,7 @@ WORKERS = int(os.environ.get("QURAN_WORKERS", "3"))
 MODEL = os.environ.get("QURAN_MODEL", "opus")
 FIRST, LAST = 1, 752
 TIMEOUT = 50 * 60
+PUSH_EVERY = 10 * 60
 MAX_ATTEMPTS = 3
 AUTH_RE = re.compile(r"not logged in|please run /login|invalid api key|oauth token|authentication", re.I)
 LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|hit your limit|resets? (at )?\d|429|overloaded|quota", re.I)
@@ -165,7 +167,13 @@ def run_queue():
     signal.signal(signal.SIGTERM, stop)
     signal.signal(signal.SIGINT, stop)
     log(f"supervisor up: {WORKERS} workers, model {MODEL}")
+    last_push = 0.0
     while not stopping:
+        # Commit and push progress every 10 minutes, even while paused.
+        if time.time() - last_push >= PUSH_EVERY:
+            last_push = time.time()
+            subprocess.Popen(["/bin/zsh", "pipeline/autopush.sh"], cwd=ROOT, stdin=subprocess.DEVNULL,
+                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         for page, (proc, out, started) in list(running.items()):
             if proc.poll() is None and time.time() - started > TIMEOUT:
                 os.killpg(proc.pid, signal.SIGTERM)
