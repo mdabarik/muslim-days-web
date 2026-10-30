@@ -1,0 +1,905 @@
+{
+ "page": 750,
+ "printed_page": "৭৫০",
+ "surah_headers": [
+  {
+   "surah": 107,
+   "before_row": 0,
+   "arabic": null,
+   "bengali": "সূরা মা-উন",
+   "surah_number_bn": "সূরা-১০৭",
+   "revelation_bn": "মাক্কী",
+   "ruku_bn": "রুকু-১",
+   "ayah_count_bn": "আয়াত-৭",
+   "basmala": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ"
+  },
+  {
+   "surah": 108,
+   "before_row": 4,
+   "arabic": null,
+   "bengali": "সূরা কাউছার",
+   "surah_number_bn": "সূরা-১০৮",
+   "revelation_bn": "মাক্কী",
+   "ruku_bn": "রুকু-১",
+   "ayah_count_bn": "আয়াত-৩",
+   "basmala": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ"
+  },
+  {
+   "surah": 109,
+   "before_row": 6,
+   "arabic": null,
+   "bengali": "সূরা কা-ফিরূন",
+   "surah_number_bn": "সূরা-১০৯",
+   "revelation_bn": "মাক্কী",
+   "ruku_bn": "রুকু-১",
+   "ayah_count_bn": "আয়াত-৬",
+   "basmala": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ"
+  }
+ ],
+ "rows": [
+  {
+   "segments": [
+    {
+     "ayah_ref": "107:1",
+     "words": [
+      "اَرَءَيْتَ",
+      "الَّذِىْ",
+      "يُكَذِّبُ",
+      "بِالدِّيْنِؕ"
+     ],
+     "verse_number_bn": "১"
+    },
+    {
+     "ayah_ref": "107:2",
+     "words": [
+      "فَذٰلِكَ",
+      "الَّذِىْ",
+      "يَدُعُّ"
+     ],
+     "verse_number_bn": null
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 1,
+     "letter": 2
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 4
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 4,
+     "letter": 5
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 4,
+     "letter": 6
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 5,
+     "letter": 2
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 6,
+     "letter": 4
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "107:1",
+     "numeral_bn": "১",
+     "text": "তুমি কি তাকে দেখেছ, যে হিসাব- প্রতিদানকে অস্বীকার করে?"
+    },
+    {
+     "ayah_ref": "107:2",
+     "numeral_bn": "২",
+     "text": "সে-ই ইয়াতীমকে"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "107:2",
+     "words": [
+      "الْيَتِيْمَۙ"
+     ],
+     "verse_number_bn": "২"
+    },
+    {
+     "ayah_ref": "107:3",
+     "words": [
+      "وَلَا",
+      "يَحُضُّ",
+      "عَلٰى",
+      "طَعَامِ",
+      "الْمِسْكِيْنِؕ"
+     ],
+     "verse_number_bn": "৩"
+    },
+    {
+     "ayah_ref": "107:4",
+     "words": [
+      "فَوَيْلٌ"
+     ],
+     "verse_number_bn": null
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 1,
+     "letter": 5
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 1,
+     "letter": 6
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 3
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 4,
+     "letter": 2
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 5,
+     "letter": 1
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 5,
+     "letter": 3
+    },
+    {
+     "glyph": "শ",
+     "enclosure": "none",
+     "label_bn": "শীষ",
+     "layer": "band",
+     "word": 6,
+     "letter": 4
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 6,
+     "letter": 6
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 6,
+     "letter": 7
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "107:2",
+     "numeral_bn": "",
+     "text": "কঠোরভাবে তাড়িয়ে দেয়,"
+    },
+    {
+     "ayah_ref": "107:3",
+     "numeral_bn": "৩",
+     "text": "আর মিসকীনকে খাদ্যদানে উৎসাহ দেয় না।"
+    },
+    {
+     "ayah_ref": "107:4",
+     "numeral_bn": "৪",
+     "text": "অতএব সেই"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "107:4",
+     "words": [
+      "لِّلْمُصَلِّيْنَۙ"
+     ],
+     "verse_number_bn": "৪"
+    },
+    {
+     "ayah_ref": "107:5",
+     "words": [
+      "الَّذِيْنَ",
+      "هُمْ",
+      "عَنْ",
+      "صَلَاتِهِمْ",
+      "سَاهُوْنَۙ"
+     ],
+     "verse_number_bn": "৫"
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "শ",
+     "enclosure": "none",
+     "label_bn": "শীষ",
+     "layer": "band",
+     "word": 1,
+     "letter": 4
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 1,
+     "letter": 4
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 1,
+     "letter": 6
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 1,
+     "letter": 7
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 4
+    },
+    {
+     "glyph": "২",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে দুই আলিফ",
+     "layer": "band",
+     "word": 4,
+     "letter": 2
+    },
+    {
+     "glyph": "শ",
+     "enclosure": "none",
+     "label_bn": "শীষ",
+     "layer": "band",
+     "word": 5,
+     "letter": 1
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 5,
+     "letter": 1
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 5,
+     "letter": 3
+    },
+    {
+     "glyph": "শ",
+     "enclosure": "none",
+     "label_bn": "শীষ",
+     "layer": "band",
+     "word": 6,
+     "letter": 1
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 6,
+     "letter": 2
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 6,
+     "letter": 4
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 6,
+     "letter": 5
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "107:4",
+     "numeral_bn": "",
+     "text": "সালাত আদায়কারীদের জন্য দুর্ভোগ,"
+    },
+    {
+     "ayah_ref": "107:5",
+     "numeral_bn": "৫",
+     "text": "যারা নিজদের সালাতে অমনোযোগী,"
+    },
+    {
+     "ayah_ref": "107:6",
+     "numeral_bn": "৬",
+     "text": "যারা"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "107:6",
+     "words": [
+      "الَّذِيْنَ",
+      "هُمْ",
+      "يُرَآءُوْنَۙ"
+     ],
+     "verse_number_bn": "৬"
+    },
+    {
+     "ayah_ref": "107:7",
+     "words": [
+      "وَيَمْنَعُوْنَ",
+      "الْمَاعُوْنَ"
+     ],
+     "verse_number_bn": "৭"
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 1,
+     "letter": 4
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 3,
+     "letter": 2
+    },
+    {
+     "glyph": "৪",
+     "enclosure": "none",
+     "label_bn": "চার আলিফ",
+     "layer": "band",
+     "word": 3,
+     "letter": 3
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 3,
+     "letter": 5
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 3,
+     "letter": 6
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 4,
+     "letter": 6
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 5,
+     "letter": 4
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 5,
+     "letter": 6
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 5,
+     "letter": 7
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "107:6",
+     "numeral_bn": "",
+     "text": "লোক দেখানোর জন্য তা করে,"
+    },
+    {
+     "ayah_ref": "107:7",
+     "numeral_bn": "৭",
+     "text": "এবং ছোট-খাট গৃহসামগ্রী দানে নিষেধ করে।"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "108:1",
+     "words": [
+      "اِنَّآ",
+      "اَعْطَيْنٰكَ",
+      "الْكَوْثَرَؕ"
+     ],
+     "verse_number_bn": "১"
+    },
+    {
+     "ayah_ref": "108:2",
+     "words": [
+      "فَصَلِّ",
+      "لِرَبِّكَ",
+      "وَانْحَرْؕ"
+     ],
+     "verse_number_bn": "২"
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "গ",
+     "enclosure": "none",
+     "label_bn": "গুন্নাহ",
+     "layer": "band",
+     "word": 1,
+     "letter": 2
+    },
+    {
+     "glyph": "৩",
+     "enclosure": "none",
+     "label_bn": "তিন আলিফ",
+     "layer": "band",
+     "word": 1,
+     "letter": 3
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 2,
+     "letter": 3
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 5
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 3,
+     "letter": 6
+    },
+    {
+     "glyph": "শ",
+     "enclosure": "none",
+     "label_bn": "শীষ",
+     "layer": "band",
+     "word": 4,
+     "letter": 2
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 4,
+     "letter": 2
+    },
+    {
+     "glyph": "ম",
+     "enclosure": "none",
+     "label_bn": "মোটা (পুর)",
+     "layer": "band",
+     "word": 5,
+     "letter": 2
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "108:1",
+     "numeral_bn": "১",
+     "text": "নিশ্চয় আমি তোমাকে আল-কাউসার দান করেছি।"
+    },
+    {
+     "ayah_ref": "108:2",
+     "numeral_bn": "২",
+     "text": "অতএব তোমার রবের উদ্দেশ্যেই সালাত পড় এবং নহর কর।"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "108:3",
+     "words": [
+      "اِنَّ",
+      "شَانِئَكَ",
+      "هُوَ",
+      "الْاَبْتَرُ"
+     ],
+     "verse_number_bn": "৩"
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "গ",
+     "enclosure": "none",
+     "label_bn": "গুন্নাহ",
+     "layer": "band",
+     "word": 1,
+     "letter": 2
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 2
+    },
+    {
+     "glyph": "ক",
+     "enclosure": "none",
+     "label_bn": "কলকলাহ",
+     "layer": "band",
+     "word": 4,
+     "letter": 4
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 4,
+     "letter": 6
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "108:3",
+     "numeral_bn": "৩",
+     "text": "নিশ্চয় তোমার প্রতি শত্রুতা পোষণকারীই নির্বংশ।"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "109:1",
+     "words": [
+      "قُلْ",
+      "يٰۤاَيُّهَا",
+      "الْكٰفِرُوْنَۙ"
+     ],
+     "verse_number_bn": "১"
+    },
+    {
+     "ayah_ref": "109:2",
+     "words": [
+      "لَآ",
+      "اَعْبُدُ",
+      "مَا",
+      "تَعْبُدُوْنَۙ"
+     ],
+     "verse_number_bn": "২"
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "৩",
+     "enclosure": "none",
+     "label_bn": "তিন আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 1
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 3,
+     "letter": 3
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 3,
+     "letter": 6
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 3,
+     "letter": 7
+    },
+    {
+     "glyph": "৩",
+     "enclosure": "none",
+     "label_bn": "তিন আলিফ",
+     "layer": "band",
+     "word": 4,
+     "letter": 2
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 6,
+     "letter": 2
+    },
+    {
+     "glyph": "৬",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে তিন / না ফেলিলে এক",
+     "layer": "band",
+     "word": 7,
+     "letter": 5
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 7,
+     "letter": 6
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "109:1",
+     "numeral_bn": "১",
+     "text": "বল, ‘হে কাফিররা,"
+    },
+    {
+     "ayah_ref": "109:2",
+     "numeral_bn": "২",
+     "text": "তোমরা যার ‘ইবাদাত কর আমি তার ‘ইবাদাত করি না’।"
+    },
+    {
+     "ayah_ref": "109:3",
+     "numeral_bn": "৩",
+     "text": "এবং আমি যার ‘ইবাদাত"
+    }
+   ]
+  },
+  {
+   "segments": [
+    {
+     "ayah_ref": "109:3",
+     "words": [
+      "وَلَآ",
+      "اَنْتُمْ",
+      "عٰبِدُوْنَ",
+      "مَآ",
+      "اَعْبُدُۚ"
+     ],
+     "verse_number_bn": "৩"
+    },
+    {
+     "ayah_ref": "109:4",
+     "words": [
+      "وَلَآ",
+      "اَنَا۟",
+      "عَابِدٌ",
+      "مَّا",
+      "عَبَدْتُّمْۙ"
+     ],
+     "verse_number_bn": "৪"
+    }
+   ],
+   "annotations": [
+    {
+     "glyph": "৩",
+     "enclosure": "none",
+     "label_bn": "তিন আলিফ",
+     "layer": "band",
+     "word": 1,
+     "letter": 3
+    },
+    {
+     "glyph": "২",
+     "enclosure": "none",
+     "label_bn": "দম ফেলিলে দুই আলিফ",
+     "layer": "band",
+     "word": 2,
+     "letter": 2
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 3,
+     "letter": 1
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 3,
+     "letter": 4
+    },
+    {
+     "glyph": "৩",
+     "enclosure": "none",
+     "label_bn": "তিন আলিফ",
+     "layer": "band",
+     "word": 4,
+     "letter": 2
+    },
+    {
+     "symbol": "ringed-wedge",
+     "enclosure": "none",
+     "label_bn": "আরবী সাকিন (থামলে সাকিন পড়ুন)",
+     "layer": "band",
+     "word": 5,
+     "letter": 4
+    },
+    {
+     "glyph": "ক",
+     "enclosure": "none",
+     "label_bn": "কলকলাহ",
+     "layer": "band",
+     "word": 5,
+     "letter": 4
+    },
+    {
+     "glyph": "৩",
+     "enclosure": "none",
+     "label_bn": "তিন আলিফ",
+     "layer": "band",
+     "word": 6,
+     "letter": 3
+    },
+    {
+     "symbol": "solid-down-arrow",
+     "enclosure": "none",
+     "label_bn": "এই চিহ্নযুক্ত আলিফ পড়া যাবে না",
+     "layer": "band",
+     "word": 7,
+     "letter": 3
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 8,
+     "letter": 2
+    },
+    {
+     "glyph": "গ",
+     "enclosure": "none",
+     "label_bn": "গুন্নাহ",
+     "layer": "band",
+     "word": 9,
+     "letter": 1
+    },
+    {
+     "glyph": "১",
+     "enclosure": "none",
+     "label_bn": "এক আলিফ",
+     "layer": "band",
+     "word": 9,
+     "letter": 2
+    }
+   ],
+   "bengali": [
+    {
+     "ayah_ref": "109:3",
+     "numeral_bn": "",
+     "text": "করি তোমরা তার ‘ইবাদাতকারী নও’।"
+    },
+    {
+     "ayah_ref": "109:4",
+     "numeral_bn": "৪",
+     "text": "‘আর তোমরা যার ‘ইবাদত করছ আমি তার ‘ইবাদাতকারী হব না’।"
+    }
+   ]
+  }
+ ],
+ "unresolved": [
+  "Surah header boxes print no Arabic surah name, so 'arabic' is null. Surah 109 Bengali name read as 'সূরা কা-ফিরূন' (ূ vs ু under র not fully certain).",
+  "Legend prints the band digits circled, but on the band they are printed without a circle, so enclosure is 'none'. The ৬ beside each ringed-wedge looks like a closed oval at scan resolution; recorded as plain ৬.",
+  "Row 1: the mark over the lam of فَوَيْلٌ is a blurred blob; read as dammatain (ٌ), which the next row's لِّلْمُصَلِّيْنَ (shadda on lam) supports.",
+  "Row 2 and row 7: ২ sits over nun sakin before ص/ت (ikhfa); label taken from the legend (দম ফেলিলে দুই আলিফ) but the fit is doubtful.",
+  "Row 7: the final alif of اَنَا has a small rounded zero (encoded U+06DF) and a solid down arrow in the band above it. The right-margin note beside rows 6-7 explains the arrow (alif not to be read/lengthened); its text is partly illegible, so the arrow's label_bn is a paraphrase. Arrow recorded with layer 'band' since it is printed in the band, not on the Arabic line.",
+  "Row 7: the waqf sign over verse circle 3 (after اَعْبُدُ) read as small ج (ۚ).",
+  "Row 0: the first word is printed اَرَءَيْتَ (hamza on its own seat with fatha); ya of يٰۤاَيُّهَا in row 6 is printed with a tall alif-like stroke and madda, encoded in the usual Indo-Pak form يٰۤاَيُّهَا.",
+  "The ruku sign ع beside verse circles 107:7 and 108:3, the QR codes and the margin ruku boxes are not encoded."
+ ]
+}
