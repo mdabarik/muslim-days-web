@@ -114,7 +114,7 @@ def finish(page, proc, state):
         build = subprocess.run([PY, "pipeline/build.py", str(page)], cwd=ROOT, capture_output=True, text=True)
         if build.returncode == 0:
             m = re.search(r"PAGE \d+ DONE[^\n]*", out)
-            entry.update(status="done", note=m.group(0) if m else "done", updated=f"{datetime.now():%Y-%m-%d %H:%M}")
+            entry.update(status="done", built_mtime=(ROOT / "transcripts" / f"{page:03d}.json").stat().st_mtime, note=m.group(0) if m else "done", updated=f"{datetime.now():%Y-%m-%d %H:%M}")
             log(f"page {page} done")
             return False
         out += build.stdout + build.stderr
@@ -136,6 +136,29 @@ def finish(page, proc, state):
     entry["updated"] = f"{datetime.now():%Y-%m-%d %H:%M}"
     log(f"page {page}: attempt {entry['attempts']} failed ({entry['note']})")
     return False
+
+
+def absorb_transcripts(state, busy):
+    """Build transcripts written elsewhere (e.g. by in-session agents) once they validate.
+    A transcript edited after its last build is rebuilt; one still invalid is left alone."""
+    changed = False
+    for path in sorted((ROOT / "transcripts").glob("*.json")):
+        page = int(path.stem)
+        entry = state["pages"].get(str(page), {})
+        mtime = path.stat().st_mtime
+        if page in busy or entry.get("built_mtime") == mtime or time.time() - mtime < 120:
+            continue
+        check = subprocess.run([PY, "pipeline/check.py", str(page)], cwd=ROOT, capture_output=True, text=True)
+        if check.returncode != 0:
+            continue
+        build = subprocess.run([PY, "pipeline/build.py", str(page)], cwd=ROOT, capture_output=True, text=True)
+        if build.returncode == 0:
+            state["pages"][str(page)] = dict(entry, status="done", built_mtime=mtime,
+                                             note=entry.get("note") or "transcript built",
+                                             updated=f"{datetime.now():%Y-%m-%d %H:%M}")
+            log(f"page {page} built from transcript")
+            changed = True
+    return changed
 
 
 def next_pages(state, busy):
@@ -184,6 +207,8 @@ def run_queue():
                 del running[page]
                 finish(page, proc, state)
                 save(state)
+        if absorb_transcripts(state, running):
+            save(state)
         pause = state.get("pause_until")
         paused = pause and datetime.now() < datetime.fromisoformat(pause)
         if not paused and pause:
