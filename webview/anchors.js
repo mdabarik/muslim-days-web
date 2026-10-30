@@ -12,6 +12,17 @@ export function measureGrapheme(textElement, grapheme) {
   if (rect.width <= 0 || rect.height <= 0) throw new Error('Unmeasurable grapheme');
   return rect;
 }
+/** Centre a sign over the letter cluster the scan transcript names. The
+ * annotation stays unverified; this only measures where that letter renders.
+ */
+export function placeLetterAnchor(wrapper, textElement, mark, annotation, graphemes) {
+  const grapheme = graphemes?.find(g => g.id === annotation.targetGraphemeId);
+  if (!grapheme) throw new Error('Missing letter cluster');
+  const box = measureGrapheme(textElement, grapheme), parent = wrapper.getBoundingClientRect();
+  mark.style.right = 'auto'; mark.style.left = `${box.left + box.width / 2 - parent.left}px`;
+  mark.style.transform = 'translateX(-50%)';
+  mark.dataset.targetGrapheme = grapheme.id;
+}
 /** Infrastructure only. Current source data has no approved character anchors.
  * Preserve Arabic in one text node. Never split ligatures into independent boxes.
  * Shaping-cluster ambiguity still needs font-specific source verification.

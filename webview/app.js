@@ -1,6 +1,6 @@
 import {loadVerseFrame,verseNumber} from './verse-markers.js';
 import {loadOpening,applyOpeningWord,openingEnding} from './opening.js';
-import {placeVerifiedAnchor} from './anchors.js';
+import {placeVerifiedAnchor,placeLetterAnchor} from './anchors.js';
 import {configureSymbols,symbolNode,symbolDescriptor} from './symbols.js';
 const $=id=>document.getElementById(id), bn=n=>String(n).replace(/\d/g,d=>'০১২৩৪৫৬৭৮৯'[d]);
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
@@ -24,7 +24,7 @@ function annotationFor(doc,mark){return doc.annotations.find(a=>a.sourceId===mar
 function attachmentFor(doc,mark){const a=annotationFor(doc,mark);return a?.displayAttachment || {targetKind:'word',targetId:mark.attachment?.target,offset:mark.attachment?.offset_in_word}}
 function makeMark(mark,doc){
  const a=annotationFor(doc,mark),node=symbolNode(a,mark,'mark');
- node.dataset.annotation=mark.id;node.dataset.enclosure=mark.enclosure||'none';
+ node.dataset.annotation=mark.id;node.dataset.enclosure=mark.enclosure||'none';node.dataset.layer=a?.layer||mark.layer||'band';
  node.title+=' — মূলের সঙ্গে সঠিক অবস্থানের পূর্ণ যাচাই বাকি';
  const fraction=attachmentFor(doc,mark).offset;
  if(Number.isFinite(fraction))node.style.right=`${fraction*100}%`;else{node.style.right='50%';node.classList.add('source-uncertain')}
@@ -36,7 +36,8 @@ function renderWord(word,marks,doc){
  const body=el('span','word'+(word.unreadable?' source-unreadable':''),word.unreadable?'⟦মূল পাঠ অস্পষ্ট⟧':word.text);body.lang=word.unreadable?'bn':'ar';body.dir=word.unreadable?'ltr':'rtl';wrap.append(body);
  if(word.unreadable)wrap.title=word.uncertainty||'মূল PDF থেকে শব্দটির সম্পূর্ণ পাঠ নিশ্চিত হয়নি';
  if(!word.unreadable&&$('show-marks').checked)for(const m of marks){const a=annotationFor(doc,m),node=makeMark(m,doc);
-  if(a?.verified&&a.targetGraphemeId)anchorUpdates.push(()=>placeVerifiedAnchor(wrap,body,node,a,doc.graphemes[word.id]));wrap.append(node)}
+  if(a?.anchor==='letter_from_scan'&&a.targetGraphemeId)anchorUpdates.push(()=>placeLetterAnchor(wrap,body,node,a,doc.graphemes[word.id]));
+  else if(a?.verified&&a.targetGraphemeId)anchorUpdates.push(()=>placeVerifiedAnchor(wrap,body,node,a,doc.graphemes[word.id]));wrap.append(node)}
  applyOpeningWord(wrap,body,word,doc);
  return wrap;
 }
@@ -198,12 +199,20 @@ function markCollisionBox(mark){
  const origin=rect.left+(rect.width-ink.width)/2;
  return {left:Math.max(rect.left,origin-ink.actualBoundingBoxLeft),right:Math.min(rect.right,origin+ink.actualBoundingBoxRight),top:rect.top,bottom:rect.bottom};
 }
+// Signs that would touch are spread sideways around their shared centre, the
+// way the printed band spaces them; each keeps its letter anchor in the data.
 function withholdCollisions(){
+ const gap=2;
  for(const row of document.querySelectorAll('.text-row')){
-  const marks=[...row.querySelectorAll('.mark')];marks.forEach(m=>{m.style.visibility='visible';delete m.dataset.withheld});const blocked=new Set();
-  for(let i=0;i<marks.length;i++){const a=markCollisionBox(marks[i]);for(let j=i+1;j<marks.length;j++){const b=markCollisionBox(marks[j]);if(a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top){blocked.add(marks[i]);blocked.add(marks[j])}}}
-  blocked.forEach(m=>{m.style.visibility='hidden';m.dataset.withheld='collision'});
-  let note=row.querySelector('.collision-note');if(blocked.size){if(!note){note=el('p','collision-note');row.querySelector('.row-evidence').before(note)}note.textContent=`${bn(blocked.size)}টি চিহ্ন কাছাকাছি পড়ে অস্পষ্ট হচ্ছিল। অনুমান করে স্থান বদলানো হয়নি; নিচের তালিকায় পাঠ ও তথ্য দেখুন।`;note.hidden=false;row.querySelector('.row-evidence').open=true}else if(note)note.hidden=true;
+  const marks=[...row.querySelectorAll('.mark')];marks.forEach(m=>{m.style.visibility='visible';m.style.translate='';delete m.dataset.withheld;delete m.dataset.spread});
+  const lines=new Map();
+  for(const m of marks){const box=markCollisionBox(m),width=box.right-box.left;if(!(width>0))continue;const key=`${m.dataset.layer||'band'}:${Math.round(box.top/8)}`;if(!lines.has(key))lines.set(key,[]);lines.get(key).push({m,left:box.left,width})}
+  for(const items of lines.values()){
+   items.sort((a,b)=>a.left-b.left);const groups=items.map(i=>({items:[i],centre:i.left+i.width/2,width:i.width}));
+   for(let merged=true;merged;){merged=false;for(let i=0;i+1<groups.length;i++){const a=groups[i],b=groups[i+1];if(a.centre+a.width/2+gap>b.centre-b.width/2){const items=[...a.items,...b.items],width=items.reduce((s,x)=>s+x.width,0)+gap*(items.length-1),centre=(a.centre*a.items.length+b.centre*b.items.length)/items.length;groups.splice(i,2,{items,centre,width});merged=true;break}}}
+   for(const g of groups){if(g.items.length<2)continue;let x=g.centre-g.width/2;for(const it of g.items){it.m.style.translate=`${x-it.left}px 0`;it.m.dataset.spread='1';x+=it.width+gap}}
+  }
+  row.querySelector('.collision-note')?.remove();
  }
 }
 function renderSourceHeader(d,container){

@@ -68,3 +68,8 @@
 .furniture-pages>summary{cursor:pointer;font-size:12px;color:#52725e;padding:6px 0}
 .furniture-page{font-size:11px;font-weight:600;color:#52725e;margin:0 0 6px}
 @media(max-width:760px){.view-switch{width:100%}.view-switch button{flex:1}}
+
+.mark[data-layer=arabic]{top:.62em;background:transparent;color:#151515}
+.mark[data-spread]{z-index:2}
+.mark[data-layer=band]:not(.source-symbol){font-size:.38em;color:#2f2a24;background:transparent;padding:0 1px}
+.word-wrap:not(.no-marks){padding-top:1.15em}
